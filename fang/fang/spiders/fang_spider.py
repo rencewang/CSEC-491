@@ -29,6 +29,9 @@ class FangSpider(scrapy.Spider):
 
         # first, simulate log in with selenium
         service = Service(ChromeDriverManager().install())
+        options = webdriver.ChromeOptions()
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        options.add_experimental_option("prefs", prefs)
         driver = webdriver.Chrome(service=service)
         driver.get(self.login_url)
         time.sleep(2)
@@ -68,7 +71,7 @@ class FangSpider(scrapy.Spider):
         item = CityItem()
 
         for tr in table:
-            cities_td = tr.xpath(".//td[not(@class)]")[1]
+            cities_td = tr.xpath(".//td[not(@class)]")[0]
             cities_a = cities_td.xpath(".//a")
 
             for city in cities_a :
@@ -81,14 +84,14 @@ class FangSpider(scrapy.Spider):
                 city_url = city.xpath(".//@href").get()
                 city_url_list = city_url.split('.')
 
-                item['city_name'] = city_name
+                item['city'] = city_name
                 item['newhouse_url'] = city_url_list[0] + '.newhouse.' + city_url_list[1] + '.' + city_url_list[2]
                 item['secondhandhouse_url'] = city_url_list[0] + '.esf.' + city_url_list[1] + '.' + city_url_list[2]
 
             # take the city item, and crawl through the new house and second hand house pages
             yield item 
-            yield scrapy.Request(url=item['newhouse_url'], cookies=self.cookies, callback=self.parse_newhouse, meta={'city_name': item['city_name']})
-            yield scrapy.Request(url=item['secondhandhouse_url'], cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city_name': item['city_name']})
+            yield scrapy.Request(url=item['newhouse_url'], cookies=self.cookies, callback=self.parse_newhouse, meta={'city': item['city']})
+            yield scrapy.Request(url=item['secondhandhouse_url'], cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': item['city']})
     
 
     def parse_newhouse(self, response):
@@ -96,8 +99,11 @@ class FangSpider(scrapy.Spider):
         Parse the response from the new house page, fill out new house items
         """
 
-        city = response.meta.get('city_name')
+        city = response.meta.get('city')
         print("Processing new house listings for " + city + "--------------------------------------------------")
+        if response.status != 200:
+            print("Invalid page: " + response.status)
+            return
 
         newhouse_list = response.xpath("//div[contains(@class,'nl_con')]//li[contains(@id,'lp')]")
         for li in newhouse_list:
@@ -136,16 +142,19 @@ class FangSpider(scrapy.Spider):
         # handle pagniation, go to next page
         next_page = response.urljoin(response.xpath("//li[@class='fr']/a[@class='next']/@href").get())
         if next_page:
-            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_newhouse, meta={'city_name': city})
+            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_newhouse, meta={'city': city})
 
 
     def parse_secondhandhouse(self, response):
         """
         Parse the response from the new house page, fill out second hand house items
         """
-
-        city = response.meta.get('city_name')
+        
+        city = response.meta.get('city')
         print("Processing second hand house listings for " + city + "--------------------------------------------------")
+        if response.status != 200:
+            print("Invalid page: " + response.status)
+            return
 
         secondhand_list = response.xpath("//dl[@dataflag='bg']")
         for dl in secondhand_list:
@@ -179,7 +188,7 @@ class FangSpider(scrapy.Spider):
         # handle pagniation, go to next page
         next_page = response.urljoin(response.xpath("//div[@class='page_al']/p[2]/a/@href").get())
         if next_page:
-            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city_name': city})
+            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': city})
 
 
     def errback(self, failure):
