@@ -16,7 +16,7 @@ class FangSpider(scrapy.Spider):
     allowed_domains = ['fang.com']
     start_urls = ['https://www.fang.com/SoufunFamily.htm']
     login_url='https://passport.fang.com/'
-    none_chinese_cities = set('海外', '美国', '日本', '马来西亚', '新加坡', '柬埔寨', '菲律宾', '越南', '泰国', '老挝', '阿联酋', '希腊', '英国', '法国', '西班牙', '葡萄牙', '意大利', '土耳其', '德国', '波兰', '马耳他', '奥地利', '塞浦路斯', '澳大利亚', '新西兰', '加拿大')
+    none_chinese_cities = {'海外', '美国', '日本', '马来西亚', '新加坡', '柬埔寨', '菲律宾', '越南', '泰国', '老挝', '阿联酋', '希腊', '英国', '法国', '西班牙', '葡萄牙', '意大利', '土耳其', '德国', '波兰', '马耳他', '奥地利', '塞浦路斯', '澳大利亚', '新西兰', '加拿大'}
     cookies = {}
 
     def parse(self, response):    
@@ -54,7 +54,7 @@ class FangSpider(scrapy.Spider):
         driver.quit()
 
         # crawl through the subsequent pages
-        yield scrapy.Request(url=self.start_urls[0], cookies=self.cookies, callback=self.parse_url)
+        yield scrapy.Request(url='https://www.fang.com/SoufunFamily.htm', cookies=self.cookies, callback=self.parse_url)
 
     
     def parse_url(self, response):
