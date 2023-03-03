@@ -7,8 +7,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 from fang.items import CityItem, NewHouseItem, SecondHandHouseItem
-
-# import necessary components
+from scrapy.spidermiddlewares.httperror import HttpError
+from twisted.internet.error import DNSLookupError
+from twisted.internet.error import TimeoutError, TCPTimedOutError
 
 class FangSpider(scrapy.Spider):
     name = 'fang'
@@ -92,7 +93,7 @@ class FangSpider(scrapy.Spider):
 
     def parse_newhouse(self, response):
         """
-        Parse the response from the new house page, get urls for each new house listing
+        Parse the response from the new house page, fill out new house items
         """
 
         city = response.meta.get('city_name')
@@ -128,8 +129,8 @@ class FangSpider(scrapy.Spider):
                        address = text[1]
                 
             price = li.xpath(".//div[@class='nhouse_price']//text()").getall()
-            item = NewHouseItem(city=city, title=title, url=url, municipal_district=municipal_district, address=address, rooms=rooms, area=area, price=price)
 
+            item = NewHouseItem(city=city, listing_title=title, url=url, municipal_district=municipal_district, address=address, rooms=rooms, area=area, price=price)
             yield item
 
         # handle pagniation, go to next page
@@ -137,7 +138,72 @@ class FangSpider(scrapy.Spider):
         if next_page:
             yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_newhouse, meta={'city_name': city})
 
+
     def parse_secondhandhouse(self, response):
-        
+        """
+        Parse the response from the new house page, fill out second hand house items
+        """
+
+        city = response.meta.get('city_name')
+        print("Processing second hand house listings for " + city + "--------------------------------------------------")
+
+        secondhand_list = response.xpath("//dl[@dataflag='bg']")
+        for dl in secondhand_list:
+            title = dl.xpath(".//h4[@class='clearfix']/a/@title").get()
+            url_text = dl.xpath(".//h4[@class='clearfix']/a/@href").get()
+            url = response.urljoin(url_text)
+
+            listing_detail = "".join(dl.xpath(".//p[@class='tel_shop']/text()").getall()).split()
+            for item in listing_detail:
+                if '室' in item:
+                    rooms = item
+                elif '㎡' in item:
+                    area = item
+                elif '层' in item:
+                    floor = item
+                elif '向' in item:
+                    orientation = item
+                elif '年' in item:
+                    year = item
+
+            community_name = dl.xpath(".//p[@class='add_shop']/a/@title").get()
+            address = dl.xpath(".//p[@class='add_shop']/span/text()").get()
+
+            price_text = " ".join(dl.xpath(".//dd[@class='price_right']/span/text()").getall()).split()
+            price = dl.xpath(".//dd[@class='price_right']/span/b/text()").get() + price_text[0]
+            unit_price = price_text[1]
+
+            item = SecondHandHouseItem(city=city, listing_title=title, url=url, rooms=rooms, area=area, floor=floor, orientation=orientation, year=year, community_name=community_name, address=address, price=price, unit_price=unit_price)
+            yield item
+
+        # handle pagniation, go to next page
+        next_page = response.urljoin(response.xpath("//div[@class='page_al']/p[2]/a/@href").get())
+        if next_page:
+            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city_name': city})
+
+
+    def errback(self, failure):
+        """
+        Error handling
+        """
+
+        self.logger.error(repr(failure))
+        if failure.check(HttpError):
+            # thrown by HttpErrorMiddleware
+            # receive additional status codes
+            response = failure.value.response
+            self.logger.error('HttpError on %s', response.url)
+
+        elif failure.check(DNSLookupError):
+            # thrown by Request
+            request = failure.request
+            self.logger.error('DNSLookupError on %s', request.url)
+
+        elif failure.check(TimeoutError, TCPTimedOutError):
+            request = failure.request
+            self.logger.error('TimeoutError on %s', request.url)
+
+
+
     
 
