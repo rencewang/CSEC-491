@@ -1,0 +1,7 @@
+### Scraper
+
+1. run "source venv/bin/activate" in terminal to start virtual environment
+2. run "cd scraping/fang" to enter the scraper directory
+3. configure scraping commands via necessary files
+4. run "python3 start.py" to scrape
+5. result will be stored in /scraping/fang/files
