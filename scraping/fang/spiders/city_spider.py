@@ -55,15 +55,16 @@ class CitySpider(scrapy.Spider):
         driver.quit()
 
         # # crawl through the new house page
-        yield scrapy.Request(url=CITY_NEW_HOUSE_URL, cookies=self.cookies, callback=self.parse_newhouse, meta={'city': CITY})
+        yield scrapy.Request(url=CITY_NEW_HOUSE_URL, cookies=self.cookies, callback=self.parse_newhouse, meta={'city': CITY, 'page': 1})
 
         # # crawl through the second hand house page
-        # yield scrapy.Request(url=CITY_SECOND_HAND_HOUSE_URL, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': CITY})
+        # yield scrapy.Request(url=CITY_SECOND_HAND_HOUSE_URL, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': CITY, 'page': 1})
 
     
     def parse_newhouse(self, response):
         city = response.meta.get('city')
-        print("Processing new house listings for " + city + "--------------------------------------------------")
+        page = response.meta.get('page')
+        print("Processing new house listings for " + city + " on page " + str(page) + "--------------------------------------------------")
         if response.status != 200:
             print("Invalid page: " + response.status)
             return
@@ -103,14 +104,16 @@ class CitySpider(scrapy.Spider):
             yield item
 
         # handle pagniation, go to next page
-        next_page = response.urljoin(response.xpath("//li[@class='fr']/a[@class='next']/@href").get())
+        next_page = response.urljoin(response.xpath("//li[@class='fr']/a[@class='active']/following-sibling::a[1]/@href").get())
         if next_page:
-            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_newhouse, meta={'city': city})
+            print("Going to next page, url: " + next_page + "--------------------------------------------------")
+            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_newhouse, meta={'city': city, 'page': page+1})
 
     
     def parse_secondhandhouse(self, response):
         city = response.meta.get('city')
-        print("Processing second hand house listings for " + city + "--------------------------------------------------")
+        page = response.meta.get('page')
+        print("Processing second hand house listings for " + city +  " on page " + str(page) + "--------------------------------------------------")
         if response.status != 200:
             print("Invalid page: " + response.status)
             return
@@ -147,9 +150,10 @@ class CitySpider(scrapy.Spider):
             yield item
 
         # handle pagniation, go to next page
-        next_page = response.urljoin(response.xpath("//div[@class='page_al']/p[2]/a/@href").get())
+        next_page = response.urljoin(response.xpath("//div[@class='page_al']/span[@class='on']/following-sibling::span[1]/a/@href").get())
         if next_page:
-            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': city})
+            print("Going to next page, url: " + next_page + "--------------------------------------------------")
+            yield scrapy.Request(url=next_page, cookies=self.cookies, callback=self.parse_secondhandhouse, meta={'city': city, 'page': page+1})
 
 
     def errback(self, failure):
