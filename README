@@ -5,3 +5,8 @@
 3. configure scraping commands via necessary files
 4. run "python3 start.py" to scrape
 5. result will be stored in /scraping/fang/files
+
+### Data Cleaning
+
+1. Run R file in data folder
+2. in Python, 
