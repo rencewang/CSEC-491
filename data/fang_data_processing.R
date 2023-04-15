@@ -40,21 +40,20 @@ wuchang_secondhand <- wh_secondhand[wh_secondhand$address_region %in% regions_ch
 # Step 3: Clean new house data
 wh_newhouse <- read.csv("whfang_newhouse_march.csv")
 wuchang_newhouse <- subset(wh_newhouse, trimws(municipal_district) == '武昌')
+wuchang_newhouse$community_name <- trimws(wuchang_newhouse$community_name)
+wuchang_newhouse$listing_title <- trimws(wuchang_newhouse$listing_title)
+wuchang_newhouse$price <- trimws(wuchang_newhouse$price)
+wuchang_newhouse$price <- gsub(",", "", wuchang_newhouse$price)
+wuchang_newhouse$price <- gsub("(单价)", "", wuchang_newhouse$price)
+wuchang_newhouse$price <- gsub("总价", "", wuchang_newhouse$price)
+wuchang_newhouse$price <- gsub("起", "", wuchang_newhouse$price)
+wuchang_newhouse$price <- gsub("[()]", "", wuchang_newhouse$price)
 
 
-# Step 4: Map on Google/Baidu map to estimate average prices
-
-
-# Step 5: Estimate total number of units and floor area
-
-
-# Step 6: Compiles land sales data
-
-
-# Step 7: Estimate tax level
-
-
-# Step 8: Website & presentation
+# Step 4: Save new house and second hand data
+write.csv(wuchang_communities, "wc_communities.csv", row.names = FALSE)
+write.csv(wuchang_secondhand, "wc_secondhand.csv", row.names = FALSE)
+write.csv(wuchang_newhouse, "wc_newhouse.csv", row.names = FALSE)
 
 
 
