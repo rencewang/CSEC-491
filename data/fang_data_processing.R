@@ -3,8 +3,7 @@
 # Date: 03/04/2023
 # Author: Lawrence Wang
 # #
-# Tasks: clean the data scraped from fang.com
-# a) 
+# Tasks: clean the data scraped from fang.com and analyze substitution potential
 #-----------------------------------------------------------------------#
 
 rm(list = ls())
@@ -54,6 +53,9 @@ wuchang_newhouse$price <- gsub("[()]", "", wuchang_newhouse$price)
 write.csv(wuchang_communities, "wc_communities.csv", row.names = FALSE)
 write.csv(wuchang_secondhand, "wc_secondhand.csv", row.names = FALSE)
 write.csv(wuchang_newhouse, "wc_newhouse.csv", row.names = FALSE)
+
+
+# Step 5: Analyze based on cleaned & imputed data, check for substitution potential
 
 
 

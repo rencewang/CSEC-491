@@ -38,7 +38,7 @@ async function initMap() {
   }
 
   // Add all community markers to map
-  fetch('wc_communities_imputed.csv')
+  fetch('wc_imputed.csv')
     .then((response) => response.text())
     .then((data) => {
       const parsed_csv = d3.csvParse(data);
