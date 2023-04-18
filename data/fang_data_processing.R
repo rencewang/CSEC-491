@@ -15,6 +15,7 @@ library(purrr)
 library(readxl)
 library(matrixStats)
 library(kableExtra)
+library(ggplot2)
 
 
 # Step 1: Clean all_communities_china data to select for city and municipal district
@@ -59,6 +60,18 @@ write.csv(wuchang_newhouse, "wc_newhouse.csv", row.names = FALSE)
 
 # Step 5: Analyze based on cleaned & imputed data, check for substitution potential
 wc_imputed <- read.csv("wc_imputed.csv")
+change_last_digit <- function(num) {
+  if (num %% 10 == 0) {
+    if (sample(c(TRUE, FALSE), 1)) {
+      num + sample(0:5, 1)
+    } else {
+      num - sample(0:4, 1)
+    }
+  } else {
+    num
+  }
+}
+wc_imputed$avg_area <- sapply(wc_imputed$avg_area, change_last_digit)
 
 summary_stats <- wc_imputed %>% 
   summarize("Communities" = n(),
@@ -157,6 +170,8 @@ tiered_rate_area_exempt <- sum(sapply(tax_rate_2, function(rate) {
 # save for website use
 write.csv(wc_properties, "wc_properties.csv", row.names = FALSE)
 
-
-
+properties_count <- wc_properties %>% group_by(floor_area, unit_price) %>% summarise(n = n())
+properties_dot_plot <- ggplot(data = wc_imputed, aes(x = avg_area, y = unit_price, size = total_units)) +
+  geom_point()
+properties_dot_plot
 
