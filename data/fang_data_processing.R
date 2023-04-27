@@ -104,9 +104,17 @@ wc_properties$total_price <- wc_properties$unit_price * wc_properties$floor_area
 # 2.1 exempt properties smaller than 60
 # 3. separate into floor area, with different tax rate on each size group
 
-# flat rate
-flat_rate_amount <- sum(wc_properties$total_price) * 0.01
-flat_rate_amount_less <- sum(wc_properties$total_price) * 0.005
+# plotting price against area
+model <- lm(total_price ~ floor_area, data=wc_properties)
+summary(model)
+ggplot(wc_properties, aes(x = total_price, y = floor_area)) +
+  geom_point() + geom_smooth(method = "lm")
+
+tiered_rate_amount_unit_price <- sum(sapply(tax_rate_1, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_quartile == q] * rate)
+  })
+}))
 
 # tiered rates
 wc_properties <- wc_properties %>%
@@ -120,18 +128,417 @@ wc_properties <- wc_properties %>%
   mutate(total_price_quartile = ntile(total_price, 4)) %>%
   mutate(total_price_quintile = ntile(total_price, 5))
 
-# quartile rate based on unit price, at 0, 0.5, 1, 1.5
-tax_rate_1 <- c(0, 0.005, 0.01, 0.015)
+# tax rates for tertiles, quartiles, and quintiles
+tax_rate_1_quar <- c(0, 0.005, 0.01, 0.015)
+tax_rate_2_quar <- c(0, 0.002, 0.004, 0.005)
+tax_rate_1_tert <- c(0, 0.005, 0.01)
+tax_rate_2_tert <- c(0, 0.003, 0.005)
+tax_rate_1_quin <- c(0, 0.004, 0.008, 0.012, 0.016)
+tax_rate_2_quin <- c(0, 0.001, 0.002, 0.004, 0.005)
+
+tertiles <- c(1, 2, 3)
 quartiles <- c(1, 2, 3, 4)
-tiered_rate_amount_unit_price <- sum(sapply(tax_rate_1, function(rate) {
+quintiles <- c(1, 2, 3, 4, 5)
+
+# using 1% flat rate 
+sum(wc_properties$total_price) * 0.01
+sum(sapply(0.01, function(rate) {
+  sum(ifelse(wc_properties$floor_area > 30,
+             wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+}))
+sum(sapply(0.01, function(rate) {
+    sum(ifelse(wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+}))
+sum(sapply(0.01, function(rate) {
+  sum(ifelse(wc_properties$floor_area > 120,
+             wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+}))
+sum(sapply(0.01, function(rate) {
+  sum(ifelse(wc_properties$floor_area > 180,
+             wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+}))
+
+# using unit price
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_tertile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_tertile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
   sapply(quartiles, function(q) {
     sum(wc_properties$total_price[wc_properties$unit_price_quartile == q] * rate)
   })
 }))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_quartile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_quintile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$unit_price_quintile == q] * rate)
+  })
+}))
+
+# using area
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_tertile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_tertile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_quartile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_quartile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_quintile == q] * rate)
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(wc_properties$total_price[wc_properties$area_quintile == q] * rate)
+  })
+}))
+
+# using price, 30 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+
+# using area, 30 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 30,
+               wc_properties$unit_price * (wc_properties$floor_area - 30) * rate, 0))
+  })
+}))
+
+# using price, 60 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+
+# using area, 60 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 60,
+               wc_properties$unit_price * (wc_properties$floor_area - 60) * rate, 0))
+  })
+}))
+
+
+# using price, 120 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+
+# using area, 120 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 120,
+               wc_properties$unit_price * (wc_properties$floor_area - 120) * rate, 0))
+  })
+}))
+
+# using price, 180 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$total_price_tertile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quartile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$total_price_quintile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+
+# using area, 180 exempt
+sum(sapply(tax_rate_1_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_tert, function(rate) {
+  sapply(tertiles, function(q) {
+    sum(ifelse(wc_properties$area_tertile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quar, function(rate) {
+  sapply(quartiles, function(q) {
+    sum(ifelse(wc_properties$area_quartile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_1_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+sum(sapply(tax_rate_2_quin, function(rate) {
+  sapply(quintiles, function(q) {
+    sum(ifelse(wc_properties$area_quintile == q & wc_properties$floor_area > 180,
+               wc_properties$unit_price * (wc_properties$floor_area - 180) * rate, 0))
+  })
+}))
+
+
+
+
+
+
+
+
+
 
 # total price rate
 tax_rate_3 <- c(0, 0.005, 0.008, 0.011, 0.015)
-quintiles <- c(1, 2, 3, 4, 5)
 tiered_rate_amount_total_price <- sum(sapply(tax_rate_3, function(rate) {
   sapply(quintiles, function(q) {
     sum(wc_properties$total_price[wc_properties$total_price_quintile == q] * rate)

@@ -13,16 +13,18 @@ async function initMap() {
   function addMarkersToMap(latitudes, longitudes, names, area, units, price) {
     // Loop through the arrays and add a marker for each location
     for (let i = 0; i < latitudes.length; i++) {
-      // Convert the coordinates to WGS84
+      const price_marker = document.createElement('div');
+      price_marker.classList.add('price-marker');
+      price_marker.textContent = (price[i] / 1000).toFixed(1) + 'K';
 
-      const marker = new google.maps.Marker({
-        position: { lat: latitudes[i], lng: longitudes[i] },
+      const marker = new google.maps.marker.AdvancedMarkerView({
         map: map,
-        title: names[i],
+        position: { lat: latitudes[i], lng: longitudes[i] },
+        content: price_marker,
       });
 
       // Add an event listener to the marker to show the info window when clicked
-      marker.addListener('click', () => {
+      marker.addEventListener('click', () => {
         infoWindow.setContent(
           names[i] +
             ', area: ' +
@@ -78,15 +80,16 @@ async function initMap() {
   // Determine options for the map
   var mapOptions = {
     center: { lat: 30.553, lng: 114.314 },
-    zoom: 13,
+    zoom: 16,
     restriction: {
       latLngBounds: bounds,
       strictBounds: true,
     },
     mapTypeId: 'satellite',
+    mapId: 'a93cbf5d9a8195bb',
   };
 
   map = new Map(document.getElementById('map'), mapOptions);
 }
 
-initMap();
+window.initMap = initMap();
