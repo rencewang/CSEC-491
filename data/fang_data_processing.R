@@ -583,5 +583,11 @@ properties_dot_plot <- ggplot(data = wc_imputed, aes(x = avg_area, y = unit_pric
   geom_point()
 properties_dot_plot
 
+properties <- read.csv("wc_properties.csv")
+my_json <- toJSON(properties)
+write(my_json, file = "wc_properties.json")
+
+
+
 
 

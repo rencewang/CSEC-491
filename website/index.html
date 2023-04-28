@@ -19,9 +19,50 @@
       </div>
     </header>
 
-    <section id="calculator"></section>
+    <section id="calculator">
+      <form id="calculator-form">
+        <div id="tax-rate-slider">
+          <label for="tax-rate-input">Collection Option:</label>
+          <input type="radio" name="rateOption" value="uniform" checked />
+          Uniform rate
+          <input type="radio" name="rateOption" value="terciles" /> Terciles
+          <input type="radio" name="rateOption" value="quartiles" /> Quartiles
+          <input type="radio" name="rateOption" value="quintiles" /> Quintiles
 
-    <section id="data"></section>
+          <label for="tax-rate-input">Tax Rate:</label>
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="2"
+            id="tax-rate-input"
+          />
+          <span id="tax-rate-output"></span>
+        </div>
+        <div>Total Tax Revenue: $<span id="calculator-result"></span></div>
+
+        <div>Historical Land Finance Revenue: $132</div>
+        <div>
+          Land Finance Substitution: <span id="calculator-substitution"></span>%
+        </div>
+
+        <div>Average Resident Income: $132</div>
+        <div>
+          Average Tax Paid Per Resident: $<span
+            id="calculator-perperson"
+          ></span>
+        </div>
+        <div>
+          Tax as Percentage of Income:
+          <span id="calculator-incomeshare"></span>%
+        </div>
+      </form>
+    </section>
+
+    <section id="data">
+      <div></div>
+    </section>
 
     <section id="about">
       <div>hello</div>
