@@ -1,59 +1,67 @@
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 // import 'coordtransform';
-
 let map;
-let geourl = 'wuchang.geojson';
-let all_communities_url = 'wc_communities_imputed.csv';
+
+const buildMarkerDetails = (community) => {
+  console.log('invoked');
+  const content = document.createElement('div');
+  content.classList.add('community');
+  content.innerHTML = `
+    <div class = "price">${(community.unit_price / 1000).toFixed(1)}K</div>
+    <div class = "details">
+      <div>${community.community}</div>
+      <div>Average Area: ${community.avg_area}m&sup2;</div>
+      <div>Total Units: ${community.total_units}</div>
+      <div>Unit Price: ${community.unit_price}/m&sup2;</div>
+    </div>
+  `;
+  return content;
+};
+
+function highlight(markerView, property) {
+  markerView.content.classList.add('highlight');
+  markerView.element.style.zIndex = 1;
+}
+
+function unhighlight(markerView, property) {
+  markerView.content.classList.remove('highlight');
+  markerView.element.style.zIndex = '';
+}
 
 async function initMap() {
   //@ts-ignore
   const { Map } = await google.maps.importLibrary('maps');
   const infoWindow = new google.maps.InfoWindow();
 
-  function addMarkersToMap(latitudes, longitudes, names, area, units, price) {
+  function addMarkersToMap(communities) {
     // Loop through the arrays and add a marker for each location
-    for (let i = 0; i < latitudes.length; i++) {
-      const price_marker = document.createElement('div');
-      price_marker.classList.add('price-marker');
-      price_marker.textContent = (price[i] / 1000).toFixed(1) + 'K';
-
-      const marker = new google.maps.marker.AdvancedMarkerView({
+    for (const community of communities) {
+      const advancedMarkerView = new google.maps.marker.AdvancedMarkerView({
         map: map,
-        position: { lat: latitudes[i], lng: longitudes[i] },
-        content: price_marker,
+        position: { lat: community.latitude_gps, lng: community.longitude_gps },
+        content: buildMarkerDetails(community),
       });
+      const element = advancedMarkerView.element;
 
-      // Add an event listener to the marker to show the info window when clicked
-      marker.addEventListener('click', () => {
-        infoWindow.setContent(
-          names[i] +
-            ', area: ' +
-            area[i] +
-            ', units: ' +
-            units[i] +
-            ', price: ' +
-            price[i]
+      // Add an event listener to the marker to show info window when hover
+      ['focus', 'pointerenter'].forEach((event) => {
+        element.addEventListener(event, () =>
+          highlight(advancedMarkerView, community)
         );
-        infoWindow.open(map, marker);
+      });
+      ['blur', 'pointerleave'].forEach((event) => {
+        element.addEventListener(event, () =>
+          unhighlight(advancedMarkerView, community)
+        );
       });
     }
   }
 
   // Add all community markers to map
-  fetch('wc_imputed.csv')
-    .then((response) => response.text())
+  fetch('wc_imputed_communities.json')
+    .then((response) => response.json())
     .then((data) => {
-      const parsed_csv = d3.csvParse(data);
-      console.log(parsed_csv);
-
-      const latitudes = parsed_csv.map((d) => Number(d.latitude_gps));
-      const longitudes = parsed_csv.map((d) => Number(d.longitude_gps));
-      const names = parsed_csv.map((d) => d.community);
-      const area = parsed_csv.map((d) => d.avg_area);
-      const units = parsed_csv.map((d) => d.total_units);
-      const price = parsed_csv.map((d) => d.unit_price);
-
-      addMarkersToMap(latitudes, longitudes, names, area, units, price);
+      addMarkersToMap(data);
     });
 
   // Add the boundary of Wuchang to the map
