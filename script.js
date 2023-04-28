@@ -1,7 +1,11 @@
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 // import 'coordtransform';
-let map;
 
+let map;
+let communities_obj;
+let properties_obj;
+
+// Functions for building the map
 const buildMarkerDetails = (community) => {
   console.log('invoked');
   const content = document.createElement('div');
@@ -31,8 +35,6 @@ function unhighlight(markerView, property) {
 async function initMap() {
   //@ts-ignore
   const { Map } = await google.maps.importLibrary('maps');
-  const infoWindow = new google.maps.InfoWindow();
-
   function addMarkersToMap(communities) {
     // Loop through the arrays and add a marker for each location
     for (const community of communities) {
@@ -61,6 +63,7 @@ async function initMap() {
   fetch('wc_imputed_communities.json')
     .then((response) => response.json())
     .then((data) => {
+      communities_obj = data;
       addMarkersToMap(data);
     });
 
@@ -87,9 +90,9 @@ async function initMap() {
 
   // Determine options for the map
   var mapOptions = {
-    center: { lat: 30.553, lng: 114.314 },
-    zoom: 16,
-    minZoom: 15,
+    center: { lat: 30.539, lng: 114.3 },
+    zoom: 18,
+    minZoom: 16,
     restriction: {
       latLngBounds: bounds,
       strictBounds: true,
@@ -100,5 +103,24 @@ async function initMap() {
 
   map = new Map(document.getElementById('map'), mapOptions);
 }
-
 window.initMap = initMap();
+
+async function loadDataCalculator() {
+  fetch('wc_properties.json')
+    .then((response) => response.json())
+    .then((data) => {
+      properties_obj = data;
+    });
+
+  const calculator = document.getElementById('calculator');
+  const calculatorForm = document.getElementById('calculator-form');
+  const calculatorResult = document.getElementById('calculator-result');
+  const calculatorPercentage = document.getElementById(
+    'calculator-substitution'
+  );
+  const calculatorPerPerson = document.getElementById('calculator-perperson');
+  const calculatorIncomeShare = document.getElementById(
+    'calculator-incomeshare'
+  );
+}
+loadDataCalculator();

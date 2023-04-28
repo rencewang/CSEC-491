@@ -21,9 +21,18 @@ footer {
 }
 
 #about,
-#calculator,
 #data {
   display: none;
+  z-index: 1000;
+  background-color: #cfcfcf;
+}
+
+#calculator {
+  z-index: 1000;
+  background-color: #cfcfcf;
+  position: fixed;
+  top: 50px;
+  right: 0;
 }
 
 /* 
