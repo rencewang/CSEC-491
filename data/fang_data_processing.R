@@ -16,6 +16,7 @@ library(readxl)
 library(matrixStats)
 library(kableExtra)
 library(ggplot2)
+library(jsonlite)
 
 
 # Step 1: Clean all_communities_china data to select for city and municipal district
@@ -581,4 +582,6 @@ properties_count <- wc_properties %>% group_by(floor_area, unit_price) %>% summa
 properties_dot_plot <- ggplot(data = wc_imputed, aes(x = avg_area, y = unit_price, size = total_units)) +
   geom_point()
 properties_dot_plot
+
+
 

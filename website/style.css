@@ -24,17 +24,19 @@ button[aria-label='Toggle fullscreen view'] {
   display: none;
 }
 
-/* HTML marker styles */
-.price-marker {
-  background-color: #4285f4;
+/*
+ * Community styles in unhighlighted state.
+ */
+.community {
+  background-color: #cfcfcf;
   border-radius: 8px;
-  color: #ffffff;
+  color: #000000;
   font-size: 14px;
   padding: 10px 15px;
   position: relative;
 }
 
-.price-marker::after {
+.community::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -44,5 +46,35 @@ button[aria-label='Toggle fullscreen view'] {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 8px solid #4285f4;
+  border-top: 8px solid #cfcfcf;
+}
+
+.community .details {
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  color: #000000;
+}
+
+/*
+ * Community styles in highlighted state.
+ */
+.community.highlight {
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  padding: 8px 15px;
+  width: auto;
+}
+
+.community.highlight::after {
+  border-top: 9px solid #cfcfcf;
+}
+
+.community.highlight .details {
+  display: flex;
+}
+
+.community.highlight .price {
+  display: none;
 }
