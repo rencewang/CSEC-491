@@ -1,3 +1,31 @@
+header {
+  z-index: 1000;
+  background-color: #cfcfcf;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+#nav {
+  display: flex;
+}
+
+footer {
+  z-index: 1000;
+  background-color: #cfcfcf;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+}
+
+#about,
+#calculator,
+#data {
+  display: none;
+}
+
 /* 
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
