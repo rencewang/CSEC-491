@@ -89,6 +89,7 @@ async function initMap() {
   var mapOptions = {
     center: { lat: 30.553, lng: 114.314 },
     zoom: 16,
+    minZoom: 15,
     restriction: {
       latLngBounds: bounds,
       strictBounds: true,
