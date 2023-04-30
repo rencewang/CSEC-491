@@ -14,17 +14,17 @@
       </div>
       <div id="nav">
         <button id="about-button">About</button>
-        <!-- <button id="data-button">Data</button> -->
         <button id="calculator-button">Calculator</button>
       </div>
     </header>
 
     <section id="calculator">
+      <div class="close" id="calculator-close">X</div>
       <form id="calculator-form">
         <div class="calculator-heading">Tax Base Specifications:</div>
         <div id="form-setup">
           <div>
-            <label for="tierOption">Collections Tiers:</label> <br />
+            <label for="tierOption">Progressive Tiers:</label> <br />
             <input type="radio" name="tierOption" value="uniform" checked />
             Uniform <br />
             <input type="radio" name="tierOption" value="terciles" /> Terciles
@@ -36,17 +36,19 @@
           </div>
 
           <div>
-            <label for="groupBy">Quantiles By:</label> <br />
+            <label for="groupBy">Group Tiers By:</label> <br />
             <input type="radio" name="groupBy" value="area" checked />
             Area <br />
             <input type="radio" name="groupBy" value="price" /> Price <br />
           </div>
         </div>
 
-        <div class="calculator-heading">Tax Rate Specifications:</div>
+        <div class="calculator-heading" style="margin-top: 10px">
+          Tax Rate Specifications:
+        </div>
         <div id="slider-container">
           <div id="uniform-rates">
-            <label for="uniform-rate">All Properties: </label>
+            <label for="uniform-rate">$</label>
             <input
               class="uniform-slider"
               type="range"
@@ -62,7 +64,7 @@
           </div>
 
           <div id="terciles-rates" hidden>
-            <label for="tercile-rate-3">Tercile 1 ($): </label>
+            <label for="tercile-rate-3">$</label>
             <input
               type="range"
               class="terciles-slider"
@@ -74,9 +76,9 @@
               id="tercile1"
               oninput="tercile1output.value = `${tercile1.value}%`"
             />
-            <output id="tercile1output">1%</output>
+            <output id="tercile1output">1%</output> <br />
 
-            <label for="tercile-rate-2">Tercile 2: </label>
+            <label for="tercile-rate-2">$$</label>
             <input
               type="range"
               class="terciles-slider"
@@ -88,9 +90,9 @@
               id="tercile2"
               oninput="tercile2output.value = `${tercile2.value}%`"
             />
-            <output id="tercile2output">1%</output>
+            <output id="tercile2output">1%</output> <br />
 
-            <label for="tercile-rate-3">Tercile 3 ($$$): </label>
+            <label for="tercile-rate-3">$$$</label>
             <input
               type="range"
               class="terciles-slider"
@@ -102,11 +104,11 @@
               id="tercile3"
               oninput="tercile3output.value = `${tercile3.value}%`"
             />
-            <output id="tercile3output">1%</output>
+            <output id="tercile3output">1%</output> <br />
           </div>
 
           <div id="quartiles-rates" hidden>
-            <label for="quartile-rate-1">Quartile 1 ($): </label>
+            <label for="quartile-rate-1">$</label>
             <input
               type="range"
               class="quartiles-slider"
@@ -118,9 +120,9 @@
               id="quartile1"
               oninput="quartile1output.value = `${quartile1.value}%`"
             />
-            <output id="quartile1output">1%</output>
+            <output id="quartile1output">1%</output> <br />
 
-            <label for="quartile-rate-2">Quartile 2: </label>
+            <label for="quartile-rate-2">$$</label>
             <input
               type="range"
               class="quartiles-slider"
@@ -132,9 +134,9 @@
               id="quartile2"
               oninput="quartile2output.value = `${quartile2.value}%`"
             />
-            <output id="quartile2output">1%</output>
+            <output id="quartile2output">1%</output> <br />
 
-            <label for="quartile-rate-3">Quartile 3: </label>
+            <label for="quartile-rate-3">$$$</label>
             <input
               type="range"
               class="quartiles-slider"
@@ -146,9 +148,9 @@
               id="quartile3"
               oninput="quartile3output.value = `${quartile3.value}%`"
             />
-            <output id="quartile3output">1%</output>
+            <output id="quartile3output">1%</output> <br />
 
-            <label for="quartile-rate-4">Quartile 4 ($$$): </label>
+            <label for="quartile-rate-4">$$$$</label>
             <input
               type="range"
               class="quartiles-slider"
@@ -160,11 +162,11 @@
               id="quartile4"
               oninput="quartile4output.value = `${quartile4.value}%`"
             />
-            <output id="quartile4output">1%</output>
+            <output id="quartile4output">1%</output> <br />
           </div>
 
           <div id="quintiles-rates" hidden>
-            <label for="quintile-rate-1">Quintile 1 ($): </label>
+            <label for="quintile-rate-1">$</label>
             <input
               type="range"
               class="quintiles-slider"
@@ -176,9 +178,9 @@
               id="quintile1"
               oninput="quintile1output.value = `${quintile1.value}%`"
             />
-            <output id="quintile1output">1%</output>
+            <output id="quintile1output">1%</output> <br />
 
-            <label for="quintile-rate-2">Quintile 2: </label>
+            <label for="quintile-rate-2">$$</label>
             <input
               type="range"
               class="quintiles-slider"
@@ -190,9 +192,9 @@
               id="quintile2"
               oninput="quintile2output.value = `${quintile2.value}%`"
             />
-            <output id="quintile2output">1%</output>
+            <output id="quintile2output">1%</output> <br />
 
-            <label for="quintile-rate-3">Quintile 3: </label>
+            <label for="quintile-rate-3">$$$</label>
             <input
               type="range"
               class="quintiles-slider"
@@ -204,9 +206,9 @@
               id="quintile3"
               oninput="quintile3output.value = `${quintile3.value}%`"
             />
-            <output id="quintile3output">1%</output>
+            <output id="quintile3output">1%</output> <br />
 
-            <label for="quintile-rate-4">Quintile 4: </label>
+            <label for="quintile-rate-4">$$$$</label>
             <input
               type="range"
               class="quintiles-slider"
@@ -218,9 +220,9 @@
               id="quintile4"
               oninput="quintile4output.value = `${quintile4.value}%`"
             />
-            <output id="quintile4output">1%</output>
+            <output id="quintile4output">1%</output> <br />
 
-            <label for="quintile-rate-5">Quintile 5 ($$$): </label>
+            <label for="quintile-rate-5">$$$$$</label>
             <input
               type="range"
               class="quintiles-slider"
@@ -232,11 +234,13 @@
               id="quintile5"
               oninput="quintile5output.value = `${quintile5.value}%`"
             />
-            <output id="quintile5output">1%</output>
+            <output id="quintile5output">1%</output> <br />
           </div>
         </div>
 
-        <div class="calculator-heading">Tax Collection Results:</div>
+        <div class="calculator-heading" style="margin-top: 10px">
+          Tax Collection Results:
+        </div>
         <div id="results-container">
           <div>
             Tax Revenue: &#165;<span id="tax-revenue">13,401,791,980.6</span>
@@ -261,11 +265,8 @@
       </form>
     </section>
 
-    <!-- <section id="data" hidden>
-      <div></div>
-    </section> -->
-
     <section id="about" hidden>
+      <div class="close" id="calculator-close">X</div>
       <div>hello</div>
       <div>
         Despite decades of deliberation, residential property tax is yet to be
