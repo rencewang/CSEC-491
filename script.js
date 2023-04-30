@@ -230,6 +230,9 @@ document.querySelector('#calculator-button').addEventListener('click', () => {
     calculatorComponent.setAttribute('hidden', '');
   }
 });
+document.querySelector('#calculator-close').addEventListener('click', () => {
+  calculatorComponent.setAttribute('hidden', '');
+});
 
 document.querySelector('#about-button').addEventListener('click', () => {
   // toggle the visibility of the about section depending on if it is hidden or not
