@@ -5,6 +5,19 @@
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <script type="module" src="./script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $('#calculator').draggable({
+          containment: 'body',
+        });
+        $('#about').draggable({
+          containment: 'body',
+        });
+      });
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBecqIQaiyZ0iYd6vyXt9GSaI83TLv0JsQ&v=beta&libraries=marker&callback=initMap"></script>
   </head>
   <body>
@@ -42,7 +55,7 @@
           </div>
         </div>
 
-        <div class="calculator-heading" style="margin-top: 10px">
+        <div class="calculator-heading" style="margin-top: 20px">
           Tax Rate Specifications:
         </div>
         <div id="slider-container">
@@ -237,7 +250,7 @@
           </div>
         </div>
 
-        <div class="calculator-heading" style="margin-top: 10px">
+        <div class="calculator-heading" style="margin-top: 20px">
           Tax Collection Results:
         </div>
         <div id="results-container">
@@ -253,7 +266,7 @@
           <div>Average Resident Income: &#165;67,180</div>
           <div>
             Average Tax Paid Per Resident: &#165;<span id="tax-perperson"
-              >12,876.2</span
+              >12,264.3</span
             >
           </div>
           <div>
@@ -265,7 +278,7 @@
     </section>
 
     <section id="about" hidden>
-      <div class="close" id="calculator-close">X</div>
+      <div class="close" id="about-close">X</div>
       <div>hello</div>
       <div>
         Despite decades of deliberation, residential property tax is yet to be
