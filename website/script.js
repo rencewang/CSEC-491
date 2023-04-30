@@ -83,7 +83,7 @@ async function initMap() {
 
   // Determine options for the map
   var mapOptions = {
-    center: { lat: 30.539, lng: 114.3 },
+    center: { lat: 30.541, lng: 114.301 },
     zoom: 18,
     minZoom: 16,
     restriction: {
@@ -241,4 +241,7 @@ document.querySelector('#about-button').addEventListener('click', () => {
   } else {
     aboutComponent.setAttribute('hidden', '');
   }
+});
+document.querySelector('#about-close').addEventListener('click', () => {
+  aboutComponent.setAttribute('hidden', '');
 });
