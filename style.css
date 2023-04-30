@@ -4,9 +4,16 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   z-index: 1000;
-  background-color: #ccddb7;
+  background-color: #dadada;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,16 +25,16 @@ header {
 
 #nav {
   z-index: 1000;
-  background-color: #ccddb7;
+  background-color: #dadada;
   display: flex;
   position: fixed;
-  top: 50px;
+  top: 40px;
   left: 0;
   padding: 5px;
 }
 
 button {
-  background-color: #ccddb7;
+  background-color: #b4b4b4;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
@@ -37,7 +44,7 @@ button {
 
 footer {
   z-index: 1000;
-  background-color: #dae3e5;
+  background-color: #dadada;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -57,7 +64,7 @@ footer {
 #data,
 #calculator {
   z-index: 999;
-  background-color: #ccddb7;
+  background-color: #dadada;
   position: fixed;
 }
 
@@ -105,16 +112,7 @@ footer {
  */
 #map {
   height: 100%;
-}
-
-/* 
-   * Optional: Makes the sample page fill the window. 
-   */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  filter: grayscale(40%);
 }
 
 .gmnoprint {
@@ -129,8 +127,8 @@ button[aria-label='Toggle fullscreen view'] {
  * Community styles in unhighlighted state.
  */
 .community {
-  background-color: #96ba98;
-  color: #000;
+  background-color: #202020;
+  color: #fff;
   font-size: 14px;
   padding: 10px 15px;
   position: relative;
@@ -147,7 +145,8 @@ button[aria-label='Toggle fullscreen view'] {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 8px solid #96ba98;
+  border-top: 8px solid #202020;
+  transition: all 1s ease;
 }
 
 .community .details {
@@ -161,14 +160,14 @@ button[aria-label='Toggle fullscreen view'] {
  * Community styles in highlighted state.
  */
 .community.highlight {
-  background-color: #96ba98;
+  background-color: #b9b9b9;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   padding: 8px 15px;
   width: auto;
 }
 
 .community.highlight::after {
-  border-top: 9px solid #96ba98;
+  border-top: 9px solid #b9b9b9;
 }
 
 .community.highlight .details {
