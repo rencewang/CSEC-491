@@ -6,28 +6,38 @@
 
 header {
   z-index: 1000;
-  background-color: #cfcfcf;
+  background-color: #ccddb7;
   position: fixed;
   top: 0;
   left: 0;
   padding: 10px;
   font-size: 24px;
   font-weight: bold;
+  height: 50px;
 }
 
 #nav {
   z-index: 1000;
-  background-color: #cfcfcf;
+  background-color: #ccddb7;
   display: flex;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 50px;
+  left: 0;
   padding: 5px;
+}
+
+button {
+  background-color: #ccddb7;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 5px;
 }
 
 footer {
   z-index: 1000;
-  background-color: #cfcfcf;
+  background-color: #dae3e5;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -46,8 +56,8 @@ footer {
 #about,
 #data,
 #calculator {
-  z-index: 1000;
-  background-color: #cfcfcf;
+  z-index: 999;
+  background-color: #ccddb7;
   position: fixed;
 }
 
@@ -70,6 +80,11 @@ footer {
   gap: 30px;
 }
 
+#form-setup label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
 #slider-container label {
   display: inline-block;
   width: 60px;
@@ -78,6 +93,10 @@ footer {
 .calculator-heading {
   font-weight: bold;
   margin: 0 0 5px 0;
+}
+
+#results-container > div {
+  margin-bottom: 5px;
 }
 
 /* 
@@ -110,8 +129,8 @@ button[aria-label='Toggle fullscreen view'] {
  * Community styles in unhighlighted state.
  */
 .community {
-  background-color: #cfcfcf;
-  color: #000000;
+  background-color: #96ba98;
+  color: #000;
   font-size: 14px;
   padding: 10px 15px;
   position: relative;
@@ -128,7 +147,7 @@ button[aria-label='Toggle fullscreen view'] {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 8px solid #cfcfcf;
+  border-top: 8px solid #96ba98;
 }
 
 .community .details {
@@ -142,14 +161,14 @@ button[aria-label='Toggle fullscreen view'] {
  * Community styles in highlighted state.
  */
 .community.highlight {
-  background-color: #cfcfcf;
+  background-color: #96ba98;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   padding: 8px 15px;
   width: auto;
 }
 
 .community.highlight::after {
-  border-top: 9px solid #cfcfcf;
+  border-top: 9px solid #96ba98;
 }
 
 .community.highlight .details {
