@@ -583,11 +583,43 @@ properties_dot_plot <- ggplot(data = wc_imputed, aes(x = avg_area, y = unit_pric
   geom_point()
 properties_dot_plot
 
+# extra computations
 properties <- read.csv("wc_properties.csv")
 my_json <- toJSON(properties)
 write(my_json, file = "wc_properties.json")
 
+A31 <- sum(subset(properties, area_tertile == 1)$total_price)
+A32 <- sum(subset(properties, area_tertile == 2)$total_price)
+A33 <- sum(subset(properties, area_tertile == 3)$total_price)
 
+A41 <- sum(subset(properties, area_quartile == 1)$total_price)
+A42 <- sum(subset(properties, area_quartile == 2)$total_price)
+A43 <- sum(subset(properties, area_quartile == 3)$total_price)
+A44 <- sum(subset(properties, area_quartile == 4)$total_price)
+
+A51 <- sum(subset(properties, area_quintile == 1)$total_price)
+A52 <- sum(subset(properties, area_quintile == 2)$total_price)
+A53 <- sum(subset(properties, area_quintile == 3)$total_price)
+A54 <- sum(subset(properties, area_quintile == 4)$total_price)
+A55 <- sum(subset(properties, area_quintile == 5)$total_price)
+
+P31 <- sum(subset(properties, unit_price_tertile == 1)$total_price)
+P32 <- sum(subset(properties, unit_price_tertile == 2)$total_price)
+P33 <- sum(subset(properties, unit_price_tertile == 3)$total_price)
+
+P41 <- sum(subset(properties, unit_price_quartile == 1)$total_price)
+P42 <- sum(subset(properties, unit_price_quartile == 2)$total_price)
+P43 <- sum(subset(properties, unit_price_quartile == 3)$total_price)
+P44 <- sum(subset(properties, unit_price_quartile == 4)$total_price)
+
+P51 <- sum(subset(properties, unit_price_quintile == 1)$total_price)
+P52 <- sum(subset(properties, unit_price_quintile == 2)$total_price)
+P53 <- sum(subset(properties, unit_price_quintile == 3)$total_price)
+P54 <- sum(subset(properties, unit_price_quintile == 4)$total_price)
+P55 <- sum(subset(properties, unit_price_quintile == 5)$total_price)
+
+sum1 <- sum(properties$total_price)
+sum2 <- A51 + A52 + A53 + A54 + A55
 
 
 
