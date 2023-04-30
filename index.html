@@ -13,59 +13,270 @@
         Property Tax Collection in China: Case Study of Wuchang District
       </div>
       <div id="nav">
-        <button>About</button>
-        <button>Data</button>
-        <button>Calculator</button>
+        <button id="about-button">About</button>
+        <!-- <button id="data-button">Data</button> -->
+        <button id="calculator-button">Calculator</button>
       </div>
     </header>
 
     <section id="calculator">
       <form id="calculator-form">
-        <div id="tax-rate-slider">
-          <label for="tax-rate-input">Collection Option:</label>
-          <input type="radio" name="rateOption" value="uniform" checked />
-          Uniform rate
-          <input type="radio" name="rateOption" value="terciles" /> Terciles
-          <input type="radio" name="rateOption" value="quartiles" /> Quartiles
-          <input type="radio" name="rateOption" value="quintiles" /> Quintiles
+        <div class="calculator-heading">Tax Base Specifications:</div>
+        <div id="form-setup">
+          <div>
+            <label for="tierOption">Collections Tiers:</label> <br />
+            <input type="radio" name="tierOption" value="uniform" checked />
+            Uniform <br />
+            <input type="radio" name="tierOption" value="terciles" /> Terciles
+            <br />
+            <input type="radio" name="tierOption" value="quartiles" /> Quartiles
+            <br />
+            <input type="radio" name="tierOption" value="quintiles" /> Quintiles
+            <br />
+          </div>
 
-          <label for="tax-rate-input">Tax Rate:</label>
-          <input
-            type="range"
-            min="0"
-            max="5"
-            step="0.1"
-            value="2"
-            id="tax-rate-input"
-          />
-          <span id="tax-rate-output"></span>
-        </div>
-        <div>Total Tax Revenue: $<span id="calculator-result"></span></div>
-
-        <div>Historical Land Finance Revenue: $132</div>
-        <div>
-          Land Finance Substitution: <span id="calculator-substitution"></span>%
+          <div>
+            <label for="groupBy">Quantiles By:</label> <br />
+            <input type="radio" name="groupBy" value="area" checked />
+            Area <br />
+            <input type="radio" name="groupBy" value="price" /> Price <br />
+          </div>
         </div>
 
-        <div>Average Resident Income: $132</div>
-        <div>
-          Average Tax Paid Per Resident: $<span
-            id="calculator-perperson"
-          ></span>
+        <div class="calculator-heading">Tax Rate Specifications:</div>
+        <div id="slider-container">
+          <div id="uniform-rates">
+            <label for="uniform-rate">All Properties: </label>
+            <input
+              class="uniform-slider"
+              type="range"
+              name="uniform-rate"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="uniform"
+              oninput="uniformoutput.value = `${uniform.value}%`"
+            />
+            <output id="uniformoutput">1%</output>
+          </div>
+
+          <div id="terciles-rates" hidden>
+            <label for="tercile-rate-3">Tercile 1 ($): </label>
+            <input
+              type="range"
+              class="terciles-slider"
+              name="tercile-rate-1"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="tercile1"
+              oninput="tercile1output.value = `${tercile1.value}%`"
+            />
+            <output id="tercile1output">1%</output>
+
+            <label for="tercile-rate-2">Tercile 2: </label>
+            <input
+              type="range"
+              class="terciles-slider"
+              name="tercile-rate-2"
+              min="0"
+              max="5"
+              step="0.01"
+              value="1"
+              id="tercile2"
+              oninput="tercile2output.value = `${tercile2.value}%`"
+            />
+            <output id="tercile2output">1%</output>
+
+            <label for="tercile-rate-3">Tercile 3 ($$$): </label>
+            <input
+              type="range"
+              class="terciles-slider"
+              name="tercile-rate-3"
+              min="0"
+              max="5"
+              step="0.01"
+              value="1"
+              id="tercile3"
+              oninput="tercile3output.value = `${tercile3.value}%`"
+            />
+            <output id="tercile3output">1%</output>
+          </div>
+
+          <div id="quartiles-rates" hidden>
+            <label for="quartile-rate-1">Quartile 1 ($): </label>
+            <input
+              type="range"
+              class="quartiles-slider"
+              name="quartile-rate-1"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quartile1"
+              oninput="quartile1output.value = `${quartile1.value}%`"
+            />
+            <output id="quartile1output">1%</output>
+
+            <label for="quartile-rate-2">Quartile 2: </label>
+            <input
+              type="range"
+              class="quartiles-slider"
+              name="quartile-rate-2"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quartile2"
+              oninput="quartile2output.value = `${quartile2.value}%`"
+            />
+            <output id="quartile2output">1%</output>
+
+            <label for="quartile-rate-3">Quartile 3: </label>
+            <input
+              type="range"
+              class="quartiles-slider"
+              name="quartile-rate-3"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quartile3"
+              oninput="quartile3output.value = `${quartile3.value}%`"
+            />
+            <output id="quartile3output">1%</output>
+
+            <label for="quartile-rate-4">Quartile 4 ($$$): </label>
+            <input
+              type="range"
+              class="quartiles-slider"
+              name="quartile-rate-4"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quartile4"
+              oninput="quartile4output.value = `${quartile4.value}%`"
+            />
+            <output id="quartile4output">1%</output>
+          </div>
+
+          <div id="quintiles-rates" hidden>
+            <label for="quintile-rate-1">Quintile 1 ($): </label>
+            <input
+              type="range"
+              class="quintiles-slider"
+              name="quintile-rate-1"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quintile1"
+              oninput="quintile1output.value = `${quintile1.value}%`"
+            />
+            <output id="quintile1output">1%</output>
+
+            <label for="quintile-rate-2">Quintile 2: </label>
+            <input
+              type="range"
+              class="quintiles-slider"
+              name="quintile-rate-2"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quintile2"
+              oninput="quintile2output.value = `${quintile2.value}%`"
+            />
+            <output id="quintile2output">1%</output>
+
+            <label for="quintile-rate-3">Quintile 3: </label>
+            <input
+              type="range"
+              class="quintiles-slider"
+              name="quintile-rate-3"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quintile3"
+              oninput="quintile3output.value = `${quintile3.value}%`"
+            />
+            <output id="quintile3output">1%</output>
+
+            <label for="quintile-rate-4">Quintile 4: </label>
+            <input
+              type="range"
+              class="quintiles-slider"
+              name="quintile-rate-4"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quintile4"
+              oninput="quintile4output.value = `${quintile4.value}%`"
+            />
+            <output id="quintile4output">1%</output>
+
+            <label for="quintile-rate-5">Quintile 5 ($$$): </label>
+            <input
+              type="range"
+              class="quintiles-slider"
+              name="quintile-rate-5"
+              min="0"
+              max="5"
+              step="0.1"
+              value="1"
+              id="quintile5"
+              oninput="quintile5output.value = `${quintile5.value}%`"
+            />
+            <output id="quintile5output">1%</output>
+          </div>
         </div>
-        <div>
-          Tax as Percentage of Income:
-          <span id="calculator-incomeshare"></span>%
+
+        <div class="calculator-heading">Tax Collection Results:</div>
+        <div id="results-container">
+          <div>
+            Tax Revenue: &#165;<span id="tax-revenue">13,401,791,980.6</span>
+          </div>
+
+          <div>Land Finance Revenue: &#165;15,100,000,000</div>
+          <div>
+            Land Finance Substitution: <span id="tax-substitution">88.75</span>%
+          </div>
+
+          <div>Average Resident Income: &#165;67,180</div>
+          <div>
+            Average Tax Paid Per Resident: &#165;<span id="tax-perperson"
+              >12,876.2</span
+            >
+          </div>
+          <div>
+            Tax as Percentage of Income:
+            <span id="tax-incomeshare">18.26</span>%
+          </div>
         </div>
       </form>
     </section>
 
-    <section id="data">
+    <!-- <section id="data" hidden>
       <div></div>
-    </section>
+    </section> -->
 
-    <section id="about">
+    <section id="about" hidden>
       <div>hello</div>
+      <div>
+        Despite decades of deliberation, residential property tax is yet to be
+        levied at a national scale in China. Recently, as the property market
+        enters a persistent downturn and local governments face increasing
+        fiscal pressure, property tax reform has become more pressing. Why has
+        the central government not accelerated the adoption of the tax after
+        initial pilot programs were established in 2011? Would the recent
+        property market downturn incentivize local governments to seek the
+        adoption of the tax?
+      </div>
     </section>
 
     <section id="map"></section>
