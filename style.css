@@ -66,19 +66,21 @@ footer {
   z-index: 999;
   background-color: #dadada;
   position: fixed;
+  padding: 20px;
 }
 
 #about {
   top: 150px;
   left: 0;
-  width: 300px;
+  width: 500px;
+  height: 800px;
+  overflow: scroll;
 }
 
 #calculator {
   top: 100px;
   right: 0;
   width: 400px;
-  padding: 20px;
 }
 
 /* Styles for Calculator */
@@ -97,7 +99,7 @@ footer {
   width: 60px;
 }
 
-.calculator-heading {
+.heading {
   font-weight: bold;
   margin: 0 0 5px 0;
 }

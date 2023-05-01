@@ -33,7 +33,7 @@
     <section id="calculator">
       <div class="close" id="calculator-close">X</div>
       <form id="calculator-form">
-        <div class="calculator-heading">Tax Base Specifications:</div>
+        <div class="heading">Tax Base Specifications:</div>
         <div id="form-setup">
           <div>
             <label for="tierOption">Progressive Tiers:</label> <br />
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="calculator-heading" style="margin-top: 20px">
+        <div class="heading" style="margin-top: 20px">
           Tax Rate Specifications:
         </div>
         <div id="slider-container">
@@ -250,7 +250,7 @@
           </div>
         </div>
 
-        <div class="calculator-heading" style="margin-top: 20px">
+        <div class="heading" style="margin-top: 20px">
           Tax Collection Results:
         </div>
         <div id="results-container">
@@ -279,17 +279,53 @@
 
     <section id="about" hidden>
       <div class="close" id="about-close">X</div>
-      <div>hello</div>
+      <div class="heading">Using this Site</div>
       <div>
-        Despite decades of deliberation, residential property tax is yet to be
-        levied at a national scale in China. Recently, as the property market
-        enters a persistent downturn and local governments face increasing
-        fiscal pressure, property tax reform has become more pressing. Why has
-        the central government not accelerated the adoption of the tax after
-        initial pilot programs were established in 2011? Would the recent
-        property market downturn incentivize local governments to seek the
-        adoption of the tax?
+        The calculator takes in the tax base and tax rate specifications as
+        inputs and produces the tax revenue as the output. It also shows how
+        effectively the tax under the custom regime can substitute the revenue
+        generated through land finance. The calculator also shows the average
+        tax paid per resident and the tax as a percentage of average resident
+        income.
       </div>
+
+      <div style="margin-top: 20px">
+        The underlying map shows the location of communities in Wuchang
+        district, with the marker indicating the average price of the properties
+        in that community.
+      </div>
+
+      <div class="heading" style="margin-top: 20px">About this Project</div>
+      <div style="margin-top: 5px">
+        Despite decades of deliberation, residential property tax is yet to be
+        levied at a national scale in China. Historically, despite being the
+        primary beneficiary of the tax’s revenue, local governments were
+        apathetic toward adoption because it contradicts their existing revenue
+        generation model through land finance, or the sale of land-use rights to
+        property developers. Recently, however, as the property market enters a
+        persistent downturn, the credibility of land finance as a driver of
+        revenue is in question. Furthermore, the central government has been
+        signaling that collection of residential property tax might be imminent.
+      </div>
+
+      <div style="margin-top: 20px">
+        This project provides timely analysis on the viability of property tax
+        as a substitute revenue generation method for local governments in place
+        of land finance. Using recent data scraped from Fang.com, the leading
+        real estate marketplace in China, for one municipal district and
+        computation done in R and Python, I establish that property tax seems to
+        be a potential alternative. However, upon further analysis completed
+        through the website visualizer and calculator built with the Google Maps
+        API, I find that such a substitution would come at the high price tag of
+        around 20 percent of the disposable income of local residents.
+      </div>
+
+      <a
+        href="/csecReport.pdf"
+        target="_blank"
+        style="display: inline-block; margin-top: 20px"
+        >View the Report as PDF</a
+      >
     </section>
 
     <section id="map"></section>
