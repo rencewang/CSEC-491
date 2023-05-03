@@ -10,7 +10,8 @@
     "community": "民政厅花苑小区",
     "avg_area": 120,
     "total_units": 382,
-    "unit_price": 32000
+    "unit_price": 32000,
+    "tax_mock": 38400
   },
   {
     "city": "武汉市",
@@ -23,7 +24,8 @@
     "community": "中科院水生所宿舍区",
     "avg_area": 145,
     "total_units": 870,
-    "unit_price": 33040
+    "unit_price": 33040,
+    "tax_mock": 47908
   },
   {
     "city": "武汉市",
@@ -36,7 +38,8 @@
     "community": "东湖名邸",
     "avg_area": 148,
     "total_units": 390,
-    "unit_price": 20178
+    "unit_price": 20178,
+    "tax_mock": 29863.44
   },
   {
     "city": "武汉市",
@@ -49,7 +52,8 @@
     "community": "梨园医院小区",
     "avg_area": 87,
     "total_units": 240,
-    "unit_price": 18830
+    "unit_price": 18830,
+    "tax_mock": 16382.1
   },
   {
     "city": "武汉市",
@@ -62,7 +66,8 @@
     "community": "东湖村军转小区",
     "avg_area": 97,
     "total_units": 540,
-    "unit_price": 20301
+    "unit_price": 20301,
+    "tax_mock": 19691.97
   },
   {
     "city": "武汉市",
@@ -73,9 +78,10 @@
     "latitude_gps": 30.5315,
     "longitude_gps": 114.3653,
     "community": "东湖村社区",
-    "avg_area": 65,
+    "avg_area": 103,
     "total_units": 213,
-    "unit_price": 17390
+    "unit_price": 17390,
+    "tax_mock": 17911.7
   },
   {
     "city": "武汉市",
@@ -88,7 +94,8 @@
     "community": "地质医院宿舍",
     "avg_area": 150,
     "total_units": 103,
-    "unit_price": 18300
+    "unit_price": 18300,
+    "tax_mock": 27450
   },
   {
     "city": "武汉市",
@@ -101,7 +108,8 @@
     "community": "武大珞涵新邨小区",
     "avg_area": 172,
     "total_units": 75,
-    "unit_price": 18900
+    "unit_price": 18900,
+    "tax_mock": 32508
   },
   {
     "city": "武汉市",
@@ -114,7 +122,8 @@
     "community": "茶港军转小区",
     "avg_area": 104,
     "total_units": 304,
-    "unit_price": 18300
+    "unit_price": 18300,
+    "tax_mock": 19032
   },
   {
     "city": "武汉市",
@@ -127,7 +136,8 @@
     "community": "水生科技苑",
     "avg_area": 80,
     "total_units": 154,
-    "unit_price": 17400
+    "unit_price": 17400,
+    "tax_mock": 13920
   },
   {
     "city": "武汉市",
@@ -140,7 +150,8 @@
     "community": "茶港新村东院",
     "avg_area": 95,
     "total_units": 240,
-    "unit_price": 20030
+    "unit_price": 20030,
+    "tax_mock": 19028.5
   },
   {
     "city": "武汉市",
@@ -153,7 +164,8 @@
     "community": "中国科学院武汉植物园小区",
     "avg_area": 104,
     "total_units": 780,
-    "unit_price": 17300
+    "unit_price": 17300,
+    "tax_mock": 17992
   },
   {
     "city": "武汉市",
@@ -166,7 +178,8 @@
     "community": "东湖别墅",
     "avg_area": 320,
     "total_units": 150,
-    "unit_price": 23400
+    "unit_price": 23400,
+    "tax_mock": 74880
   },
   {
     "city": "武汉市",
@@ -179,7 +192,8 @@
     "community": "风光村社区",
     "avg_area": 80,
     "total_units": 350,
-    "unit_price": 15600
+    "unit_price": 15600,
+    "tax_mock": 12480
   },
   {
     "city": "武汉市",
@@ -192,7 +206,8 @@
     "community": "磨山小区",
     "avg_area": 98,
     "total_units": 249,
-    "unit_price": 17300
+    "unit_price": 17300,
+    "tax_mock": 16954
   },
   {
     "city": "武汉市",
@@ -205,7 +220,8 @@
     "community": "东湖楚世家",
     "avg_area": 240,
     "total_units": 336,
-    "unit_price": 38900
+    "unit_price": 38900,
+    "tax_mock": 93360
   },
   {
     "city": "武汉市",
@@ -218,7 +234,8 @@
     "community": "黄鹂小区",
     "avg_area": 73,
     "total_units": 175,
-    "unit_price": 18900
+    "unit_price": 18900,
+    "tax_mock": 13797
   },
   {
     "city": "武汉市",
@@ -231,7 +248,8 @@
     "community": "东亭计生委宿舍",
     "avg_area": 98,
     "total_units": 140,
-    "unit_price": 17500
+    "unit_price": 17500,
+    "tax_mock": 17150
   },
   {
     "city": "武汉市",
@@ -244,7 +262,8 @@
     "community": "东亭花园",
     "avg_area": 110,
     "total_units": 1454,
-    "unit_price": 16500
+    "unit_price": 16500,
+    "tax_mock": 18150
   },
   {
     "city": "武汉市",
@@ -257,7 +276,8 @@
     "community": "中科院测地所宿舍",
     "avg_area": 100,
     "total_units": 300,
-    "unit_price": 18400
+    "unit_price": 18400,
+    "tax_mock": 18400
   },
   {
     "city": "武汉市",
@@ -270,7 +290,8 @@
     "community": "湖北纺织建筑设计院宿舍",
     "avg_area": 130,
     "total_units": 165,
-    "unit_price": 16400
+    "unit_price": 16400,
+    "tax_mock": 21320
   },
   {
     "city": "武汉市",
@@ -283,7 +304,8 @@
     "community": "武汉大学高家湾社区",
     "avg_area": 89,
     "total_units": 160,
-    "unit_price": 18000
+    "unit_price": 18000,
+    "tax_mock": 16020
   },
   {
     "city": "武汉市",
@@ -296,7 +318,8 @@
     "community": "湖北省教育厅宿舍",
     "avg_area": 104,
     "total_units": 240,
-    "unit_price": 17900
+    "unit_price": 17900,
+    "tax_mock": 18616
   },
   {
     "city": "武汉市",
@@ -307,9 +330,10 @@
     "latitude_gps": 30.5554,
     "longitude_gps": 114.3446,
     "community": "湖北省财政厅宿舍",
-    "avg_area": 106,
+    "avg_area": 123,
     "total_units": 105,
-    "unit_price": 18300
+    "unit_price": 18300,
+    "tax_mock": 22509
   },
   {
     "city": "武汉市",
@@ -320,9 +344,10 @@
     "latitude_gps": 30.5567,
     "longitude_gps": 114.3442,
     "community": "武汉大学医学院职工宿舍",
-    "avg_area": 128,
+    "avg_area": 150,
     "total_units": 150,
-    "unit_price": 17500
+    "unit_price": 17500,
+    "tax_mock": 26250
   },
   {
     "city": "武汉市",
@@ -335,7 +360,8 @@
     "community": "十亩地小区",
     "avg_area": 135,
     "total_units": 300,
-    "unit_price": 16500
+    "unit_price": 16500,
+    "tax_mock": 22275
   },
   {
     "city": "武汉市",
@@ -348,7 +374,8 @@
     "community": "湖北省食品药品监督管理局宿舍",
     "avg_area": 100,
     "total_units": 100,
-    "unit_price": 17300
+    "unit_price": 17300,
+    "tax_mock": 17300
   },
   {
     "city": "武汉市",
@@ -361,7 +388,8 @@
     "community": "湖北省工商行政管理局宿舍",
     "avg_area": 130,
     "total_units": 100,
-    "unit_price": 18000
+    "unit_price": 18000,
+    "tax_mock": 23400
   },
   {
     "city": "武汉市",
@@ -374,7 +402,8 @@
     "community": "湖北省农业银行宿舍",
     "avg_area": 124,
     "total_units": 100,
-    "unit_price": 17600
+    "unit_price": 17600,
+    "tax_mock": 21824
   },
   {
     "city": "武汉市",
@@ -385,9 +414,10 @@
     "latitude_gps": 30.5764,
     "longitude_gps": 114.3638,
     "community": "新华社宿舍",
-    "avg_area": 60,
+    "avg_area": 132,
     "total_units": 320,
-    "unit_price": 21030
+    "unit_price": 21030,
+    "tax_mock": 27759.6
   },
   {
     "city": "武汉市",
@@ -400,7 +430,8 @@
     "community": "新华香樟园",
     "avg_area": 152,
     "total_units": 560,
-    "unit_price": 19250
+    "unit_price": 19250,
+    "tax_mock": 29260
   },
   {
     "city": "武汉市",
@@ -413,7 +444,8 @@
     "community": "湖北省社会科学院西院宿舍区",
     "avg_area": 103,
     "total_units": 80,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 18869.6
   },
   {
     "city": "武汉市",
@@ -426,7 +458,8 @@
     "community": "中南医院宿舍",
     "avg_area": 80,
     "total_units": 85,
-    "unit_price": 23241
+    "unit_price": 23241,
+    "tax_mock": 18592.8
   },
   {
     "city": "武汉市",
@@ -439,7 +472,8 @@
     "community": "知音传媒大厦",
     "avg_area": 97,
     "total_units": 150,
-    "unit_price": 19400
+    "unit_price": 19400,
+    "tax_mock": 18818
   },
   {
     "city": "武汉市",
@@ -452,7 +486,8 @@
     "community": "楚天丽园",
     "avg_area": 68,
     "total_units": 103,
-    "unit_price": 23020
+    "unit_price": 23020,
+    "tax_mock": 15653.6
   },
   {
     "city": "武汉市",
@@ -465,7 +500,8 @@
     "community": "少儿出版社宿舍",
     "avg_area": 79,
     "total_units": 98,
-    "unit_price": 18200
+    "unit_price": 18200,
+    "tax_mock": 14378
   },
   {
     "city": "武汉市",
@@ -478,7 +514,8 @@
     "community": "东湖香榭水岸",
     "avg_area": 208,
     "total_units": 580,
-    "unit_price": 28740
+    "unit_price": 28740,
+    "tax_mock": 59779.2
   },
   {
     "city": "武汉市",
@@ -491,7 +528,8 @@
     "community": "安顺家园",
     "avg_area": 130,
     "total_units": 1765,
-    "unit_price": 30031
+    "unit_price": 30031,
+    "tax_mock": 39040.3
   },
   {
     "city": "武汉市",
@@ -502,9 +540,10 @@
     "latitude_gps": 30.5717,
     "longitude_gps": 114.3476,
     "community": "电车宿舍",
-    "avg_area": 57,
+    "avg_area": 90,
     "total_units": 250,
-    "unit_price": 21100
+    "unit_price": 21100,
+    "tax_mock": 18990
   },
   {
     "city": "武汉市",
@@ -517,7 +556,8 @@
     "community": "水果湖街青鱼嘴社区",
     "avg_area": 90,
     "total_units": 320,
-    "unit_price": 20010
+    "unit_price": 20010,
+    "tax_mock": 18009
   },
   {
     "city": "武汉市",
@@ -530,7 +570,8 @@
     "community": "中北路农行宿舍",
     "avg_area": 120,
     "total_units": 140,
-    "unit_price": 19800
+    "unit_price": 19800,
+    "tax_mock": 23760
   },
   {
     "city": "武汉市",
@@ -543,7 +584,8 @@
     "community": "海山金谷",
     "avg_area": 96,
     "total_units": 436,
-    "unit_price": 19080
+    "unit_price": 19080,
+    "tax_mock": 18316.8
   },
   {
     "city": "武汉市",
@@ -556,7 +598,8 @@
     "community": "安顺星苑",
     "avg_area": 86,
     "total_units": 659,
-    "unit_price": 23470
+    "unit_price": 23470,
+    "tax_mock": 20184.2
   },
   {
     "city": "武汉市",
@@ -569,7 +612,8 @@
     "community": "伟鹏苑",
     "avg_area": 160,
     "total_units": 396,
-    "unit_price": 21220
+    "unit_price": 21220,
+    "tax_mock": 33952
   },
   {
     "city": "武汉市",
@@ -582,7 +626,8 @@
     "community": "天源城",
     "avg_area": 130,
     "total_units": 700,
-    "unit_price": 20314
+    "unit_price": 20314,
+    "tax_mock": 26408.2
   },
   {
     "city": "武汉市",
@@ -595,7 +640,8 @@
     "community": "锦绣江南",
     "avg_area": 200,
     "total_units": 3520,
-    "unit_price": 21809
+    "unit_price": 21809,
+    "tax_mock": 43618
   },
   {
     "city": "武汉市",
@@ -608,7 +654,8 @@
     "community": "九天公寓",
     "avg_area": 78,
     "total_units": 230,
-    "unit_price": 23019
+    "unit_price": 23019,
+    "tax_mock": 17954.82
   },
   {
     "city": "武汉市",
@@ -621,7 +668,8 @@
     "community": "中北春天",
     "avg_area": 95,
     "total_units": 140,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 19950
   },
   {
     "city": "武汉市",
@@ -634,7 +682,8 @@
     "community": "同成富苑",
     "avg_area": 104,
     "total_units": 520,
-    "unit_price": 24230
+    "unit_price": 24230,
+    "tax_mock": 25199.2
   },
   {
     "city": "武汉市",
@@ -647,7 +696,8 @@
     "community": "锦绣中北",
     "avg_area": 125,
     "total_units": 320,
-    "unit_price": 26500
+    "unit_price": 26500,
+    "tax_mock": 33125
   },
   {
     "city": "武汉市",
@@ -660,7 +710,8 @@
     "community": "广厦中北领秀",
     "avg_area": 59,
     "total_units": 250,
-    "unit_price": 24309
+    "unit_price": 24309,
+    "tax_mock": 14342.31
   },
   {
     "city": "武汉市",
@@ -673,7 +724,8 @@
     "community": "东沙大厦",
     "avg_area": 74,
     "total_units": 260,
-    "unit_price": 20800
+    "unit_price": 20800,
+    "tax_mock": 15392
   },
   {
     "city": "武汉市",
@@ -686,7 +738,8 @@
     "community": "楚汉新居",
     "avg_area": 68,
     "total_units": 892,
-    "unit_price": 24500
+    "unit_price": 24500,
+    "tax_mock": 16660
   },
   {
     "city": "武汉市",
@@ -699,7 +752,8 @@
     "community": "世纪彩城",
     "avg_area": 120,
     "total_units": 3395,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 25200
   },
   {
     "city": "武汉市",
@@ -712,7 +766,8 @@
     "community": "武重明珠苑",
     "avg_area": 85,
     "total_units": 450,
-    "unit_price": 14953
+    "unit_price": 14953,
+    "tax_mock": 12710.05
   },
   {
     "city": "武汉市",
@@ -725,7 +780,8 @@
     "community": "万达御湖壹号",
     "avg_area": 240,
     "total_units": 1257,
-    "unit_price": 41113
+    "unit_price": 41113,
+    "tax_mock": 98671.2
   },
   {
     "city": "武汉市",
@@ -738,7 +794,8 @@
     "community": "汉街壹号公馆",
     "avg_area": 240,
     "total_units": 1932,
-    "unit_price": 36700
+    "unit_price": 36700,
+    "tax_mock": 88080
   },
   {
     "city": "武汉市",
@@ -751,7 +808,8 @@
     "community": "新安金沙豪庭",
     "avg_area": 300,
     "total_units": 300,
-    "unit_price": 23080
+    "unit_price": 23080,
+    "tax_mock": 69240
   },
   {
     "city": "武汉市",
@@ -764,7 +822,8 @@
     "community": "楚天都市雅园",
     "avg_area": 80,
     "total_units": 400,
-    "unit_price": 21200
+    "unit_price": 21200,
+    "tax_mock": 16960
   },
   {
     "city": "武汉市",
@@ -777,7 +836,8 @@
     "community": "龙源国际广场",
     "avg_area": 130,
     "total_units": 280,
-    "unit_price": 23100
+    "unit_price": 23100,
+    "tax_mock": 30030
   },
   {
     "city": "武汉市",
@@ -790,7 +850,8 @@
     "community": "白玫瑰花苑",
     "avg_area": 90,
     "total_units": 320,
-    "unit_price": 23400
+    "unit_price": 23400,
+    "tax_mock": 21060
   },
   {
     "city": "武汉市",
@@ -803,7 +864,8 @@
     "community": "爱尚东亭",
     "avg_area": 80,
     "total_units": 205,
-    "unit_price": 12080
+    "unit_price": 12080,
+    "tax_mock": 9664
   },
   {
     "city": "武汉市",
@@ -816,7 +878,8 @@
     "community": "九通商厦",
     "avg_area": 80,
     "total_units": 95,
-    "unit_price": 13400
+    "unit_price": 13400,
+    "tax_mock": 10720
   },
   {
     "city": "武汉市",
@@ -829,7 +892,8 @@
     "community": "融创中心武汉壹号院",
     "avg_area": 210,
     "total_units": 3225,
-    "unit_price": 42000
+    "unit_price": 42000,
+    "tax_mock": 88200
   },
   {
     "city": "武汉市",
@@ -842,7 +906,8 @@
     "community": "新长江香榭东沙",
     "avg_area": 120,
     "total_units": 350,
-    "unit_price": 32300
+    "unit_price": 32300,
+    "tax_mock": 38760
   },
   {
     "city": "武汉市",
@@ -855,7 +920,8 @@
     "community": "沙湖九号",
     "avg_area": 180,
     "total_units": 2000,
-    "unit_price": 42000
+    "unit_price": 42000,
+    "tax_mock": 75600
   },
   {
     "city": "武汉市",
@@ -868,7 +934,8 @@
     "community": "沙湖公寓",
     "avg_area": 90,
     "total_units": 450,
-    "unit_price": 25800
+    "unit_price": 25800,
+    "tax_mock": 23220
   },
   {
     "city": "武汉市",
@@ -881,7 +948,8 @@
     "community": "武重金厦小区",
     "avg_area": 140,
     "total_units": 240,
-    "unit_price": 20380
+    "unit_price": 20380,
+    "tax_mock": 28532
   },
   {
     "city": "武汉市",
@@ -894,7 +962,8 @@
     "community": "武重经济适用房小区",
     "avg_area": 130,
     "total_units": 760,
-    "unit_price": 20000
+    "unit_price": 20000,
+    "tax_mock": 26000
   },
   {
     "city": "武汉市",
@@ -907,7 +976,8 @@
     "community": "复地东湖国际",
     "avg_area": 150,
     "total_units": 24000,
-    "unit_price": 46000
+    "unit_price": 46000,
+    "tax_mock": 69000
   },
   {
     "city": "武汉市",
@@ -920,7 +990,8 @@
     "community": "徐家棚喻家湖社区医疗器械小区",
     "avg_area": 70,
     "total_units": 180,
-    "unit_price": 18900
+    "unit_price": 18900,
+    "tax_mock": 13230
   },
   {
     "city": "武汉市",
@@ -933,7 +1004,8 @@
     "community": "水岸国际澜桥公馆",
     "avg_area": 110,
     "total_units": 1300,
-    "unit_price": 32038
+    "unit_price": 32038,
+    "tax_mock": 35241.8
   },
   {
     "city": "武汉市",
@@ -946,7 +1018,8 @@
     "community": "梦湖水岸",
     "avg_area": 140,
     "total_units": 1050,
-    "unit_price": 24890
+    "unit_price": 24890,
+    "tax_mock": 34846
   },
   {
     "city": "武汉市",
@@ -959,7 +1032,8 @@
     "community": "舒苑大厦",
     "avg_area": 90,
     "total_units": 340,
-    "unit_price": 21090
+    "unit_price": 21090,
+    "tax_mock": 18981
   },
   {
     "city": "武汉市",
@@ -972,7 +1046,8 @@
     "community": "美城清芷园",
     "avg_area": 120,
     "total_units": 511,
-    "unit_price": 23200
+    "unit_price": 23200,
+    "tax_mock": 27840
   },
   {
     "city": "武汉市",
@@ -985,7 +1060,8 @@
     "community": "中北路省体育局宿舍",
     "avg_area": 95,
     "total_units": 150,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 18840.4
   },
   {
     "city": "武汉市",
@@ -998,7 +1074,8 @@
     "community": "水岸国际沙湖公馆",
     "avg_area": 140,
     "total_units": 750,
-    "unit_price": 28730
+    "unit_price": 28730,
+    "tax_mock": 40222
   },
   {
     "city": "武汉市",
@@ -1011,7 +1088,8 @@
     "community": "远洋宿舍",
     "avg_area": 70,
     "total_units": 320,
-    "unit_price": 19872
+    "unit_price": 19872,
+    "tax_mock": 13910.4
   },
   {
     "city": "武汉市",
@@ -1024,7 +1102,8 @@
     "community": "滨湖机械厂宿舍",
     "avg_area": 100,
     "total_units": 130,
-    "unit_price": 20823
+    "unit_price": 20823,
+    "tax_mock": 20823
   },
   {
     "city": "武汉市",
@@ -1037,7 +1116,8 @@
     "community": "水岸星城B区别墅",
     "avg_area": 350,
     "total_units": 250,
-    "unit_price": 28900
+    "unit_price": 28900,
+    "tax_mock": 101150
   },
   {
     "city": "武汉市",
@@ -1050,7 +1130,8 @@
     "community": "水岸星城B区",
     "avg_area": 190,
     "total_units": 840,
-    "unit_price": 27300
+    "unit_price": 27300,
+    "tax_mock": 51870
   },
   {
     "city": "武汉市",
@@ -1063,7 +1144,8 @@
     "community": "东湖中学教师宿舍",
     "avg_area": 108,
     "total_units": 230,
-    "unit_price": 17530
+    "unit_price": 17530,
+    "tax_mock": 18932.4
   },
   {
     "city": "武汉市",
@@ -1076,7 +1158,8 @@
     "community": "沙湖花园",
     "avg_area": 75,
     "total_units": 850,
-    "unit_price": 23800
+    "unit_price": 23800,
+    "tax_mock": 17850
   },
   {
     "city": "武汉市",
@@ -1089,7 +1172,8 @@
     "community": "兴华嘉天下",
     "avg_area": 80,
     "total_units": 1118,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 16800
   },
   {
     "city": "武汉市",
@@ -1102,7 +1186,8 @@
     "community": "水岸星城A区",
     "avg_area": 140,
     "total_units": 500,
-    "unit_price": 30400
+    "unit_price": 30400,
+    "tax_mock": 42560
   },
   {
     "city": "武汉市",
@@ -1115,7 +1200,8 @@
     "community": "福星惠誉国际城",
     "avg_area": 95,
     "total_units": 3460,
-    "unit_price": 27500
+    "unit_price": 27500,
+    "tax_mock": 26125
   },
   {
     "city": "武汉市",
@@ -1128,7 +1214,8 @@
     "community": "英特小区",
     "avg_area": 130,
     "total_units": 3000,
-    "unit_price": 21280
+    "unit_price": 21280,
+    "tax_mock": 27664
   },
   {
     "city": "武汉市",
@@ -1141,7 +1228,8 @@
     "community": "东湖春树里",
     "avg_area": 140,
     "total_units": 968,
-    "unit_price": 27500
+    "unit_price": 27500,
+    "tax_mock": 38500
   },
   {
     "city": "武汉市",
@@ -1154,7 +1242,8 @@
     "community": "天梨花园",
     "avg_area": 94,
     "total_units": 375,
-    "unit_price": 21700
+    "unit_price": 21700,
+    "tax_mock": 20398
   },
   {
     "city": "武汉市",
@@ -1167,7 +1256,8 @@
     "community": "普提金国际公寓",
     "avg_area": 130,
     "total_units": 320,
-    "unit_price": 21830
+    "unit_price": 21830,
+    "tax_mock": 28379
   },
   {
     "city": "武汉市",
@@ -1180,7 +1270,8 @@
     "community": "万达行政公馆",
     "avg_area": 150,
     "total_units": 420,
-    "unit_price": 28900
+    "unit_price": 28900,
+    "tax_mock": 43350
   },
   {
     "city": "武汉市",
@@ -1193,7 +1284,8 @@
     "community": "沙湖金港苑",
     "avg_area": 110,
     "total_units": 480,
-    "unit_price": 31002
+    "unit_price": 31002,
+    "tax_mock": 34102.2
   },
   {
     "city": "武汉市",
@@ -1206,7 +1298,8 @@
     "community": "铂金天地",
     "avg_area": 120,
     "total_units": 350,
-    "unit_price": 19394
+    "unit_price": 19394,
+    "tax_mock": 23272.8
   },
   {
     "city": "武汉市",
@@ -1219,7 +1312,8 @@
     "community": "万达御湖世家",
     "avg_area": 200,
     "total_units": 850,
-    "unit_price": 36000
+    "unit_price": 36000,
+    "tax_mock": 72000
   },
   {
     "city": "武汉市",
@@ -1232,7 +1326,8 @@
     "community": "沙湖明珠",
     "avg_area": 180,
     "total_units": 450,
-    "unit_price": 26750
+    "unit_price": 26750,
+    "tax_mock": 48150
   },
   {
     "city": "武汉市",
@@ -1245,7 +1340,8 @@
     "community": "水岸星城C区",
     "avg_area": 140,
     "total_units": 580,
-    "unit_price": 29830
+    "unit_price": 29830,
+    "tax_mock": 41762
   },
   {
     "city": "武汉市",
@@ -1258,7 +1354,8 @@
     "community": "水岸星城C区别墅",
     "avg_area": 320,
     "total_units": 128,
-    "unit_price": 28680
+    "unit_price": 28680,
+    "tax_mock": 91776
   },
   {
     "city": "武汉市",
@@ -1271,7 +1368,8 @@
     "community": "水云居秦园东路",
     "avg_area": 140,
     "total_units": 244,
-    "unit_price": 23800
+    "unit_price": 23800,
+    "tax_mock": 33320
   },
   {
     "city": "武汉市",
@@ -1284,7 +1382,8 @@
     "community": "湖北省文联宿舍",
     "avg_area": 120,
     "total_units": 140,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 25200
   },
   {
     "city": "武汉市",
@@ -1297,7 +1396,8 @@
     "community": "水果湖派出所宿舍",
     "avg_area": 100,
     "total_units": 450,
-    "unit_price": 23010
+    "unit_price": 23010,
+    "tax_mock": 23010
   },
   {
     "city": "武汉市",
@@ -1310,7 +1410,8 @@
     "community": "水果湖街滨湖社区",
     "avg_area": 100,
     "total_units": 470,
-    "unit_price": 19230
+    "unit_price": 19230,
+    "tax_mock": 19230
   },
   {
     "city": "武汉市",
@@ -1323,7 +1424,8 @@
     "community": "泓雅小区",
     "avg_area": 100,
     "total_units": 170,
-    "unit_price": 18700
+    "unit_price": 18700,
+    "tax_mock": 18700
   },
   {
     "city": "武汉市",
@@ -1336,7 +1438,8 @@
     "community": "青鱼咀球场小区",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 19283
+    "unit_price": 19283,
+    "tax_mock": 23139.6
   },
   {
     "city": "武汉市",
@@ -1349,7 +1452,8 @@
     "community": "东亭小区",
     "avg_area": 130,
     "total_units": 350,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 27300
   },
   {
     "city": "武汉市",
@@ -1362,7 +1466,8 @@
     "community": "武汉医药设计院宿舍",
     "avg_area": 100,
     "total_units": 128,
-    "unit_price": 20839
+    "unit_price": 20839,
+    "tax_mock": 20839
   },
   {
     "city": "武汉市",
@@ -1375,7 +1480,8 @@
     "community": "省购宿舍",
     "avg_area": 130,
     "total_units": 240,
-    "unit_price": 19807
+    "unit_price": 19807,
+    "tax_mock": 25749.1
   },
   {
     "city": "武汉市",
@@ -1388,7 +1494,8 @@
     "community": "中国人民银行武汉分行宿舍",
     "avg_area": 108,
     "total_units": 280,
-    "unit_price": 18700
+    "unit_price": 18700,
+    "tax_mock": 20196
   },
   {
     "city": "武汉市",
@@ -1401,7 +1508,8 @@
     "community": "湖北省社科联宿舍",
     "avg_area": 70,
     "total_units": 150,
-    "unit_price": 21030
+    "unit_price": 21030,
+    "tax_mock": 14721
   },
   {
     "city": "武汉市",
@@ -1414,7 +1522,8 @@
     "community": "中国铁建1818中心",
     "avg_area": 267,
     "total_units": 2823,
-    "unit_price": 28043
+    "unit_price": 28043,
+    "tax_mock": 74874.81
   },
   {
     "city": "武汉市",
@@ -1427,7 +1536,8 @@
     "community": "长投珑庭",
     "avg_area": 100,
     "total_units": 850,
-    "unit_price": 23000
+    "unit_price": 23000,
+    "tax_mock": 23000
   },
   {
     "city": "武汉市",
@@ -1440,7 +1550,8 @@
     "community": "市政宿舍丁字桥",
     "avg_area": 80,
     "total_units": 320,
-    "unit_price": 19808
+    "unit_price": 19808,
+    "tax_mock": 15846.4
   },
   {
     "city": "武汉市",
@@ -1453,7 +1564,8 @@
     "community": "洪福楼",
     "avg_area": 100,
     "total_units": 120,
-    "unit_price": 16050
+    "unit_price": 16050,
+    "tax_mock": 16050
   },
   {
     "city": "武汉市",
@@ -1466,7 +1578,8 @@
     "community": "金诺雅苑",
     "avg_area": 140,
     "total_units": 248,
-    "unit_price": 18329
+    "unit_price": 18329,
+    "tax_mock": 25660.6
   },
   {
     "city": "武汉市",
@@ -1479,7 +1592,8 @@
     "community": "紫菘中南特区",
     "avg_area": 114,
     "total_units": 80,
-    "unit_price": 17500
+    "unit_price": 17500,
+    "tax_mock": 19950
   },
   {
     "city": "武汉市",
@@ -1492,7 +1606,8 @@
     "community": "丁字桥铁路局宿舍",
     "avg_area": 90,
     "total_units": 130,
-    "unit_price": 21330
+    "unit_price": 21330,
+    "tax_mock": 19197
   },
   {
     "city": "武汉市",
@@ -1505,7 +1620,8 @@
     "community": "中南财经政法大学教工宿舍",
     "avg_area": 70,
     "total_units": 95,
-    "unit_price": 19238
+    "unit_price": 19238,
+    "tax_mock": 13466.6
   },
   {
     "city": "武汉市",
@@ -1518,7 +1634,8 @@
     "community": "湖北省油脂公司住宅区",
     "avg_area": 80,
     "total_units": 140,
-    "unit_price": 19210
+    "unit_price": 19210,
+    "tax_mock": 15368
   },
   {
     "city": "武汉市",
@@ -1531,7 +1648,8 @@
     "community": "滨湖名都城",
     "avg_area": 130,
     "total_units": 242,
-    "unit_price": 17370
+    "unit_price": 17370,
+    "tax_mock": 22581
   },
   {
     "city": "武汉市",
@@ -1544,7 +1662,8 @@
     "community": "中国工商银行武汉丁字桥支行宿舍",
     "avg_area": 90,
     "total_units": 85,
-    "unit_price": 18290
+    "unit_price": 18290,
+    "tax_mock": 16461
   },
   {
     "city": "武汉市",
@@ -1557,7 +1676,8 @@
     "community": "丁字桥公寓",
     "avg_area": 85,
     "total_units": 130,
-    "unit_price": 17402
+    "unit_price": 17402,
+    "tax_mock": 14791.7
   },
   {
     "city": "武汉市",
@@ -1570,7 +1690,8 @@
     "community": "弘业俊园",
     "avg_area": 50,
     "total_units": 620,
-    "unit_price": 15800
+    "unit_price": 15800,
+    "tax_mock": 7900
   },
   {
     "city": "武汉市",
@@ -1581,9 +1702,10 @@
     "latitude_gps": 30.5262,
     "longitude_gps": 114.3241,
     "community": "丁字桥路60号小区",
-    "avg_area": 60,
+    "avg_area": 80,
     "total_units": 450,
-    "unit_price": 17230
+    "unit_price": 17230,
+    "tax_mock": 13784
   },
   {
     "city": "武汉市",
@@ -1596,7 +1718,8 @@
     "community": "康欣楼",
     "avg_area": 70,
     "total_units": 140,
-    "unit_price": 12980
+    "unit_price": 12980,
+    "tax_mock": 9086
   },
   {
     "city": "武汉市",
@@ -1609,7 +1732,8 @@
     "community": "向阳佳苑",
     "avg_area": 80,
     "total_units": 560,
-    "unit_price": 13000
+    "unit_price": 13000,
+    "tax_mock": 10400
   },
   {
     "city": "武汉市",
@@ -1622,7 +1746,8 @@
     "community": "涂家岭社区",
     "avg_area": 100,
     "total_units": 1450,
-    "unit_price": 13200
+    "unit_price": 13200,
+    "tax_mock": 13200
   },
   {
     "city": "武汉市",
@@ -1635,7 +1760,8 @@
     "community": "中国人寿单位宿舍",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 15070
+    "unit_price": 15070,
+    "tax_mock": 18084
   },
   {
     "city": "武汉市",
@@ -1648,7 +1774,8 @@
     "community": "东湖银苑小区",
     "avg_area": 80,
     "total_units": 420,
-    "unit_price": 18032
+    "unit_price": 18032,
+    "tax_mock": 14425.6
   },
   {
     "city": "武汉市",
@@ -1661,7 +1788,8 @@
     "community": "中南新苑东区",
     "avg_area": 90,
     "total_units": 300,
-    "unit_price": 17500
+    "unit_price": 17500,
+    "tax_mock": 15750
   },
   {
     "city": "武汉市",
@@ -1674,7 +1802,8 @@
     "community": "地铁紫阳城",
     "avg_area": 100,
     "total_units": 1502,
-    "unit_price": 22320
+    "unit_price": 22320,
+    "tax_mock": 22320
   },
   {
     "city": "武汉市",
@@ -1687,7 +1816,8 @@
     "community": "中南新村付家坡一路",
     "avg_area": 90,
     "total_units": 1200,
-    "unit_price": 19380
+    "unit_price": 19380,
+    "tax_mock": 17442
   },
   {
     "city": "武汉市",
@@ -1700,7 +1830,8 @@
     "community": "付加坡机械化宿舍",
     "avg_area": 130,
     "total_units": 157,
-    "unit_price": 17400
+    "unit_price": 17400,
+    "tax_mock": 22620
   },
   {
     "city": "武汉市",
@@ -1713,7 +1844,8 @@
     "community": "中南路街丁字桥社区",
     "avg_area": 140,
     "total_units": 320,
-    "unit_price": 15038
+    "unit_price": 15038,
+    "tax_mock": 21053.2
   },
   {
     "city": "武汉市",
@@ -1726,7 +1858,8 @@
     "community": "湖北省公安厅宿舍",
     "avg_area": 120,
     "total_units": 97,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 21984
   },
   {
     "city": "武汉市",
@@ -1739,7 +1872,8 @@
     "community": "滨湖名邸二期",
     "avg_area": 110,
     "total_units": 870,
-    "unit_price": 17820
+    "unit_price": 17820,
+    "tax_mock": 19602
   },
   {
     "city": "武汉市",
@@ -1752,7 +1886,8 @@
     "community": "百瑞景中央生活区",
     "avg_area": 100,
     "total_units": 5800,
-    "unit_price": 32110
+    "unit_price": 32110,
+    "tax_mock": 32110
   },
   {
     "city": "武汉市",
@@ -1765,7 +1900,8 @@
     "community": "百瑞景中央生活区别墅",
     "avg_area": 230,
     "total_units": 423,
-    "unit_price": 31000
+    "unit_price": 31000,
+    "tax_mock": 71300
   },
   {
     "city": "武汉市",
@@ -1778,7 +1914,8 @@
     "community": "中南SOHO城",
     "avg_area": 93,
     "total_units": 520,
-    "unit_price": 22499
+    "unit_price": 22499,
+    "tax_mock": 20924.07
   },
   {
     "city": "武汉市",
@@ -1791,7 +1928,8 @@
     "community": "中南六十七号院",
     "avg_area": 88,
     "total_units": 230,
-    "unit_price": 19238
+    "unit_price": 19238,
+    "tax_mock": 16929.44
   },
   {
     "city": "武汉市",
@@ -1804,7 +1942,8 @@
     "community": "付家坡长途客运站宿舍",
     "avg_area": 80,
     "total_units": 158,
-    "unit_price": 18370
+    "unit_price": 18370,
+    "tax_mock": 14696
   },
   {
     "city": "武汉市",
@@ -1817,7 +1956,8 @@
     "community": "中南国际汇",
     "avg_area": 90,
     "total_units": 350,
-    "unit_price": 21900
+    "unit_price": 21900,
+    "tax_mock": 19710
   },
   {
     "city": "武汉市",
@@ -1830,7 +1970,8 @@
     "community": "纽宾凯新时代国际公寓",
     "avg_area": 92,
     "total_units": 268,
-    "unit_price": 17800
+    "unit_price": 17800,
+    "tax_mock": 16376
   },
   {
     "city": "武汉市",
@@ -1843,7 +1984,8 @@
     "community": "银河苑公寓",
     "avg_area": 70,
     "total_units": 90,
-    "unit_price": 17320
+    "unit_price": 17320,
+    "tax_mock": 12124
   },
   {
     "city": "武汉市",
@@ -1856,7 +1998,8 @@
     "community": "傅家坡福利社区",
     "avg_area": 102,
     "total_units": 200,
-    "unit_price": 16500
+    "unit_price": 16500,
+    "tax_mock": 16830
   },
   {
     "city": "武汉市",
@@ -1869,7 +2012,8 @@
     "community": "洪山公寓",
     "avg_area": 80,
     "total_units": 140,
-    "unit_price": 18290
+    "unit_price": 18290,
+    "tax_mock": 14632
   },
   {
     "city": "武汉市",
@@ -1882,7 +2026,8 @@
     "community": "南院小区",
     "avg_area": 150,
     "total_units": 350,
-    "unit_price": 15700
+    "unit_price": 15700,
+    "tax_mock": 23550
   },
   {
     "city": "武汉市",
@@ -1895,7 +2040,8 @@
     "community": "南方帝园",
     "avg_area": 150,
     "total_units": 260,
-    "unit_price": 16700
+    "unit_price": 16700,
+    "tax_mock": 25050
   },
   {
     "city": "武汉市",
@@ -1906,9 +2052,10 @@
     "latitude_gps": 30.5323,
     "longitude_gps": 114.3322,
     "community": "武锅社区",
-    "avg_area": 68,
+    "avg_area": 80,
     "total_units": 580,
-    "unit_price": 14502
+    "unit_price": 14502,
+    "tax_mock": 11601.6
   },
   {
     "city": "武汉市",
@@ -1921,7 +2068,8 @@
     "community": "三环集团宿舍",
     "avg_area": 85,
     "total_units": 430,
-    "unit_price": 17032
+    "unit_price": 17032,
+    "tax_mock": 14477.2
   },
   {
     "city": "武汉市",
@@ -1934,7 +2082,8 @@
     "community": "亚贸恒升公馆",
     "avg_area": 90,
     "total_units": 204,
-    "unit_price": 17320
+    "unit_price": 17320,
+    "tax_mock": 15588
   },
   {
     "city": "武汉市",
@@ -1947,7 +2096,8 @@
     "community": "涂家岭铁路小区",
     "avg_area": 93,
     "total_units": 180,
-    "unit_price": 15740
+    "unit_price": 15740,
+    "tax_mock": 14638.2
   },
   {
     "city": "武汉市",
@@ -1960,7 +2110,8 @@
     "community": "莲溪寺社区佑泉苑小区",
     "avg_area": 78,
     "total_units": 450,
-    "unit_price": 15327
+    "unit_price": 15327,
+    "tax_mock": 11955.06
   },
   {
     "city": "武汉市",
@@ -1973,7 +2124,8 @@
     "community": "武铁向阳小区",
     "avg_area": 105,
     "total_units": 230,
-    "unit_price": 14500
+    "unit_price": 14500,
+    "tax_mock": 15225
   },
   {
     "city": "武汉市",
@@ -1986,7 +2138,8 @@
     "community": "石牌岭物资处宿舍",
     "avg_area": 80,
     "total_units": 370,
-    "unit_price": 14320
+    "unit_price": 14320,
+    "tax_mock": 11456
   },
   {
     "city": "武汉市",
@@ -1999,7 +2152,8 @@
     "community": "滨湖名邸一期",
     "avg_area": 120,
     "total_units": 317,
-    "unit_price": 15740
+    "unit_price": 15740,
+    "tax_mock": 18888
   },
   {
     "city": "武汉市",
@@ -2012,7 +2166,8 @@
     "community": "石牌岭干休所",
     "avg_area": 90,
     "total_units": 230,
-    "unit_price": 13475
+    "unit_price": 13475,
+    "tax_mock": 12127.5
   },
   {
     "city": "武汉市",
@@ -2025,7 +2180,8 @@
     "community": "江厦新村社区",
     "avg_area": 85,
     "total_units": 310,
-    "unit_price": 17305
+    "unit_price": 17305,
+    "tax_mock": 14709.25
   },
   {
     "city": "武汉市",
@@ -2038,7 +2194,8 @@
     "community": "石碑岭社区",
     "avg_area": 80,
     "total_units": 730,
-    "unit_price": 15704
+    "unit_price": 15704,
+    "tax_mock": 12563.2
   },
   {
     "city": "武汉市",
@@ -2051,7 +2208,8 @@
     "community": "洪山村干休所",
     "avg_area": 90,
     "total_units": 224,
-    "unit_price": 17600
+    "unit_price": 17600,
+    "tax_mock": 15840
   },
   {
     "city": "武汉市",
@@ -2064,7 +2222,8 @@
     "community": "精典公寓小区",
     "avg_area": 90,
     "total_units": 350,
-    "unit_price": 16750
+    "unit_price": 16750,
+    "tax_mock": 15075
   },
   {
     "city": "武汉市",
@@ -2077,7 +2236,8 @@
     "community": "岭地金居",
     "avg_area": 100,
     "total_units": 278,
-    "unit_price": 17500
+    "unit_price": 17500,
+    "tax_mock": 17500
   },
   {
     "city": "武汉市",
@@ -2090,7 +2250,8 @@
     "community": "傅家坡国土厅宿舍",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 22116
   },
   {
     "city": "武汉市",
@@ -2103,7 +2264,8 @@
     "community": "紫东馨居",
     "avg_area": 150,
     "total_units": 320,
-    "unit_price": 21040
+    "unit_price": 21040,
+    "tax_mock": 31560
   },
   {
     "city": "武汉市",
@@ -2116,7 +2278,8 @@
     "community": "梅苑小区",
     "avg_area": 130,
     "total_units": 450,
-    "unit_price": 18816
+    "unit_price": 18816,
+    "tax_mock": 24460.8
   },
   {
     "city": "武汉市",
@@ -2129,7 +2292,8 @@
     "community": "畔山庭院",
     "avg_area": 100,
     "total_units": 130,
-    "unit_price": 18717
+    "unit_price": 18717,
+    "tax_mock": 18717
   },
   {
     "city": "武汉市",
@@ -2142,7 +2306,8 @@
     "community": "世纪名苑",
     "avg_area": 100,
     "total_units": 250,
-    "unit_price": 18302
+    "unit_price": 18302,
+    "tax_mock": 18302
   },
   {
     "city": "武汉市",
@@ -2155,7 +2320,8 @@
     "community": "超能电力宿舍",
     "avg_area": 80,
     "total_units": 340,
-    "unit_price": 18032
+    "unit_price": 18032,
+    "tax_mock": 14425.6
   },
   {
     "city": "武汉市",
@@ -2168,7 +2334,8 @@
     "community": "楚雄公寓",
     "avg_area": 74,
     "total_units": 462,
-    "unit_price": 17402
+    "unit_price": 17402,
+    "tax_mock": 12877.48
   },
   {
     "city": "武汉市",
@@ -2181,7 +2348,8 @@
     "community": "江宏大厦",
     "avg_area": 80,
     "total_units": 100,
-    "unit_price": 17322
+    "unit_price": 17322,
+    "tax_mock": 13857.6
   },
   {
     "city": "武汉市",
@@ -2194,7 +2362,8 @@
     "community": "涂家岭村",
     "avg_area": 94,
     "total_units": 530,
-    "unit_price": 15720
+    "unit_price": 15720,
+    "tax_mock": 14776.8
   },
   {
     "city": "武汉市",
@@ -2207,7 +2376,8 @@
     "community": "莲溪寺南村铁路小区",
     "avg_area": 140,
     "total_units": 191,
-    "unit_price": 12350
+    "unit_price": 12350,
+    "tax_mock": 17290
   },
   {
     "city": "武汉市",
@@ -2220,7 +2390,8 @@
     "community": "丽岛2046",
     "avg_area": 90,
     "total_units": 1380,
-    "unit_price": 18300
+    "unit_price": 18300,
+    "tax_mock": 16470
   },
   {
     "city": "武汉市",
@@ -2233,7 +2404,8 @@
     "community": "沈家湾花园小区",
     "avg_area": 130,
     "total_units": 505,
-    "unit_price": 15700
+    "unit_price": 15700,
+    "tax_mock": 20410
   },
   {
     "city": "武汉市",
@@ -2246,7 +2418,8 @@
     "community": "波光园2期",
     "avg_area": 90,
     "total_units": 720,
-    "unit_price": 17320
+    "unit_price": 17320,
+    "tax_mock": 15588
   },
   {
     "city": "武汉市",
@@ -2259,7 +2432,8 @@
     "community": "阳光小区(邓家湾)",
     "avg_area": 110,
     "total_units": 780,
-    "unit_price": 18758
+    "unit_price": 18758,
+    "tax_mock": 20633.8
   },
   {
     "city": "武汉市",
@@ -2272,7 +2446,8 @@
     "community": "张浩湾小区",
     "avg_area": 70,
     "total_units": 576,
-    "unit_price": 15730
+    "unit_price": 15730,
+    "tax_mock": 11011
   },
   {
     "city": "武汉市",
@@ -2285,7 +2460,8 @@
     "community": "静安上城",
     "avg_area": 135,
     "total_units": 989,
-    "unit_price": 21030
+    "unit_price": 21030,
+    "tax_mock": 28390.5
   },
   {
     "city": "武汉市",
@@ -2298,7 +2474,8 @@
     "community": "静安上城别墅",
     "avg_area": 250,
     "total_units": 10,
-    "unit_price": 18920
+    "unit_price": 18920,
+    "tax_mock": 47300
   },
   {
     "city": "武汉市",
@@ -2311,7 +2488,8 @@
     "community": "北港佳和云居",
     "avg_area": 174,
     "total_units": 1560,
-    "unit_price": 18029
+    "unit_price": 18029,
+    "tax_mock": 31370.46
   },
   {
     "city": "武汉市",
@@ -2324,7 +2502,8 @@
     "community": "万科新都会",
     "avg_area": 130,
     "total_units": 4300,
-    "unit_price": 24500
+    "unit_price": 24500,
+    "tax_mock": 31850
   },
   {
     "city": "武汉市",
@@ -2337,7 +2516,8 @@
     "community": "采荷居",
     "avg_area": 70,
     "total_units": 872,
-    "unit_price": 17083
+    "unit_price": 17083,
+    "tax_mock": 11958.1
   },
   {
     "city": "武汉市",
@@ -2350,7 +2530,8 @@
     "community": "南湖新村",
     "avg_area": 110,
     "total_units": 1200,
-    "unit_price": 17520
+    "unit_price": 17520,
+    "tax_mock": 19272
   },
   {
     "city": "武汉市",
@@ -2361,9 +2542,10 @@
     "latitude_gps": 30.5129,
     "longitude_gps": 114.3053,
     "community": "南湖老区",
-    "avg_area": 50,
+    "avg_area": 90,
     "total_units": 254,
-    "unit_price": 15720
+    "unit_price": 15720,
+    "tax_mock": 14148
   },
   {
     "city": "武汉市",
@@ -2376,7 +2558,8 @@
     "community": "南湖华锦春天故事",
     "avg_area": 80,
     "total_units": 652,
-    "unit_price": 14575
+    "unit_price": 14575,
+    "tax_mock": 11660
   },
   {
     "city": "武汉市",
@@ -2389,7 +2572,8 @@
     "community": "江宏张黄新村小区",
     "avg_area": 70,
     "total_units": 3000,
-    "unit_price": 16750
+    "unit_price": 16750,
+    "tax_mock": 11725
   },
   {
     "city": "武汉市",
@@ -2402,7 +2586,8 @@
     "community": "风华天城",
     "avg_area": 100,
     "total_units": 750,
-    "unit_price": 18239
+    "unit_price": 18239,
+    "tax_mock": 18239
   },
   {
     "city": "武汉市",
@@ -2415,7 +2600,8 @@
     "community": "松涛阁",
     "avg_area": 100,
     "total_units": 730,
-    "unit_price": 16793
+    "unit_price": 16793,
+    "tax_mock": 16793
   },
   {
     "city": "武汉市",
@@ -2428,7 +2614,8 @@
     "community": "景虹花园二期",
     "avg_area": 90,
     "total_units": 250,
-    "unit_price": 15890
+    "unit_price": 15890,
+    "tax_mock": 14301
   },
   {
     "city": "武汉市",
@@ -2441,7 +2628,8 @@
     "community": "南国SOHO",
     "avg_area": 130,
     "total_units": 927,
-    "unit_price": 15505
+    "unit_price": 15505,
+    "tax_mock": 20156.5
   },
   {
     "city": "武汉市",
@@ -2454,7 +2642,8 @@
     "community": "宁静苑平安路",
     "avg_area": 80,
     "total_units": 320,
-    "unit_price": 15430
+    "unit_price": 15430,
+    "tax_mock": 12344
   },
   {
     "city": "武汉市",
@@ -2467,7 +2656,8 @@
     "community": "七星雪香花园",
     "avg_area": 100,
     "total_units": 620,
-    "unit_price": 17592
+    "unit_price": 17592,
+    "tax_mock": 17592
   },
   {
     "city": "武汉市",
@@ -2480,7 +2670,8 @@
     "community": "金秋千秋别墅花园",
     "avg_area": 100,
     "total_units": 203,
-    "unit_price": 19820
+    "unit_price": 19820,
+    "tax_mock": 19820
   },
   {
     "city": "武汉市",
@@ -2493,7 +2684,8 @@
     "community": "新世纪宝安花园",
     "avg_area": 90,
     "total_units": 380,
-    "unit_price": 25701
+    "unit_price": 25701,
+    "tax_mock": 23130.9
   },
   {
     "city": "武汉市",
@@ -2506,7 +2698,8 @@
     "community": "南湖安六小区",
     "avg_area": 130,
     "total_units": 450,
-    "unit_price": 21028
+    "unit_price": 21028,
+    "tax_mock": 27336.4
   },
   {
     "city": "武汉市",
@@ -2519,7 +2712,8 @@
     "community": "南湖都市桃源",
     "avg_area": 100,
     "total_units": 713,
-    "unit_price": 18937
+    "unit_price": 18937,
+    "tax_mock": 18937
   },
   {
     "city": "武汉市",
@@ -2532,7 +2726,8 @@
     "community": "东方莱茵",
     "avg_area": 80,
     "total_units": 1032,
-    "unit_price": 28837
+    "unit_price": 28837,
+    "tax_mock": 23069.6
   },
   {
     "city": "武汉市",
@@ -2545,7 +2740,8 @@
     "community": "水域天际",
     "avg_area": 110,
     "total_units": 2943,
-    "unit_price": 34000
+    "unit_price": 34000,
+    "tax_mock": 37400
   },
   {
     "city": "武汉市",
@@ -2558,7 +2754,8 @@
     "community": "虹顶家园",
     "avg_area": 100,
     "total_units": 426,
-    "unit_price": 28745
+    "unit_price": 28745,
+    "tax_mock": 28745
   },
   {
     "city": "武汉市",
@@ -2571,7 +2768,8 @@
     "community": "南湖花园城",
     "avg_area": 120,
     "total_units": 1300,
-    "unit_price": 25234
+    "unit_price": 25234,
+    "tax_mock": 30280.8
   },
   {
     "city": "武汉市",
@@ -2584,7 +2782,8 @@
     "community": "康乐苑(恒安路)",
     "avg_area": 110,
     "total_units": 428,
-    "unit_price": 24830
+    "unit_price": 24830,
+    "tax_mock": 27313
   },
   {
     "city": "武汉市",
@@ -2597,7 +2796,8 @@
     "community": "华锦花园",
     "avg_area": 90,
     "total_units": 874,
-    "unit_price": 28432
+    "unit_price": 28432,
+    "tax_mock": 25588.8
   },
   {
     "city": "武汉市",
@@ -2610,7 +2810,8 @@
     "community": "江宏花园",
     "avg_area": 120,
     "total_units": 1204,
-    "unit_price": 27573
+    "unit_price": 27573,
+    "tax_mock": 33087.6
   },
   {
     "city": "武汉市",
@@ -2623,7 +2824,8 @@
     "community": "南湖沁康园",
     "avg_area": 130,
     "total_units": 380,
-    "unit_price": 25430
+    "unit_price": 25430,
+    "tax_mock": 33059
   },
   {
     "city": "武汉市",
@@ -2636,7 +2838,8 @@
     "community": "雄楚公寓",
     "avg_area": 80,
     "total_units": 150,
-    "unit_price": 13450
+    "unit_price": 13450,
+    "tax_mock": 10760
   },
   {
     "city": "武汉市",
@@ -2649,7 +2852,8 @@
     "community": "南湖教委宿舍",
     "avg_area": 120,
     "total_units": 130,
-    "unit_price": 15890
+    "unit_price": 15890,
+    "tax_mock": 19068
   },
   {
     "city": "武汉市",
@@ -2662,7 +2866,8 @@
     "community": "松涛苑",
     "avg_area": 100,
     "total_units": 800,
-    "unit_price": 24800
+    "unit_price": 24800,
+    "tax_mock": 24800
   },
   {
     "city": "武汉市",
@@ -2675,7 +2880,8 @@
     "community": "松涛苑别墅",
     "avg_area": 250,
     "total_units": 104,
-    "unit_price": 22990
+    "unit_price": 22990,
+    "tax_mock": 57475
   },
   {
     "city": "武汉市",
@@ -2688,7 +2894,8 @@
     "community": "景虹花园一期",
     "avg_area": 130,
     "total_units": 695,
-    "unit_price": 21030
+    "unit_price": 21030,
+    "tax_mock": 27339
   },
   {
     "city": "武汉市",
@@ -2701,7 +2908,8 @@
     "community": "鸿瑞佳苑",
     "avg_area": 120,
     "total_units": 504,
-    "unit_price": 20827
+    "unit_price": 20827,
+    "tax_mock": 24992.4
   },
   {
     "city": "武汉市",
@@ -2714,7 +2922,8 @@
     "community": "陆总花园",
     "avg_area": 110,
     "total_units": 320,
-    "unit_price": 17742
+    "unit_price": 17742,
+    "tax_mock": 19516.2
   },
   {
     "city": "武汉市",
@@ -2727,7 +2936,8 @@
     "community": "税务局宿舍(南湖路)",
     "avg_area": 80,
     "total_units": 140,
-    "unit_price": 18329
+    "unit_price": 18329,
+    "tax_mock": 14663.2
   },
   {
     "city": "武汉市",
@@ -2740,7 +2950,8 @@
     "community": "伟业佳苑",
     "avg_area": 70,
     "total_units": 264,
-    "unit_price": 19273
+    "unit_price": 19273,
+    "tax_mock": 13491.1
   },
   {
     "city": "武汉市",
@@ -2753,7 +2964,8 @@
     "community": "天久云门",
     "avg_area": 80,
     "total_units": 624,
-    "unit_price": 17465
+    "unit_price": 17465,
+    "tax_mock": 13972
   },
   {
     "city": "武汉市",
@@ -2766,7 +2978,8 @@
     "community": "轻院长虹小区",
     "avg_area": 80,
     "total_units": 347,
-    "unit_price": 17547
+    "unit_price": 17547,
+    "tax_mock": 14037.6
   },
   {
     "city": "武汉市",
@@ -2779,7 +2992,8 @@
     "community": "华亚新领地",
     "avg_area": 110,
     "total_units": 308,
-    "unit_price": 16593
+    "unit_price": 16593,
+    "tax_mock": 18252.3
   },
   {
     "city": "武汉市",
@@ -2792,7 +3006,8 @@
     "community": "天华新村",
     "avg_area": 70,
     "total_units": 520,
-    "unit_price": 17642
+    "unit_price": 17642,
+    "tax_mock": 12349.4
   },
   {
     "city": "武汉市",
@@ -2803,9 +3018,10 @@
     "latitude_gps": 30.5216,
     "longitude_gps": 114.3162,
     "community": "晒湖小区",
-    "avg_area": 110,
+    "avg_area": 130,
     "total_units": 302,
-    "unit_price": 13359
+    "unit_price": 13359,
+    "tax_mock": 17366.7
   },
   {
     "city": "武汉市",
@@ -2818,7 +3034,8 @@
     "community": "江宏新村小区",
     "avg_area": 80,
     "total_units": 450,
-    "unit_price": 14820
+    "unit_price": 14820,
+    "tax_mock": 11856
   },
   {
     "city": "武汉市",
@@ -2831,7 +3048,8 @@
     "community": "雄楚春天",
     "avg_area": 100,
     "total_units": 670,
-    "unit_price": 15830
+    "unit_price": 15830,
+    "tax_mock": 15830
   },
   {
     "city": "武汉市",
@@ -2844,7 +3062,8 @@
     "community": "迪雅花园",
     "avg_area": 90,
     "total_units": 304,
-    "unit_price": 13204
+    "unit_price": 13204,
+    "tax_mock": 11883.6
   },
   {
     "city": "武汉市",
@@ -2857,7 +3076,8 @@
     "community": "027社区",
     "avg_area": 70,
     "total_units": 1700,
-    "unit_price": 14052
+    "unit_price": 14052,
+    "tax_mock": 9836.4
   },
   {
     "city": "武汉市",
@@ -2870,7 +3090,8 @@
     "community": "江宏别墅小区",
     "avg_area": 120,
     "total_units": 205,
-    "unit_price": 13204
+    "unit_price": 13204,
+    "tax_mock": 15844.8
   },
   {
     "city": "武汉市",
@@ -2883,7 +3104,8 @@
     "community": "宝安香樟里",
     "avg_area": 120,
     "total_units": 200,
-    "unit_price": 29300
+    "unit_price": 29300,
+    "tax_mock": 35160
   },
   {
     "city": "武汉市",
@@ -2896,7 +3118,8 @@
     "community": "中央SOHO",
     "avg_area": 100,
     "total_units": 70,
-    "unit_price": 14025
+    "unit_price": 14025,
+    "tax_mock": 14025
   },
   {
     "city": "武汉市",
@@ -2909,7 +3132,8 @@
     "community": "阳光花园",
     "avg_area": 90,
     "total_units": 200,
-    "unit_price": 15832
+    "unit_price": 15832,
+    "tax_mock": 14248.8
   },
   {
     "city": "武汉市",
@@ -2922,7 +3146,8 @@
     "community": "新大地家园",
     "avg_area": 80,
     "total_units": 200,
-    "unit_price": 14580
+    "unit_price": 14580,
+    "tax_mock": 11664
   },
   {
     "city": "武汉市",
@@ -2935,7 +3160,8 @@
     "community": "胭脂山花园",
     "avg_area": 110,
     "total_units": 280,
-    "unit_price": 17593
+    "unit_price": 17593,
+    "tax_mock": 19352.3
   },
   {
     "city": "武汉市",
@@ -2948,7 +3174,8 @@
     "community": "三道街社区",
     "avg_area": 130,
     "total_units": 304,
-    "unit_price": 17589
+    "unit_price": 17589,
+    "tax_mock": 22865.7
   },
   {
     "city": "武汉市",
@@ -2961,7 +3188,8 @@
     "community": "户部巷社区",
     "avg_area": 100,
     "total_units": 320,
-    "unit_price": 19743
+    "unit_price": 19743,
+    "tax_mock": 19743
   },
   {
     "city": "武汉市",
@@ -2974,7 +3202,8 @@
     "community": "都府堤社区",
     "avg_area": 120,
     "total_units": 140,
-    "unit_price": 18742
+    "unit_price": 18742,
+    "tax_mock": 22490.4
   },
   {
     "city": "武汉市",
@@ -2987,7 +3216,8 @@
     "community": "武船宿舍",
     "avg_area": 110,
     "total_units": 120,
-    "unit_price": 18327
+    "unit_price": 18327,
+    "tax_mock": 20159.7
   },
   {
     "city": "武汉市",
@@ -3000,7 +3230,8 @@
     "community": "中华路欧式公寓",
     "avg_area": 130,
     "total_units": 80,
-    "unit_price": 20283
+    "unit_price": 20283,
+    "tax_mock": 26367.9
   },
   {
     "city": "武汉市",
@@ -3013,7 +3244,8 @@
     "community": "楚材社区",
     "avg_area": 80,
     "total_units": 150,
-    "unit_price": 18932
+    "unit_price": 18932,
+    "tax_mock": 15145.6
   },
   {
     "city": "武汉市",
@@ -3026,7 +3258,8 @@
     "community": "中铁十一局小区",
     "avg_area": 90,
     "total_units": 450,
-    "unit_price": 17492
+    "unit_price": 17492,
+    "tax_mock": 15742.8
   },
   {
     "city": "武汉市",
@@ -3039,7 +3272,8 @@
     "community": "中山路小学宿舍",
     "avg_area": 110,
     "total_units": 320,
-    "unit_price": 16572
+    "unit_price": 16572,
+    "tax_mock": 18229.2
   },
   {
     "city": "武汉市",
@@ -3052,7 +3286,8 @@
     "community": "凤凰山公寓",
     "avg_area": 70,
     "total_units": 200,
-    "unit_price": 15432
+    "unit_price": 15432,
+    "tax_mock": 10802.4
   },
   {
     "city": "武汉市",
@@ -3065,7 +3300,8 @@
     "community": "中山桥社区",
     "avg_area": 100,
     "total_units": 480,
-    "unit_price": 18493
+    "unit_price": 18493,
+    "tax_mock": 18493
   },
   {
     "city": "武汉市",
@@ -3078,7 +3314,8 @@
     "community": "小东门社区北区",
     "avg_area": 110,
     "total_units": 300,
-    "unit_price": 17690
+    "unit_price": 17690,
+    "tax_mock": 19459
   },
   {
     "city": "武汉市",
@@ -3091,7 +3328,8 @@
     "community": "公汽宿舍",
     "avg_area": 70,
     "total_units": 200,
-    "unit_price": 15793
+    "unit_price": 15793,
+    "tax_mock": 11055.1
   },
   {
     "city": "武汉市",
@@ -3102,9 +3340,10 @@
     "latitude_gps": 30.5553,
     "longitude_gps": 114.2925,
     "community": "常阳丽江城",
-    "avg_area": 107,
+    "avg_area": 100,
     "total_units": 650,
-    "unit_price": 23450
+    "unit_price": 23450,
+    "tax_mock": 23450
   },
   {
     "city": "武汉市",
@@ -3117,7 +3356,8 @@
     "community": "云架桥小区",
     "avg_area": 120,
     "total_units": 180,
-    "unit_price": 19284
+    "unit_price": 19284,
+    "tax_mock": 23140.8
   },
   {
     "city": "武汉市",
@@ -3130,7 +3370,8 @@
     "community": "英坊小区",
     "avg_area": 110,
     "total_units": 300,
-    "unit_price": 19850
+    "unit_price": 19850,
+    "tax_mock": 21835
   },
   {
     "city": "武汉市",
@@ -3143,7 +3384,8 @@
     "community": "湖北美术学院教工宿舍",
     "avg_area": 70,
     "total_units": 402,
-    "unit_price": 18490
+    "unit_price": 18490,
+    "tax_mock": 12943
   },
   {
     "city": "武汉市",
@@ -3156,7 +3398,8 @@
     "community": "2008新长江广场",
     "avg_area": 90,
     "total_units": 120,
-    "unit_price": 22380
+    "unit_price": 22380,
+    "tax_mock": 20142
   },
   {
     "city": "武汉市",
@@ -3169,7 +3412,8 @@
     "community": "后补街小区",
     "avg_area": 130,
     "total_units": 340,
-    "unit_price": 19830
+    "unit_price": 19830,
+    "tax_mock": 25779
   },
   {
     "city": "武汉市",
@@ -3182,7 +3426,8 @@
     "community": "履坦巷16号",
     "avg_area": 70,
     "total_units": 60,
-    "unit_price": 21840
+    "unit_price": 21840,
+    "tax_mock": 15288
   },
   {
     "city": "武汉市",
@@ -3195,7 +3440,8 @@
     "community": "胭脂山庄",
     "avg_area": 130,
     "total_units": 120,
-    "unit_price": 17508
+    "unit_price": 17508,
+    "tax_mock": 22760.4
   },
   {
     "city": "武汉市",
@@ -3208,7 +3454,8 @@
     "community": "郭家营小区",
     "avg_area": 110,
     "total_units": 717,
-    "unit_price": 19082
+    "unit_price": 19082,
+    "tax_mock": 20990.2
   },
   {
     "city": "武汉市",
@@ -3221,7 +3468,8 @@
     "community": "得胜桥小区",
     "avg_area": 100,
     "total_units": 750,
-    "unit_price": 18473
+    "unit_price": 18473,
+    "tax_mock": 18473
   },
   {
     "city": "武汉市",
@@ -3234,7 +3482,8 @@
     "community": "武汉中学宿舍",
     "avg_area": 80,
     "total_units": 56,
-    "unit_price": 19843
+    "unit_price": 19843,
+    "tax_mock": 15874.4
   },
   {
     "city": "武汉市",
@@ -3247,7 +3496,8 @@
     "community": "忠孝门小区",
     "avg_area": 110,
     "total_units": 683,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 19349
   },
   {
     "city": "武汉市",
@@ -3260,7 +3510,8 @@
     "community": "武昌区粮道街小东门社区",
     "avg_area": 70,
     "total_units": 750,
-    "unit_price": 18940
+    "unit_price": 18940,
+    "tax_mock": 13258
   },
   {
     "city": "武汉市",
@@ -3273,7 +3524,8 @@
     "community": "小东门桃源小区",
     "avg_area": 110,
     "total_units": 563,
-    "unit_price": 16400
+    "unit_price": 16400,
+    "tax_mock": 18040
   },
   {
     "city": "武汉市",
@@ -3286,7 +3538,8 @@
     "community": "昙华林社区",
     "avg_area": 70,
     "total_units": 700,
-    "unit_price": 16430
+    "unit_price": 16430,
+    "tax_mock": 11501
   },
   {
     "city": "武汉市",
@@ -3299,7 +3552,8 @@
     "community": "武昌花园山牧师公寓",
     "avg_area": 80,
     "total_units": 420,
-    "unit_price": 15890
+    "unit_price": 15890,
+    "tax_mock": 12712
   },
   {
     "city": "武汉市",
@@ -3312,7 +3566,8 @@
     "community": "武昌区粮道街中医社区",
     "avg_area": 100,
     "total_units": 320,
-    "unit_price": 15643
+    "unit_price": 15643,
+    "tax_mock": 15643
   },
   {
     "city": "武汉市",
@@ -3325,7 +3580,8 @@
     "community": "湖北经济学院小区",
     "avg_area": 130,
     "total_units": 200,
-    "unit_price": 18043
+    "unit_price": 18043,
+    "tax_mock": 23455.9
   },
   {
     "city": "武汉市",
@@ -3338,7 +3594,8 @@
     "community": "鼓架坡小区",
     "avg_area": 130,
     "total_units": 400,
-    "unit_price": 18504
+    "unit_price": 18504,
+    "tax_mock": 24055.2
   },
   {
     "city": "武汉市",
@@ -3351,7 +3608,8 @@
     "community": "电力宿舍(粮道街)",
     "avg_area": 80,
     "total_units": 230,
-    "unit_price": 26743
+    "unit_price": 26743,
+    "tax_mock": 21394.4
   },
   {
     "city": "武汉市",
@@ -3364,7 +3622,8 @@
     "community": "云鹤星苑",
     "avg_area": 100,
     "total_units": 355,
-    "unit_price": 30832
+    "unit_price": 30832,
+    "tax_mock": 30832
   },
   {
     "city": "武汉市",
@@ -3377,7 +3636,8 @@
     "community": "都景园小区",
     "avg_area": 140,
     "total_units": 200,
-    "unit_price": 23900
+    "unit_price": 23900,
+    "tax_mock": 33460
   },
   {
     "city": "武汉市",
@@ -3390,7 +3650,8 @@
     "community": "司门口民主巷小区",
     "avg_area": 110,
     "total_units": 402,
-    "unit_price": 22480
+    "unit_price": 22480,
+    "tax_mock": 24728
   },
   {
     "city": "武汉市",
@@ -3403,7 +3664,8 @@
     "community": "广福坊",
     "avg_area": 120,
     "total_units": 300,
-    "unit_price": 18329
+    "unit_price": 18329,
+    "tax_mock": 21994.8
   },
   {
     "city": "武汉市",
@@ -3416,7 +3678,8 @@
     "community": "民主路432号小区",
     "avg_area": 90,
     "total_units": 200,
-    "unit_price": 23048
+    "unit_price": 23048,
+    "tax_mock": 20743.2
   },
   {
     "city": "武汉市",
@@ -3429,7 +3692,8 @@
     "community": "武昌区卫生局卫生监督所宿舍",
     "avg_area": 120,
     "total_units": 180,
-    "unit_price": 21000
+    "unit_price": 21000,
+    "tax_mock": 25200
   },
   {
     "city": "武汉市",
@@ -3442,7 +3706,8 @@
     "community": "武昌海马巷小区",
     "avg_area": 80,
     "total_units": 450,
-    "unit_price": 28904
+    "unit_price": 28904,
+    "tax_mock": 23123.2
   },
   {
     "city": "武汉市",
@@ -3455,7 +3720,8 @@
     "community": "书香苑(马家巷)",
     "avg_area": 100,
     "total_units": 320,
-    "unit_price": 25800
+    "unit_price": 25800,
+    "tax_mock": 25800
   },
   {
     "city": "武汉市",
@@ -3468,7 +3734,8 @@
     "community": "戈甲营社区",
     "avg_area": 130,
     "total_units": 340,
-    "unit_price": 21200
+    "unit_price": 21200,
+    "tax_mock": 27560
   },
   {
     "city": "武汉市",
@@ -3481,7 +3748,8 @@
     "community": "棋盘街社区",
     "avg_area": 110,
     "total_units": 450,
-    "unit_price": 19873
+    "unit_price": 19873,
+    "tax_mock": 21860.3
   },
   {
     "city": "武汉市",
@@ -3494,7 +3762,8 @@
     "community": "粮道街桃园小区",
     "avg_area": 80,
     "total_units": 180,
-    "unit_price": 18470
+    "unit_price": 18470,
+    "tax_mock": 14776
   },
   {
     "city": "武汉市",
@@ -3507,7 +3776,8 @@
     "community": "粮道街经济管理学院宿舍",
     "avg_area": 130,
     "total_units": 120,
-    "unit_price": 18340
+    "unit_price": 18340,
+    "tax_mock": 23842
   },
   {
     "city": "武汉市",
@@ -3520,7 +3790,8 @@
     "community": "粮道街工商所公房",
     "avg_area": 80,
     "total_units": 200,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 14656
   },
   {
     "city": "武汉市",
@@ -3533,7 +3804,8 @@
     "community": "涵三宫小区",
     "avg_area": 70,
     "total_units": 570,
-    "unit_price": 17908
+    "unit_price": 17908,
+    "tax_mock": 12535.6
   },
   {
     "city": "武汉市",
@@ -3544,9 +3816,10 @@
     "latitude_gps": 30.55,
     "longitude_gps": 114.2995,
     "community": "白土塘小区",
-    "avg_area": 58,
+    "avg_area": 110,
     "total_units": 340,
-    "unit_price": 17490
+    "unit_price": 17490,
+    "tax_mock": 19239
   },
   {
     "city": "武汉市",
@@ -3557,9 +3830,10 @@
     "latitude_gps": 30.5488,
     "longitude_gps": 114.3101,
     "community": "马蹄营小区",
-    "avg_area": 45,
+    "avg_area": 100,
     "total_units": 500,
-    "unit_price": 17329
+    "unit_price": 17329,
+    "tax_mock": 17329
   },
   {
     "city": "武汉市",
@@ -3572,7 +3846,8 @@
     "community": "武汉金专职工宿舍",
     "avg_area": 100,
     "total_units": 340,
-    "unit_price": 18043
+    "unit_price": 18043,
+    "tax_mock": 18043
   },
   {
     "city": "武汉市",
@@ -3585,7 +3860,8 @@
     "community": "湖北经济学院教工公寓",
     "avg_area": 100,
     "total_units": 760,
-    "unit_price": 19078
+    "unit_price": 19078,
+    "tax_mock": 19078
   },
   {
     "city": "武汉市",
@@ -3596,9 +3872,10 @@
     "latitude_gps": 30.5504,
     "longitude_gps": 114.303,
     "community": "怡海大厦",
-    "avg_area": 55,
+    "avg_area": 80,
     "total_units": 360,
-    "unit_price": 18750
+    "unit_price": 18750,
+    "tax_mock": 15000
   },
   {
     "city": "武汉市",
@@ -3611,7 +3888,8 @@
     "community": "粮道街胭脂路社区",
     "avg_area": 110,
     "total_units": 750,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 20273
   },
   {
     "city": "武汉市",
@@ -3624,7 +3902,8 @@
     "community": "煜龙山庄",
     "avg_area": 70,
     "total_units": 400,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 12824
   },
   {
     "city": "武汉市",
@@ -3635,9 +3914,10 @@
     "latitude_gps": 30.5504,
     "longitude_gps": 114.3045,
     "community": "紫晋公寓",
-    "avg_area": 65,
+    "avg_area": 80,
     "total_units": 180,
-    "unit_price": 17980
+    "unit_price": 17980,
+    "tax_mock": 14384
   },
   {
     "city": "武汉市",
@@ -3650,7 +3930,8 @@
     "community": "顶秀嘉园",
     "avg_area": 100,
     "total_units": 118,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 17590
   },
   {
     "city": "武汉市",
@@ -3663,7 +3944,8 @@
     "community": "胭脂大院",
     "avg_area": 100,
     "total_units": 120,
-    "unit_price": 19089
+    "unit_price": 19089,
+    "tax_mock": 19089
   },
   {
     "city": "武汉市",
@@ -3676,7 +3958,8 @@
     "community": "郎家巷小区",
     "avg_area": 70,
     "total_units": 470,
-    "unit_price": 18903
+    "unit_price": 18903,
+    "tax_mock": 13232.1
   },
   {
     "city": "武汉市",
@@ -3689,7 +3972,8 @@
     "community": "粮道街花园山社区",
     "avg_area": 110,
     "total_units": 230,
-    "unit_price": 18475
+    "unit_price": 18475,
+    "tax_mock": 20322.5
   },
   {
     "city": "武汉市",
@@ -3702,7 +3986,8 @@
     "community": "积玉桥工商宿舍",
     "avg_area": 80,
     "total_units": 120,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 14744
   },
   {
     "city": "武汉市",
@@ -3715,7 +4000,8 @@
     "community": "胭脂路地税局宿舍",
     "avg_area": 90,
     "total_units": 250,
-    "unit_price": 17402
+    "unit_price": 17402,
+    "tax_mock": 15661.8
   },
   {
     "city": "武汉市",
@@ -3728,7 +4014,8 @@
     "community": "胭脂庭院",
     "avg_area": 90,
     "total_units": 380,
-    "unit_price": 15894
+    "unit_price": 15894,
+    "tax_mock": 14304.6
   },
   {
     "city": "武汉市",
@@ -3739,9 +4026,10 @@
     "latitude_gps": 30.5508,
     "longitude_gps": 114.2921,
     "community": "自由路小区",
-    "avg_area": 55,
+    "avg_area": 90,
     "total_units": 470,
-    "unit_price": 16789
+    "unit_price": 16789,
+    "tax_mock": 15110.1
   },
   {
     "city": "武汉市",
@@ -3754,7 +4042,8 @@
     "community": "中华路公寓",
     "avg_area": 90,
     "total_units": 340,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 16488
   },
   {
     "city": "武汉市",
@@ -3767,7 +4056,8 @@
     "community": "民主路荆南街小区",
     "avg_area": 80,
     "total_units": 670,
-    "unit_price": 15803
+    "unit_price": 15803,
+    "tax_mock": 12642.4
   },
   {
     "city": "武汉市",
@@ -3780,7 +4070,8 @@
     "community": "青石桥",
     "avg_area": 90,
     "total_units": 200,
-    "unit_price": 18504
+    "unit_price": 18504,
+    "tax_mock": 16653.6
   },
   {
     "city": "武汉市",
@@ -3793,7 +4084,8 @@
     "community": "新华村社区",
     "avg_area": 120,
     "total_units": 880,
-    "unit_price": 16850
+    "unit_price": 16850,
+    "tax_mock": 20220
   },
   {
     "city": "武汉市",
@@ -3806,7 +4098,8 @@
     "community": "泰昌公寓",
     "avg_area": 70,
     "total_units": 370,
-    "unit_price": 17835
+    "unit_price": 17835,
+    "tax_mock": 12484.5
   },
   {
     "city": "武汉市",
@@ -3819,7 +4112,8 @@
     "community": "医疗器械公司宿舍",
     "avg_area": 100,
     "total_units": 230,
-    "unit_price": 17089
+    "unit_price": 17089,
+    "tax_mock": 17089
   },
   {
     "city": "武汉市",
@@ -3830,9 +4124,10 @@
     "latitude_gps": 30.5563,
     "longitude_gps": 114.2976,
     "community": "西城壕社区",
-    "avg_area": 40,
+    "avg_area": 90,
     "total_units": 430,
-    "unit_price": 18052
+    "unit_price": 18052,
+    "tax_mock": 16246.8
   },
   {
     "city": "武汉市",
@@ -3845,7 +4140,8 @@
     "community": "鸿华花园",
     "avg_area": 70,
     "total_units": 230,
-    "unit_price": 20734
+    "unit_price": 20734,
+    "tax_mock": 14513.8
   },
   {
     "city": "武汉市",
@@ -3858,7 +4154,8 @@
     "community": "银聚园公寓",
     "avg_area": 100,
     "total_units": 250,
-    "unit_price": 21084
+    "unit_price": 21084,
+    "tax_mock": 21084
   },
   {
     "city": "武汉市",
@@ -3871,7 +4168,8 @@
     "community": "司门口青龙巷小区",
     "avg_area": 130,
     "total_units": 370,
-    "unit_price": 18308
+    "unit_price": 18308,
+    "tax_mock": 23800.4
   },
   {
     "city": "武汉市",
@@ -3884,7 +4182,8 @@
     "community": "警官大院",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 21108
   },
   {
     "city": "武汉市",
@@ -3897,7 +4196,8 @@
     "community": "崇福山",
     "avg_area": 90,
     "total_units": 520,
-    "unit_price": 17553
+    "unit_price": 17553,
+    "tax_mock": 15797.7
   },
   {
     "city": "武汉市",
@@ -3910,7 +4210,8 @@
     "community": "司门口鸿翔巷小区",
     "avg_area": 120,
     "total_units": 370,
-    "unit_price": 18402
+    "unit_price": 18402,
+    "tax_mock": 22082.4
   },
   {
     "city": "武汉市",
@@ -3923,7 +4224,8 @@
     "community": "东湖熙园",
     "avg_area": 100,
     "total_units": 470,
-    "unit_price": 21570
+    "unit_price": 21570,
+    "tax_mock": 21570
   },
   {
     "city": "武汉市",
@@ -3936,7 +4238,8 @@
     "community": "海山金谷天城",
     "avg_area": 100,
     "total_units": 480,
-    "unit_price": 20245
+    "unit_price": 20245,
+    "tax_mock": 20245
   },
   {
     "city": "武汉市",
@@ -3949,7 +4252,8 @@
     "community": "楚商大厦",
     "avg_area": 80,
     "total_units": 70,
-    "unit_price": 20280
+    "unit_price": 20280,
+    "tax_mock": 16224
   },
   {
     "city": "武汉市",
@@ -3962,7 +4266,8 @@
     "community": "楚天都市花园",
     "avg_area": 110,
     "total_units": 447,
-    "unit_price": 17582
+    "unit_price": 17582,
+    "tax_mock": 19340.2
   },
   {
     "city": "武汉市",
@@ -3975,7 +4280,8 @@
     "community": "中南一路燃料公司宿舍",
     "avg_area": 90,
     "total_units": 220,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 15831
   },
   {
     "city": "武汉市",
@@ -3988,7 +4294,8 @@
     "community": "中南客运站宿舍",
     "avg_area": 110,
     "total_units": 310,
-    "unit_price": 19938
+    "unit_price": 19938,
+    "tax_mock": 21931.8
   },
   {
     "city": "武汉市",
@@ -4001,7 +4308,8 @@
     "community": "中南一路建材宿舍",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 43202
+    "unit_price": 43202,
+    "tax_mock": 51842.4
   },
   {
     "city": "武汉市",
@@ -4014,7 +4322,8 @@
     "community": "省建材大院",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 18949
+    "unit_price": 18949,
+    "tax_mock": 22738.8
   },
   {
     "city": "武汉市",
@@ -4027,7 +4336,8 @@
     "community": "湖北省测绘局中南大院",
     "avg_area": 110,
     "total_units": 230,
-    "unit_price": 18573
+    "unit_price": 18573,
+    "tax_mock": 20430.3
   },
   {
     "city": "武汉市",
@@ -4040,7 +4350,8 @@
     "community": "物质公司宿舍",
     "avg_area": 70,
     "total_units": 340,
-    "unit_price": 18549
+    "unit_price": 18549,
+    "tax_mock": 12984.3
   },
   {
     "city": "武汉市",
@@ -4053,7 +4364,8 @@
     "community": "湖北省建筑物资供应运输公司宿舍",
     "avg_area": 70,
     "total_units": 100,
-    "unit_price": 17439
+    "unit_price": 17439,
+    "tax_mock": 12207.3
   },
   {
     "city": "武汉市",
@@ -4066,7 +4378,8 @@
     "community": "七医院宿舍",
     "avg_area": 80,
     "total_units": 300,
-    "unit_price": 15843
+    "unit_price": 15843,
+    "tax_mock": 12674.4
   },
   {
     "city": "武汉市",
@@ -4079,7 +4392,8 @@
     "community": "中南建筑设计院生活区",
     "avg_area": 130,
     "total_units": 200,
-    "unit_price": 38549
+    "unit_price": 38549,
+    "tax_mock": 50113.7
   },
   {
     "city": "武汉市",
@@ -4092,7 +4406,8 @@
     "community": "中南建筑设计院科研设计中心",
     "avg_area": 80,
     "total_units": 240,
-    "unit_price": 35700
+    "unit_price": 35700,
+    "tax_mock": 28560
   },
   {
     "city": "武汉市",
@@ -4105,7 +4420,8 @@
     "community": "小刘家湾社区",
     "avg_area": 130,
     "total_units": 260,
-    "unit_price": 21032
+    "unit_price": 21032,
+    "tax_mock": 27341.6
   },
   {
     "city": "武汉市",
@@ -4118,7 +4434,8 @@
     "community": "奥山星座",
     "avg_area": 110,
     "total_units": 182,
-    "unit_price": 18493
+    "unit_price": 18493,
+    "tax_mock": 20342.3
   },
   {
     "city": "武汉市",
@@ -4131,7 +4448,8 @@
     "community": "中南电力设计院生活区",
     "avg_area": 80,
     "total_units": 192,
-    "unit_price": 17430
+    "unit_price": 17430,
+    "tax_mock": 13944
   },
   {
     "city": "武汉市",
@@ -4144,7 +4462,8 @@
     "community": "阳光年华",
     "avg_area": 120,
     "total_units": 486,
-    "unit_price": 18304
+    "unit_price": 18304,
+    "tax_mock": 21964.8
   },
   {
     "city": "武汉市",
@@ -4157,7 +4476,8 @@
     "community": "中南龙庭",
     "avg_area": 120,
     "total_units": 508,
-    "unit_price": 21458
+    "unit_price": 21458,
+    "tax_mock": 25749.6
   },
   {
     "city": "武汉市",
@@ -4170,7 +4490,8 @@
     "community": "湖北省体育局宿舍区",
     "avg_area": 80,
     "total_units": 450,
-    "unit_price": 24801
+    "unit_price": 24801,
+    "tax_mock": 19840.8
   },
   {
     "city": "武汉市",
@@ -4183,7 +4504,8 @@
     "community": "大东门三村",
     "avg_area": 110,
     "total_units": 320,
-    "unit_price": 21880
+    "unit_price": 21880,
+    "tax_mock": 24068
   },
   {
     "city": "武汉市",
@@ -4196,7 +4518,8 @@
     "community": "国家审计署驻汉办事处小区",
     "avg_area": 80,
     "total_units": 200,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 14072
   },
   {
     "city": "武汉市",
@@ -4209,7 +4532,8 @@
     "community": "景天楼",
     "avg_area": 120,
     "total_units": 100,
-    "unit_price": 18340
+    "unit_price": 18340,
+    "tax_mock": 22008
   },
   {
     "city": "武汉市",
@@ -4222,7 +4546,8 @@
     "community": "姚家岭省国税局宿舍",
     "avg_area": 110,
     "total_units": 120,
-    "unit_price": 20382
+    "unit_price": 20382,
+    "tax_mock": 22420.2
   },
   {
     "city": "武汉市",
@@ -4235,7 +4560,8 @@
     "community": "湖北省司法厅宿舍",
     "avg_area": 110,
     "total_units": 340,
-    "unit_price": 18904
+    "unit_price": 18904,
+    "tax_mock": 20794.4
   },
   {
     "city": "武汉市",
@@ -4248,7 +4574,8 @@
     "community": "长城汇",
     "avg_area": 90,
     "total_units": 1020,
-    "unit_price": 22318
+    "unit_price": 22318,
+    "tax_mock": 20086.2
   },
   {
     "city": "武汉市",
@@ -4261,7 +4588,8 @@
     "community": "群建星城",
     "avg_area": 70,
     "total_units": 1383,
-    "unit_price": 17504
+    "unit_price": 17504,
+    "tax_mock": 12252.8
   },
   {
     "city": "武汉市",
@@ -4274,7 +4602,8 @@
     "community": "鸿玺公馆",
     "avg_area": 120,
     "total_units": 486,
-    "unit_price": 18954
+    "unit_price": 18954,
+    "tax_mock": 22744.8
   },
   {
     "city": "武汉市",
@@ -4287,7 +4616,8 @@
     "community": "小东门电器宿舍",
     "avg_area": 70,
     "total_units": 320,
-    "unit_price": 20392
+    "unit_price": 20392,
+    "tax_mock": 14274.4
   },
   {
     "city": "武汉市",
@@ -4300,7 +4630,8 @@
     "community": "小东门电子小区",
     "avg_area": 80,
     "total_units": 420,
-    "unit_price": 20832
+    "unit_price": 20832,
+    "tax_mock": 16665.6
   },
   {
     "city": "武汉市",
@@ -4313,7 +4644,8 @@
     "community": "小东门安装宿舍",
     "avg_area": 100,
     "total_units": 250,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 19832
   },
   {
     "city": "武汉市",
@@ -4326,7 +4658,8 @@
     "community": "中南电力设计院第二生活区南苑",
     "avg_area": 130,
     "total_units": 350,
-    "unit_price": 15896
+    "unit_price": 15896,
+    "tax_mock": 20664.8
   },
   {
     "city": "武汉市",
@@ -4339,7 +4672,8 @@
     "community": "中南路街民主路小龟山社区",
     "avg_area": 120,
     "total_units": 720,
-    "unit_price": 18590
+    "unit_price": 18590,
+    "tax_mock": 22308
   },
   {
     "city": "武汉市",
@@ -4352,7 +4686,8 @@
     "community": "彩电中心宿舍",
     "avg_area": 110,
     "total_units": 310,
-    "unit_price": 16890
+    "unit_price": 16890,
+    "tax_mock": 18579
   },
   {
     "city": "武汉市",
@@ -4363,9 +4698,10 @@
     "latitude_gps": 30.5485,
     "longitude_gps": 114.3191,
     "community": "供电局宿舍",
-    "avg_area": 60,
+    "avg_area": 100,
     "total_units": 210,
-    "unit_price": 18690
+    "unit_price": 18690,
+    "tax_mock": 18690
   },
   {
     "city": "武汉市",
@@ -4378,7 +4714,8 @@
     "community": "星海虹城",
     "avg_area": 100,
     "total_units": 1139,
-    "unit_price": 15884
+    "unit_price": 15884,
+    "tax_mock": 15884
   },
   {
     "city": "武汉市",
@@ -4391,7 +4728,8 @@
     "community": "武铁汇文住宅小区",
     "avg_area": 70,
     "total_units": 500,
-    "unit_price": 18590
+    "unit_price": 18590,
+    "tax_mock": 13013
   },
   {
     "city": "武汉市",
@@ -4404,7 +4742,8 @@
     "community": "农管局宿舍",
     "avg_area": 130,
     "total_units": 320,
-    "unit_price": 15880
+    "unit_price": 15880,
+    "tax_mock": 20644
   },
   {
     "city": "武汉市",
@@ -4417,7 +4756,8 @@
     "community": "星星社区",
     "avg_area": 90,
     "total_units": 500,
-    "unit_price": 15783
+    "unit_price": 15783,
+    "tax_mock": 14204.7
   },
   {
     "city": "武汉市",
@@ -4430,7 +4770,8 @@
     "community": "紫沙金苑",
     "avg_area": 130,
     "total_units": 280,
-    "unit_price": 25830
+    "unit_price": 25830,
+    "tax_mock": 33579
   },
   {
     "city": "武汉市",
@@ -4443,7 +4784,8 @@
     "community": "民主路急救站宿舍",
     "avg_area": 120,
     "total_units": 450,
-    "unit_price": 19847
+    "unit_price": 19847,
+    "tax_mock": 23816.4
   },
   {
     "city": "武汉市",
@@ -4456,7 +4798,8 @@
     "community": "何家垅社区",
     "avg_area": 110,
     "total_units": 270,
-    "unit_price": 18539
+    "unit_price": 18539,
+    "tax_mock": 20392.9
   },
   {
     "city": "武汉市",
@@ -4469,7 +4812,8 @@
     "community": "小东门职业病防治宿舍",
     "avg_area": 120,
     "total_units": 370,
-    "unit_price": 17580
+    "unit_price": 17580,
+    "tax_mock": 21096
   },
   {
     "city": "武汉市",
@@ -4482,7 +4826,8 @@
     "community": "太阳岛花园(民主二路)",
     "avg_area": 130,
     "total_units": 830,
-    "unit_price": 20005
+    "unit_price": 20005,
+    "tax_mock": 26006.5
   },
   {
     "city": "武汉市",
@@ -4495,7 +4840,8 @@
     "community": "小龟山干休所",
     "avg_area": 70,
     "total_units": 200,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 14758.1
   },
   {
     "city": "武汉市",
@@ -4508,7 +4854,8 @@
     "community": "小东门二航设计院宿舍",
     "avg_area": 120,
     "total_units": 134,
-    "unit_price": 20849
+    "unit_price": 20849,
+    "tax_mock": 25018.8
   },
   {
     "city": "武汉市",
@@ -4521,7 +4868,8 @@
     "community": "拜赞庭",
     "avg_area": 80,
     "total_units": 530,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 15865.6
   },
   {
     "city": "武汉市",
@@ -4534,7 +4882,8 @@
     "community": "工行江南支行宿舍",
     "avg_area": 130,
     "total_units": 200,
-    "unit_price": 18304
+    "unit_price": 18304,
+    "tax_mock": 23795.2
   },
   {
     "city": "武汉市",
@@ -4547,7 +4896,8 @@
     "community": "洪山花园",
     "avg_area": 90,
     "total_units": 208,
-    "unit_price": 17848
+    "unit_price": 17848,
+    "tax_mock": 16063.2
   },
   {
     "city": "武汉市",
@@ -4560,7 +4910,8 @@
     "community": "中南电力设计院第二生活区北苑",
     "avg_area": 130,
     "total_units": 103,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 22802
   },
   {
     "city": "武汉市",
@@ -4573,7 +4924,8 @@
     "community": "知音花园",
     "avg_area": 90,
     "total_units": 310,
-    "unit_price": 19850
+    "unit_price": 19850,
+    "tax_mock": 17865
   },
   {
     "city": "武汉市",
@@ -4586,7 +4938,8 @@
     "community": "南国悦公馆",
     "avg_area": 130,
     "total_units": 80,
-    "unit_price": 13454
+    "unit_price": 13454,
+    "tax_mock": 17490.2
   },
   {
     "city": "武汉市",
@@ -4599,7 +4952,8 @@
     "community": "水务集团宿舍",
     "avg_area": 100,
     "total_units": 240,
-    "unit_price": 15840
+    "unit_price": 15840,
+    "tax_mock": 15840
   },
   {
     "city": "武汉市",
@@ -4610,9 +4964,10 @@
     "latitude_gps": 30.5415,
     "longitude_gps": 114.3473,
     "community": "北坡山庄",
-    "avg_area": 120,
+    "avg_area": 130,
     "total_units": 250,
-    "unit_price": 14730
+    "unit_price": 14730,
+    "tax_mock": 19149
   },
   {
     "city": "武汉市",
@@ -4625,7 +4980,8 @@
     "community": "茶港社区",
     "avg_area": 100,
     "total_units": 370,
-    "unit_price": 17589
+    "unit_price": 17589,
+    "tax_mock": 17589
   },
   {
     "city": "武汉市",
@@ -4638,7 +4994,8 @@
     "community": "小东门铁路小区",
     "avg_area": 100,
     "total_units": 275,
-    "unit_price": 19480
+    "unit_price": 19480,
+    "tax_mock": 19480
   },
   {
     "city": "武汉市",
@@ -4651,7 +5008,8 @@
     "community": "紫沙路小区",
     "avg_area": 110,
     "total_units": 570,
-    "unit_price": 18540
+    "unit_price": 18540,
+    "tax_mock": 20394
   },
   {
     "city": "武汉市",
@@ -4664,7 +5022,8 @@
     "community": "紫沙阁",
     "avg_area": 70,
     "total_units": 230,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 12278
   },
   {
     "city": "武汉市",
@@ -4677,7 +5036,8 @@
     "community": "25中二建宿舍",
     "avg_area": 100,
     "total_units": 480,
-    "unit_price": 13298
+    "unit_price": 13298,
+    "tax_mock": 13298
   },
   {
     "city": "武汉市",
@@ -4690,7 +5050,8 @@
     "community": "金沙城公寓",
     "avg_area": 80,
     "total_units": 180,
-    "unit_price": 14805
+    "unit_price": 14805,
+    "tax_mock": 11844
   },
   {
     "city": "武汉市",
@@ -4703,7 +5064,8 @@
     "community": "星河居",
     "avg_area": 100,
     "total_units": 500,
-    "unit_price": 18540
+    "unit_price": 18540,
+    "tax_mock": 18540
   },
   {
     "city": "武汉市",
@@ -4716,7 +5078,8 @@
     "community": "东龙世纪花园",
     "avg_area": 100,
     "total_units": 850,
-    "unit_price": 18438
+    "unit_price": 18438,
+    "tax_mock": 18438
   },
   {
     "city": "武汉市",
@@ -4729,7 +5092,8 @@
     "community": "金沙阁",
     "avg_area": 100,
     "total_units": 420,
-    "unit_price": 15402
+    "unit_price": 15402,
+    "tax_mock": 15402
   },
   {
     "city": "武汉市",
@@ -4742,7 +5106,8 @@
     "community": "湖北广播电视局宿舍",
     "avg_area": 130,
     "total_units": 450,
-    "unit_price": 18932
+    "unit_price": 18932,
+    "tax_mock": 24611.6
   },
   {
     "city": "武汉市",
@@ -4755,7 +5120,8 @@
     "community": "红岭花苑小区",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 18548
+    "unit_price": 18548,
+    "tax_mock": 22257.6
   },
   {
     "city": "武汉市",
@@ -4768,7 +5134,8 @@
     "community": "武汉市建筑二公司宿舍(舒家街)",
     "avg_area": 110,
     "total_units": 420,
-    "unit_price": 18438
+    "unit_price": 18438,
+    "tax_mock": 20281.8
   },
   {
     "city": "武汉市",
@@ -4781,7 +5148,8 @@
     "community": "武汉三角花园小区",
     "avg_area": 100,
     "total_units": 320,
-    "unit_price": 15470
+    "unit_price": 15470,
+    "tax_mock": 15470
   },
   {
     "city": "武汉市",
@@ -4794,7 +5162,8 @@
     "community": "怡景苑(临江大道)",
     "avg_area": 80,
     "total_units": 180,
-    "unit_price": 23100
+    "unit_price": 23100,
+    "tax_mock": 18480
   },
   {
     "city": "武汉市",
@@ -4807,7 +5176,8 @@
     "community": "东原时光道",
     "avg_area": 70,
     "total_units": 370,
-    "unit_price": 25801
+    "unit_price": 25801,
+    "tax_mock": 18060.7
   },
   {
     "city": "武汉市",
@@ -4820,7 +5190,8 @@
     "community": "佳馨花园",
     "avg_area": 130,
     "total_units": 150,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 27407.9
   },
   {
     "city": "武汉市",
@@ -4833,7 +5204,8 @@
     "community": "福星惠誉芭莎公馆",
     "avg_area": 110,
     "total_units": 250,
-    "unit_price": 20283
+    "unit_price": 20283,
+    "tax_mock": 22311.3
   },
   {
     "city": "武汉市",
@@ -4846,7 +5218,8 @@
     "community": "福星惠誉国际城紫领公寓",
     "avg_area": 130,
     "total_units": 320,
-    "unit_price": 19382
+    "unit_price": 19382,
+    "tax_mock": 25196.6
   },
   {
     "city": "武汉市",
@@ -4859,7 +5232,8 @@
     "community": "杨园街二桥社区",
     "avg_area": 120,
     "total_units": 170,
-    "unit_price": 18390
+    "unit_price": 18390,
+    "tax_mock": 22068
   },
   {
     "city": "武汉市",
@@ -4872,7 +5246,8 @@
     "community": "徐东乐业小区",
     "avg_area": 110,
     "total_units": 420,
-    "unit_price": 15803
+    "unit_price": 15803,
+    "tax_mock": 17383.3
   },
   {
     "city": "武汉市",
@@ -4885,7 +5260,8 @@
     "community": "东润上域",
     "avg_area": 110,
     "total_units": 288,
-    "unit_price": 15784
+    "unit_price": 15784,
+    "tax_mock": 17362.4
   },
   {
     "city": "武汉市",
@@ -4898,7 +5274,8 @@
     "community": "福星惠誉瞰江坊",
     "avg_area": 130,
     "total_units": 480,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 25781.6
   },
   {
     "city": "武汉市",
@@ -4911,7 +5288,8 @@
     "community": "杨园村小区",
     "avg_area": 70,
     "total_units": 420,
-    "unit_price": 18904
+    "unit_price": 18904,
+    "tax_mock": 13232.8
   },
   {
     "city": "武汉市",
@@ -4924,7 +5302,8 @@
     "community": "江南集团宿舍",
     "avg_area": 90,
     "total_units": 200,
-    "unit_price": 18592
+    "unit_price": 18592,
+    "tax_mock": 16732.8
   },
   {
     "city": "武汉市",
@@ -4937,7 +5316,8 @@
     "community": "杨园建设东区",
     "avg_area": 100,
     "total_units": 470,
-    "unit_price": 17594
+    "unit_price": 17594,
+    "tax_mock": 17594
   },
   {
     "city": "武汉市",
@@ -4950,7 +5330,8 @@
     "community": "徐家棚统建楼",
     "avg_area": 110,
     "total_units": 230,
-    "unit_price": 14839
+    "unit_price": 14839,
+    "tax_mock": 16322.9
   },
   {
     "city": "武汉市",
@@ -4963,7 +5344,8 @@
     "community": "汇通天地",
     "avg_area": 100,
     "total_units": 320,
-    "unit_price": 20032
+    "unit_price": 20032,
+    "tax_mock": 20032
   },
   {
     "city": "武汉市",
@@ -4976,7 +5358,8 @@
     "community": "江尚",
     "avg_area": 70,
     "total_units": 1649,
-    "unit_price": 21040
+    "unit_price": 21040,
+    "tax_mock": 14728
   },
   {
     "city": "武汉市",
@@ -4989,7 +5372,8 @@
     "community": "才华茗苑二期",
     "avg_area": 80,
     "total_units": 460,
-    "unit_price": 17430
+    "unit_price": 17430,
+    "tax_mock": 13944
   },
   {
     "city": "武汉市",
@@ -5002,7 +5386,8 @@
     "community": "船校村",
     "avg_area": 80,
     "total_units": 510,
-    "unit_price": 18594
+    "unit_price": 18594,
+    "tax_mock": 14875.2
   },
   {
     "city": "武汉市",
@@ -5015,7 +5400,8 @@
     "community": "武汉理工大学余家头校区北区教工宿舍",
     "avg_area": 80,
     "total_units": 940,
-    "unit_price": 19473
+    "unit_price": 19473,
+    "tax_mock": 15578.4
   },
   {
     "city": "武汉市",
@@ -5028,7 +5414,8 @@
     "community": "铁四院职工住宅楼",
     "avg_area": 110,
     "total_units": 1060,
-    "unit_price": 15980
+    "unit_price": 15980,
+    "tax_mock": 17578
   },
   {
     "city": "武汉市",
@@ -5041,7 +5428,8 @@
     "community": "杨园街电力新村社区",
     "avg_area": 80,
     "total_units": 520,
-    "unit_price": 17859
+    "unit_price": 17859,
+    "tax_mock": 14287.2
   },
   {
     "city": "武汉市",
@@ -5054,7 +5442,8 @@
     "community": "龙凯大厦",
     "avg_area": 120,
     "total_units": 75,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 22116
   },
   {
     "city": "武汉市",
@@ -5067,7 +5456,8 @@
     "community": "馨都雅园",
     "avg_area": 70,
     "total_units": 649,
-    "unit_price": 18540
+    "unit_price": 18540,
+    "tax_mock": 12978
   },
   {
     "city": "武汉市",
@@ -5080,7 +5470,8 @@
     "community": "才华茗苑",
     "avg_area": 70,
     "total_units": 970,
-    "unit_price": 19473
+    "unit_price": 19473,
+    "tax_mock": 13631.1
   },
   {
     "city": "武汉市",
@@ -5093,7 +5484,8 @@
     "community": "桥梁新村小区",
     "avg_area": 90,
     "total_units": 400,
-    "unit_price": 15404
+    "unit_price": 15404,
+    "tax_mock": 13863.6
   },
   {
     "city": "武汉市",
@@ -5106,7 +5498,8 @@
     "community": "四美苑综合楼",
     "avg_area": 80,
     "total_units": 500,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 14032
   },
   {
     "city": "武汉市",
@@ -5119,7 +5512,8 @@
     "community": "四美苑住宅小区",
     "avg_area": 120,
     "total_units": 300,
-    "unit_price": 17503
+    "unit_price": 17503,
+    "tax_mock": 21003.6
   },
   {
     "city": "武汉市",
@@ -5132,7 +5526,8 @@
     "community": "武科大宿舍",
     "avg_area": 100,
     "total_units": 430,
-    "unit_price": 15809
+    "unit_price": 15809,
+    "tax_mock": 15809
   },
   {
     "city": "武汉市",
@@ -5145,7 +5540,8 @@
     "community": "团结路煤气公司宿舍",
     "avg_area": 120,
     "total_units": 380,
-    "unit_price": 18042
+    "unit_price": 18042,
+    "tax_mock": 21650.4
   },
   {
     "city": "武汉市",
@@ -5156,9 +5552,10 @@
     "latitude_gps": 30.5913,
     "longitude_gps": 114.3326,
     "community": "三三七社区",
-    "avg_area": 77,
+    "avg_area": 90,
     "total_units": 420,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 15831
   },
   {
     "city": "武汉市",
@@ -5171,7 +5568,8 @@
     "community": "新长江滨江花园",
     "avg_area": 110,
     "total_units": 600,
-    "unit_price": 14380
+    "unit_price": 14380,
+    "tax_mock": 15818
   },
   {
     "city": "武汉市",
@@ -5184,7 +5582,8 @@
     "community": "德成香奈长江国际",
     "avg_area": 70,
     "total_units": 790,
-    "unit_price": 18750
+    "unit_price": 18750,
+    "tax_mock": 13125
   },
   {
     "city": "武汉市",
@@ -5197,7 +5596,8 @@
     "community": "安胜花园",
     "avg_area": 120,
     "total_units": 330,
-    "unit_price": 17589
+    "unit_price": 17589,
+    "tax_mock": 21106.8
   },
   {
     "city": "武汉市",
@@ -5210,7 +5610,8 @@
     "community": "德安苑",
     "avg_area": 80,
     "total_units": 940,
-    "unit_price": 15894
+    "unit_price": 15894,
+    "tax_mock": 12715.2
   },
   {
     "city": "武汉市",
@@ -5223,7 +5624,8 @@
     "community": "徐清公寓(宏昌路)",
     "avg_area": 100,
     "total_units": 950,
-    "unit_price": 14309
+    "unit_price": 14309,
+    "tax_mock": 14309
   },
   {
     "city": "武汉市",
@@ -5236,7 +5638,8 @@
     "community": "团结名居竹园",
     "avg_area": 70,
     "total_units": 310,
-    "unit_price": 18500
+    "unit_price": 18500,
+    "tax_mock": 12950
   },
   {
     "city": "武汉市",
@@ -5249,7 +5652,8 @@
     "community": "粤汉里社区",
     "avg_area": 120,
     "total_units": 1660,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 22116
   },
   {
     "city": "武汉市",
@@ -5262,7 +5666,8 @@
     "community": "建新里机务段小区",
     "avg_area": 100,
     "total_units": 700,
-    "unit_price": 18943
+    "unit_price": 18943,
+    "tax_mock": 18943
   },
   {
     "city": "武汉市",
@@ -5275,7 +5680,8 @@
     "community": "徐东社区",
     "avg_area": 100,
     "total_units": 510,
-    "unit_price": 19754
+    "unit_price": 19754,
+    "tax_mock": 19754
   },
   {
     "city": "武汉市",
@@ -5288,7 +5694,8 @@
     "community": "武汉铁路徐东路住宅小区",
     "avg_area": 130,
     "total_units": 1100,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 23959
   },
   {
     "city": "武汉市",
@@ -5301,7 +5708,8 @@
     "community": "徐东材料厂宿舍",
     "avg_area": 90,
     "total_units": 470,
-    "unit_price": 20893
+    "unit_price": 20893,
+    "tax_mock": 18803.7
   },
   {
     "city": "武汉市",
@@ -5314,7 +5722,8 @@
     "community": "优活城",
     "avg_area": 90,
     "total_units": 1470,
-    "unit_price": 19570
+    "unit_price": 19570,
+    "tax_mock": 17613
   },
   {
     "city": "武汉市",
@@ -5327,7 +5736,8 @@
     "community": "公路桥小区",
     "avg_area": 130,
     "total_units": 130,
-    "unit_price": 18340
+    "unit_price": 18340,
+    "tax_mock": 23842
   },
   {
     "city": "武汉市",
@@ -5340,7 +5750,8 @@
     "community": "逸居苑(徐东大街)",
     "avg_area": 60,
     "total_units": 1000,
-    "unit_price": 18302
+    "unit_price": 18302,
+    "tax_mock": 10981.2
   },
   {
     "city": "武汉市",
@@ -5353,7 +5764,8 @@
     "community": "中力名居(徐东大街)",
     "avg_area": 103,
     "total_units": 318,
-    "unit_price": 17439
+    "unit_price": 17439,
+    "tax_mock": 17962.17
   },
   {
     "city": "武汉市",
@@ -5366,7 +5778,8 @@
     "community": "四美新村社区",
     "avg_area": 70,
     "total_units": 1250,
-    "unit_price": 18720
+    "unit_price": 18720,
+    "tax_mock": 13104
   },
   {
     "city": "武汉市",
@@ -5379,7 +5792,8 @@
     "community": "五七小院",
     "avg_area": 90,
     "total_units": 360,
-    "unit_price": 18932
+    "unit_price": 18932,
+    "tax_mock": 17038.8
   },
   {
     "city": "武汉市",
@@ -5392,7 +5806,8 @@
     "community": "余家头水厂宿舍",
     "avg_area": 80,
     "total_units": 230,
-    "unit_price": 18472
+    "unit_price": 18472,
+    "tax_mock": 14777.6
   },
   {
     "city": "武汉市",
@@ -5405,7 +5820,8 @@
     "community": "湖北大学附属中学家属区",
     "avg_area": 110,
     "total_units": 1050,
-    "unit_price": 18902
+    "unit_price": 18902,
+    "tax_mock": 20792.2
   },
   {
     "city": "武汉市",
@@ -5418,7 +5834,8 @@
     "community": "才华茗苑四期",
     "avg_area": 80,
     "total_units": 270,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 16866.4
   },
   {
     "city": "武汉市",
@@ -5431,7 +5848,8 @@
     "community": "杨园街电信社区",
     "avg_area": 80,
     "total_units": 670,
-    "unit_price": 18902
+    "unit_price": 18902,
+    "tax_mock": 15121.6
   },
   {
     "city": "武汉市",
@@ -5444,7 +5862,8 @@
     "community": "柴林公寓",
     "avg_area": 110,
     "total_units": 660,
-    "unit_price": 17438
+    "unit_price": 17438,
+    "tax_mock": 19181.8
   },
   {
     "city": "武汉市",
@@ -5457,7 +5876,8 @@
     "community": "林泰华府",
     "avg_area": 120,
     "total_units": 400,
-    "unit_price": 19823
+    "unit_price": 19823,
+    "tax_mock": 23787.6
   },
   {
     "city": "武汉市",
@@ -5470,7 +5890,8 @@
     "community": "省电建一公司宿舍",
     "avg_area": 100,
     "total_units": 300,
-    "unit_price": 17430
+    "unit_price": 17430,
+    "tax_mock": 17430
   },
   {
     "city": "武汉市",
@@ -5483,7 +5904,8 @@
     "community": "武昌区杨园街柴东社区",
     "avg_area": 105,
     "total_units": 8475,
-    "unit_price": 17584
+    "unit_price": 17584,
+    "tax_mock": 18463.2
   },
   {
     "city": "武汉市",
@@ -5496,7 +5918,8 @@
     "community": "纺器小区",
     "avg_area": 120,
     "total_units": 850,
-    "unit_price": 17438
+    "unit_price": 17438,
+    "tax_mock": 20925.6
   },
   {
     "city": "武汉市",
@@ -5509,7 +5932,8 @@
     "community": "万科金域华府金寓",
     "avg_area": 100,
     "total_units": 160,
-    "unit_price": 17859
+    "unit_price": 17859,
+    "tax_mock": 17859
   },
   {
     "city": "武汉市",
@@ -5522,7 +5946,8 @@
     "community": "武昌杨园柴林头西区",
     "avg_area": 80,
     "total_units": 672,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 14744
   },
   {
     "city": "武汉市",
@@ -5535,7 +5960,8 @@
     "community": "铁路医院家属楼",
     "avg_area": 100,
     "total_units": 830,
-    "unit_price": 18506
+    "unit_price": 18506,
+    "tax_mock": 18506
   },
   {
     "city": "武汉市",
@@ -5548,7 +5974,8 @@
     "community": "铁四院社区",
     "avg_area": 80,
     "total_units": 1040,
-    "unit_price": 15790
+    "unit_price": 15790,
+    "tax_mock": 12632
   },
   {
     "city": "武汉市",
@@ -5561,7 +5988,8 @@
     "community": "杨园法庭宿舍",
     "avg_area": 80,
     "total_units": 810,
-    "unit_price": 18403
+    "unit_price": 18403,
+    "tax_mock": 14722.4
   },
   {
     "city": "武汉市",
@@ -5574,7 +6002,8 @@
     "community": "武铁汽车队小区",
     "avg_area": 120,
     "total_units": 1160,
-    "unit_price": 15744
+    "unit_price": 15744,
+    "tax_mock": 18892.8
   },
   {
     "city": "武汉市",
@@ -5587,7 +6016,8 @@
     "community": "四美花苑",
     "avg_area": 80,
     "total_units": 810,
-    "unit_price": 18430
+    "unit_price": 18430,
+    "tax_mock": 14744
   },
   {
     "city": "武汉市",
@@ -5600,7 +6030,8 @@
     "community": "徐家棚机务段宿舍",
     "avg_area": 90,
     "total_units": 960,
-    "unit_price": 18404
+    "unit_price": 18404,
+    "tax_mock": 16563.6
   },
   {
     "city": "武汉市",
@@ -5613,7 +6044,8 @@
     "community": "万科朗苑",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 17430
+    "unit_price": 17430,
+    "tax_mock": 20916
   },
   {
     "city": "武汉市",
@@ -5626,7 +6058,8 @@
     "community": "团结名居桔园",
     "avg_area": 120,
     "total_units": 210,
-    "unit_price": 18594
+    "unit_price": 18594,
+    "tax_mock": 22312.8
   },
   {
     "city": "武汉市",
@@ -5639,7 +6072,8 @@
     "community": "合记里社区",
     "avg_area": 110,
     "total_units": 780,
-    "unit_price": 21084
+    "unit_price": 21084,
+    "tax_mock": 23192.4
   },
   {
     "city": "武汉市",
@@ -5652,7 +6086,8 @@
     "community": "徐家棚港务局宿舍",
     "avg_area": 110,
     "total_units": 1150,
-    "unit_price": 20830
+    "unit_price": 20830,
+    "tax_mock": 22913
   },
   {
     "city": "武汉市",
@@ -5665,7 +6100,8 @@
     "community": "九坤秦南都汇",
     "avg_area": 120,
     "total_units": 950,
-    "unit_price": 19843
+    "unit_price": 19843,
+    "tax_mock": 23811.6
   },
   {
     "city": "武汉市",
@@ -5678,7 +6114,8 @@
     "community": "团结名居兰园",
     "avg_area": 100,
     "total_units": 490,
-    "unit_price": 17490
+    "unit_price": 17490,
+    "tax_mock": 17490
   },
   {
     "city": "武汉市",
@@ -5689,9 +6126,10 @@
     "latitude_gps": 30.593,
     "longitude_gps": 114.3236,
     "community": "富华商住楼",
-    "avg_area": 35,
+    "avg_area": 80,
     "total_units": 250,
-    "unit_price": 15790
+    "unit_price": 15790,
+    "tax_mock": 12632
   },
   {
     "city": "武汉市",
@@ -5704,7 +6142,8 @@
     "community": "团结名居桂园",
     "avg_area": 100,
     "total_units": 330,
-    "unit_price": 18403
+    "unit_price": 18403,
+    "tax_mock": 18403
   },
   {
     "city": "武汉市",
@@ -5717,7 +6156,8 @@
     "community": "汉飞滨江国际",
     "avg_area": 90,
     "total_units": 486,
-    "unit_price": 17405
+    "unit_price": 17405,
+    "tax_mock": 15664.5
   },
   {
     "city": "武汉市",
@@ -5730,7 +6170,8 @@
     "community": "鹏凌苑",
     "avg_area": 90,
     "total_units": 550,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 16488
   },
   {
     "city": "武汉市",
@@ -5743,7 +6184,8 @@
     "community": "万吨冷库新宿舍",
     "avg_area": 120,
     "total_units": 740,
-    "unit_price": 18372
+    "unit_price": 18372,
+    "tax_mock": 22046.4
   },
   {
     "city": "武汉市",
@@ -5756,7 +6198,8 @@
     "community": "余家头小区",
     "avg_area": 120,
     "total_units": 1270,
-    "unit_price": 18329
+    "unit_price": 18329,
+    "tax_mock": 21994.8
   },
   {
     "city": "武汉市",
@@ -5769,7 +6212,8 @@
     "community": "武昌区杨园街变电社区",
     "avg_area": 70,
     "total_units": 1260,
-    "unit_price": 19038
+    "unit_price": 19038,
+    "tax_mock": 13326.6
   },
   {
     "city": "武汉市",
@@ -5782,7 +6226,8 @@
     "community": "融侨城",
     "avg_area": 150,
     "total_units": 3200,
-    "unit_price": 26140
+    "unit_price": 26140,
+    "tax_mock": 39210
   },
   {
     "city": "武汉市",
@@ -5795,7 +6240,8 @@
     "community": "融侨天域",
     "avg_area": 180,
     "total_units": 1200,
-    "unit_price": 24000
+    "unit_price": 24000,
+    "tax_mock": 43200
   },
   {
     "city": "武汉市",
@@ -5808,7 +6254,8 @@
     "community": "九亩地",
     "avg_area": 70,
     "total_units": 680,
-    "unit_price": 17503
+    "unit_price": 17503,
+    "tax_mock": 12252.1
   },
   {
     "city": "武汉市",
@@ -5821,7 +6268,8 @@
     "community": "江南公寓南区",
     "avg_area": 100,
     "total_units": 670,
-    "unit_price": 18794
+    "unit_price": 18794,
+    "tax_mock": 18794
   },
   {
     "city": "武汉市",
@@ -5834,7 +6282,8 @@
     "community": "七星绿色花园",
     "avg_area": 70,
     "total_units": 588,
-    "unit_price": 18923
+    "unit_price": 18923,
+    "tax_mock": 13246.1
   },
   {
     "city": "武汉市",
@@ -5847,7 +6296,8 @@
     "community": "秦园鑫寓",
     "avg_area": 70,
     "total_units": 1080,
-    "unit_price": 18540
+    "unit_price": 18540,
+    "tax_mock": 12978
   },
   {
     "city": "武汉市",
@@ -5860,7 +6310,8 @@
     "community": "武车五村小区",
     "avg_area": 110,
     "total_units": 390,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 19294
   },
   {
     "city": "武汉市",
@@ -5873,7 +6324,8 @@
     "community": "三角路南社区",
     "avg_area": 100,
     "total_units": 430,
-    "unit_price": 15680
+    "unit_price": 15680,
+    "tax_mock": 15680
   },
   {
     "city": "武汉市",
@@ -5886,7 +6338,8 @@
     "community": "绿地海珀御观",
     "avg_area": 170,
     "total_units": 1170,
-    "unit_price": 34430
+    "unit_price": 34430,
+    "tax_mock": 58531
   },
   {
     "city": "武汉市",
@@ -5899,7 +6352,8 @@
     "community": "秦园路学校教工宿舍",
     "avg_area": 120,
     "total_units": 1210,
-    "unit_price": 21380
+    "unit_price": 21380,
+    "tax_mock": 25656
   },
   {
     "city": "武汉市",
@@ -5912,7 +6366,8 @@
     "community": "三角花园",
     "avg_area": 100,
     "total_units": 2300,
-    "unit_price": 19382
+    "unit_price": 19382,
+    "tax_mock": 19382
   },
   {
     "city": "武汉市",
@@ -5925,7 +6380,8 @@
     "community": "水岸国际时代上城",
     "avg_area": 80,
     "total_units": 660,
-    "unit_price": 24548
+    "unit_price": 24548,
+    "tax_mock": 19638.4
   },
   {
     "city": "武汉市",
@@ -5938,7 +6394,8 @@
     "community": "忠诚湖大教师公寓",
     "avg_area": 130,
     "total_units": 500,
-    "unit_price": 20832
+    "unit_price": 20832,
+    "tax_mock": 27081.6
   },
   {
     "city": "武汉市",
@@ -5951,7 +6408,8 @@
     "community": "武昌区徐家棚街长轮社区",
     "avg_area": 70,
     "total_units": 840,
-    "unit_price": 19380
+    "unit_price": 19380,
+    "tax_mock": 13566
   },
   {
     "city": "武汉市",
@@ -5964,7 +6422,8 @@
     "community": "武汉理工大学河校小区",
     "avg_area": 130,
     "total_units": 540,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 27407.9
   },
   {
     "city": "武汉市",
@@ -5977,7 +6436,8 @@
     "community": "喻家湖社区",
     "avg_area": 90,
     "total_units": 300,
-    "unit_price": 19834
+    "unit_price": 19834,
+    "tax_mock": 17850.6
   },
   {
     "city": "武汉市",
@@ -5990,7 +6450,8 @@
     "community": "武汉理工大学友谊小区",
     "avg_area": 80,
     "total_units": 840,
-    "unit_price": 17300
+    "unit_price": 17300,
+    "tax_mock": 13840
   },
   {
     "city": "武汉市",
@@ -6003,7 +6464,8 @@
     "community": "湖北大学教师公寓",
     "avg_area": 80,
     "total_units": 70,
-    "unit_price": 19403
+    "unit_price": 19403,
+    "tax_mock": 15522.4
   },
   {
     "city": "武汉市",
@@ -6016,7 +6478,8 @@
     "community": "武车六村小区",
     "avg_area": 110,
     "total_units": 800,
-    "unit_price": 18903
+    "unit_price": 18903,
+    "tax_mock": 20793.3
   },
   {
     "city": "武汉市",
@@ -6029,7 +6492,8 @@
     "community": "恒大首府西区",
     "avg_area": 90,
     "total_units": 1200,
-    "unit_price": 24520
+    "unit_price": 24520,
+    "tax_mock": 22068
   },
   {
     "city": "武汉市",
@@ -6042,7 +6506,8 @@
     "community": "水岸国际瞰江公寓",
     "avg_area": 70,
     "total_units": 1180,
-    "unit_price": 23402
+    "unit_price": 23402,
+    "tax_mock": 16381.4
   },
   {
     "city": "武汉市",
@@ -6055,7 +6520,8 @@
     "community": "水岸国际SOHO公寓",
     "avg_area": 110,
     "total_units": 790,
-    "unit_price": 21832
+    "unit_price": 21832,
+    "tax_mock": 24015.2
   },
   {
     "city": "武汉市",
@@ -6068,7 +6534,8 @@
     "community": "水岸国际LOFT公寓",
     "avg_area": 70,
     "total_units": 1030,
-    "unit_price": 20832
+    "unit_price": 20832,
+    "tax_mock": 14582.4
   },
   {
     "city": "武汉市",
@@ -6079,9 +6546,10 @@
     "latitude_gps": 30.586,
     "longitude_gps": 114.3235,
     "community": "武昌车辆厂小区",
-    "avg_area": 50,
+    "avg_area": 70,
     "total_units": 70,
-    "unit_price": 19830
+    "unit_price": 19830,
+    "tax_mock": 13881
   },
   {
     "city": "武汉市",
@@ -6094,7 +6562,8 @@
     "community": "武车四村",
     "avg_area": 120,
     "total_units": 1060,
-    "unit_price": 19432
+    "unit_price": 19432,
+    "tax_mock": 23318.4
   },
   {
     "city": "武汉市",
@@ -6107,7 +6576,8 @@
     "community": "积玉桥街康乐里社区",
     "avg_area": 90,
     "total_units": 1250,
-    "unit_price": 18943
+    "unit_price": 18943,
+    "tax_mock": 17048.7
   },
   {
     "city": "武汉市",
@@ -6120,7 +6590,8 @@
     "community": "西兰蒂亚606公馆",
     "avg_area": 110,
     "total_units": 640,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 19349
   },
   {
     "city": "武汉市",
@@ -6133,7 +6604,8 @@
     "community": "绿地铂瑞公馆",
     "avg_area": 110,
     "total_units": 200,
-    "unit_price": 17493
+    "unit_price": 17493,
+    "tax_mock": 19242.3
   },
   {
     "city": "武汉市",
@@ -6146,7 +6618,8 @@
     "community": "三角路社区",
     "avg_area": 110,
     "total_units": 470,
-    "unit_price": 17489
+    "unit_price": 17489,
+    "tax_mock": 19237.9
   },
   {
     "city": "武汉市",
@@ -6159,7 +6632,8 @@
     "community": "武车一村宿舍",
     "avg_area": 110,
     "total_units": 630,
-    "unit_price": 17439
+    "unit_price": 17439,
+    "tax_mock": 19182.9
   },
   {
     "city": "武汉市",
@@ -6172,7 +6646,8 @@
     "community": "三角花园柳村小区",
     "avg_area": 100,
     "total_units": 400,
-    "unit_price": 17390
+    "unit_price": 17390,
+    "tax_mock": 17390
   },
   {
     "city": "武汉市",
@@ -6183,9 +6658,10 @@
     "latitude_gps": 30.5844,
     "longitude_gps": 114.3187,
     "community": "绿地名邸公馆",
-    "avg_area": 76,
+    "avg_area": 80,
     "total_units": 4011,
-    "unit_price": 16984
+    "unit_price": 16984,
+    "tax_mock": 13587.2
   },
   {
     "city": "武汉市",
@@ -6198,7 +6674,8 @@
     "community": "鹏程帝景园",
     "avg_area": 110,
     "total_units": 434,
-    "unit_price": 18432
+    "unit_price": 18432,
+    "tax_mock": 20275.2
   },
   {
     "city": "武汉市",
@@ -6211,7 +6688,8 @@
     "community": "三角花园赵家墩小区",
     "avg_area": 80,
     "total_units": 760,
-    "unit_price": 15784
+    "unit_price": 15784,
+    "tax_mock": 12627.2
   },
   {
     "city": "武汉市",
@@ -6224,7 +6702,8 @@
     "community": "绿地西斯莱公馆",
     "avg_area": 100,
     "total_units": 4165,
-    "unit_price": 26500
+    "unit_price": 26500,
+    "tax_mock": 26500
   },
   {
     "city": "武汉市",
@@ -6237,7 +6716,8 @@
     "community": "恒大首府东区",
     "avg_area": 120,
     "total_units": 560,
-    "unit_price": 28000
+    "unit_price": 28000,
+    "tax_mock": 33600
   },
   {
     "city": "武汉市",
@@ -6250,7 +6730,8 @@
     "community": "绿地国际金融城",
     "avg_area": 100,
     "total_units": 6750,
-    "unit_price": 29832
+    "unit_price": 29832,
+    "tax_mock": 29832
   },
   {
     "city": "武汉市",
@@ -6263,7 +6744,8 @@
     "community": "惠誉公寓",
     "avg_area": 130,
     "total_units": 820,
-    "unit_price": 23479
+    "unit_price": 23479,
+    "tax_mock": 30522.7
   },
   {
     "city": "武汉市",
@@ -6276,7 +6758,8 @@
     "community": "惠誉花园",
     "avg_area": 100,
     "total_units": 800,
-    "unit_price": 21303
+    "unit_price": 21303,
+    "tax_mock": 21303
   },
   {
     "city": "武汉市",
@@ -6289,7 +6772,8 @@
     "community": "徐家棚综合楼",
     "avg_area": 80,
     "total_units": 400,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 16866.4
   },
   {
     "city": "武汉市",
@@ -6302,7 +6786,8 @@
     "community": "时尚馨都",
     "avg_area": 120,
     "total_units": 114,
-    "unit_price": 18743
+    "unit_price": 18743,
+    "tax_mock": 22491.6
   },
   {
     "city": "武汉市",
@@ -6315,7 +6800,8 @@
     "community": "长鑫家园",
     "avg_area": 100,
     "total_units": 740,
-    "unit_price": 18943
+    "unit_price": 18943,
+    "tax_mock": 18943
   },
   {
     "city": "武汉市",
@@ -6328,7 +6814,8 @@
     "community": "湖大琴园小区",
     "avg_area": 110,
     "total_units": 320,
-    "unit_price": 18503
+    "unit_price": 18503,
+    "tax_mock": 20353.3
   },
   {
     "city": "武汉市",
@@ -6341,7 +6828,8 @@
     "community": "油料所社区",
     "avg_area": 90,
     "total_units": 540,
-    "unit_price": 17503
+    "unit_price": 17503,
+    "tax_mock": 15752.7
   },
   {
     "city": "武汉市",
@@ -6354,7 +6842,8 @@
     "community": "赵家墩社区",
     "avg_area": 100,
     "total_units": 1080,
-    "unit_price": 19383
+    "unit_price": 19383,
+    "tax_mock": 19383
   },
   {
     "city": "武汉市",
@@ -6367,7 +6856,8 @@
     "community": "徐家棚街惠誉社区交警小区",
     "avg_area": 90,
     "total_units": 1170,
-    "unit_price": 14859
+    "unit_price": 14859,
+    "tax_mock": 13373.1
   },
   {
     "city": "武汉市",
@@ -6380,7 +6870,8 @@
     "community": "武汉长江中心",
     "avg_area": 230,
     "total_units": 1400,
-    "unit_price": 37800
+    "unit_price": 37800,
+    "tax_mock": 86940
   },
   {
     "city": "武汉市",
@@ -6393,7 +6884,8 @@
     "community": "徐家棚街秦臻路社区",
     "avg_area": 70,
     "total_units": 1120,
-    "unit_price": 17756
+    "unit_price": 17756,
+    "tax_mock": 12429.2
   },
   {
     "city": "武汉市",
@@ -6406,7 +6898,8 @@
     "community": "武车小区",
     "avg_area": 70,
     "total_units": 830,
-    "unit_price": 15874
+    "unit_price": 15874,
+    "tax_mock": 11111.8
   },
   {
     "city": "武汉市",
@@ -6419,7 +6912,8 @@
     "community": "水岸国际峯岚天下",
     "avg_area": 70,
     "total_units": 70,
-    "unit_price": 17845
+    "unit_price": 17845,
+    "tax_mock": 12491.5
   },
   {
     "city": "武汉市",
@@ -6432,7 +6926,8 @@
     "community": "三角花园余家湖小区",
     "avg_area": 90,
     "total_units": 650,
-    "unit_price": 17589
+    "unit_price": 17589,
+    "tax_mock": 15830.1
   },
   {
     "city": "武汉市",
@@ -6445,7 +6940,8 @@
     "community": "徐家棚公太里社区",
     "avg_area": 110,
     "total_units": 540,
-    "unit_price": 15890
+    "unit_price": 15890,
+    "tax_mock": 17479
   },
   {
     "city": "武汉市",
@@ -6458,7 +6954,8 @@
     "community": "秦园居名雅花苑",
     "avg_area": 130,
     "total_units": 160,
-    "unit_price": 18960
+    "unit_price": 18960,
+    "tax_mock": 24648
   },
   {
     "city": "武汉市",
@@ -6471,7 +6968,8 @@
     "community": "秦园居",
     "avg_area": 70,
     "total_units": 220,
-    "unit_price": 18543
+    "unit_price": 18543,
+    "tax_mock": 12980.1
   },
   {
     "city": "武汉市",
@@ -6484,7 +6982,8 @@
     "community": "金沙泊岸",
     "avg_area": 140,
     "total_units": 2500,
-    "unit_price": 32000
+    "unit_price": 32000,
+    "tax_mock": 44800
   },
   {
     "city": "武汉市",
@@ -6497,7 +6996,8 @@
     "community": "三角路小区",
     "avg_area": 110,
     "total_units": 190,
-    "unit_price": 18745
+    "unit_price": 18745,
+    "tax_mock": 20619.5
   },
   {
     "city": "武汉市",
@@ -6510,7 +7010,8 @@
     "community": "99号公寓",
     "avg_area": 130,
     "total_units": 610,
-    "unit_price": 15700
+    "unit_price": 15700,
+    "tax_mock": 20410
   },
   {
     "city": "武汉市",
@@ -6523,7 +7024,8 @@
     "community": "武珞路社区",
     "avg_area": 90,
     "total_units": 650,
-    "unit_price": 15893
+    "unit_price": 15893,
+    "tax_mock": 14303.7
   },
   {
     "city": "武汉市",
@@ -6536,7 +7038,8 @@
     "community": "嘉园大厦",
     "avg_area": 70,
     "total_units": 450,
-    "unit_price": 14500
+    "unit_price": 14500,
+    "tax_mock": 10150
   },
   {
     "city": "武汉市",
@@ -6549,7 +7052,8 @@
     "community": "湖北省城市规划设计研究院宿舍",
     "avg_area": 110,
     "total_units": 1260,
-    "unit_price": 15783
+    "unit_price": 15783,
+    "tax_mock": 17361.3
   },
   {
     "city": "武汉市",
@@ -6562,7 +7066,8 @@
     "community": "阜华领秀中南",
     "avg_area": 120,
     "total_units": 1040,
-    "unit_price": 15849
+    "unit_price": 15849,
+    "tax_mock": 19018.8
   },
   {
     "city": "武汉市",
@@ -6575,7 +7080,8 @@
     "community": "大东门四村",
     "avg_area": 80,
     "total_units": 280,
-    "unit_price": 15509
+    "unit_price": 15509,
+    "tax_mock": 12407.2
   },
   {
     "city": "武汉市",
@@ -6588,7 +7094,8 @@
     "community": "千家街社区",
     "avg_area": 110,
     "total_units": 560,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 19294
   },
   {
     "city": "武汉市",
@@ -6601,7 +7108,8 @@
     "community": "中船重工第七一九研究所",
     "avg_area": 120,
     "total_units": 810,
-    "unit_price": 15937
+    "unit_price": 15937,
+    "tax_mock": 19124.4
   },
   {
     "city": "武汉市",
@@ -6614,7 +7122,8 @@
     "community": "南国新东城",
     "avg_area": 90,
     "total_units": 575,
-    "unit_price": 18324
+    "unit_price": 18324,
+    "tax_mock": 16491.6
   },
   {
     "city": "武汉市",
@@ -6627,7 +7136,8 @@
     "community": "付家坡残联宿舍",
     "avg_area": 90,
     "total_units": 210,
-    "unit_price": 15402
+    "unit_price": 15402,
+    "tax_mock": 13861.8
   },
   {
     "city": "武汉市",
@@ -6640,7 +7150,8 @@
     "community": "银海公寓(付家坡一路)",
     "avg_area": 100,
     "total_units": 1174,
-    "unit_price": 14855
+    "unit_price": 14855,
+    "tax_mock": 14855
   },
   {
     "city": "武汉市",
@@ -6653,7 +7164,8 @@
     "community": "波光园1期",
     "avg_area": 80,
     "total_units": 187,
-    "unit_price": 15489
+    "unit_price": 15489,
+    "tax_mock": 12391.2
   },
   {
     "city": "武汉市",
@@ -6666,7 +7178,8 @@
     "community": "梅苑3期",
     "avg_area": 110,
     "total_units": 1260,
-    "unit_price": 15889
+    "unit_price": 15889,
+    "tax_mock": 17477.9
   },
   {
     "city": "武汉市",
@@ -6679,7 +7192,8 @@
     "community": "千家鑫苑",
     "avg_area": 130,
     "total_units": 840,
-    "unit_price": 18549
+    "unit_price": 18549,
+    "tax_mock": 24113.7
   },
   {
     "city": "武汉市",
@@ -6692,7 +7206,8 @@
     "community": "金涛铭座",
     "avg_area": 120,
     "total_units": 182,
-    "unit_price": 17483
+    "unit_price": 17483,
+    "tax_mock": 20979.6
   },
   {
     "city": "武汉市",
@@ -6705,7 +7220,8 @@
     "community": "省一保宿舍",
     "avg_area": 110,
     "total_units": 160,
-    "unit_price": 15340
+    "unit_price": 15340,
+    "tax_mock": 16874
   },
   {
     "city": "武汉市",
@@ -6718,7 +7234,8 @@
     "community": "教委宿舍(千家街)",
     "avg_area": 90,
     "total_units": 90,
-    "unit_price": 14385
+    "unit_price": 14385,
+    "tax_mock": 12946.5
   },
   {
     "city": "武汉市",
@@ -6731,7 +7248,8 @@
     "community": "武南一村",
     "avg_area": 80,
     "total_units": 520,
-    "unit_price": 15899
+    "unit_price": 15899,
+    "tax_mock": 12719.2
   },
   {
     "city": "武汉市",
@@ -6744,7 +7262,8 @@
     "community": "紫阳村小区",
     "avg_area": 110,
     "total_units": 490,
-    "unit_price": 15673
+    "unit_price": 15673,
+    "tax_mock": 17240.3
   },
   {
     "city": "武汉市",
@@ -6757,7 +7276,8 @@
     "community": "站前阳光",
     "avg_area": 90,
     "total_units": 138,
-    "unit_price": 15834
+    "unit_price": 15834,
+    "tax_mock": 14250.6
   },
   {
     "city": "武汉市",
@@ -6770,7 +7290,8 @@
     "community": "化研大院",
     "avg_area": 130,
     "total_units": 410,
-    "unit_price": 14302
+    "unit_price": 14302,
+    "tax_mock": 18592.6
   },
   {
     "city": "武汉市",
@@ -6783,7 +7304,8 @@
     "community": "欣隆紫阳苑",
     "avg_area": 110,
     "total_units": 294,
-    "unit_price": 14380
+    "unit_price": 14380,
+    "tax_mock": 15818
   },
   {
     "city": "武汉市",
@@ -6796,7 +7318,8 @@
     "community": "江零南苑",
     "avg_area": 100,
     "total_units": 150,
-    "unit_price": 18455
+    "unit_price": 18455,
+    "tax_mock": 18455
   },
   {
     "city": "武汉市",
@@ -6809,7 +7332,8 @@
     "community": "方海公寓",
     "avg_area": 90,
     "total_units": 196,
-    "unit_price": 17543
+    "unit_price": 17543,
+    "tax_mock": 15788.7
   },
   {
     "city": "武汉市",
@@ -6822,7 +7346,8 @@
     "community": "红鑫佳园",
     "avg_area": 80,
     "total_units": 200,
-    "unit_price": 15380
+    "unit_price": 15380,
+    "tax_mock": 12304
   },
   {
     "city": "武汉市",
@@ -6835,7 +7360,8 @@
     "community": "佳兆业广场天御",
     "avg_area": 130,
     "total_units": 220,
-    "unit_price": 15840
+    "unit_price": 15840,
+    "tax_mock": 20592
   },
   {
     "city": "武汉市",
@@ -6848,7 +7374,8 @@
     "community": "绿州广场",
     "avg_area": 70,
     "total_units": 820,
-    "unit_price": 18944
+    "unit_price": 18944,
+    "tax_mock": 13260.8
   },
   {
     "city": "武汉市",
@@ -6861,7 +7388,8 @@
     "community": "大东门农行宿舍",
     "avg_area": 120,
     "total_units": 750,
-    "unit_price": 15839
+    "unit_price": 15839,
+    "tax_mock": 19006.8
   },
   {
     "city": "武汉市",
@@ -6874,7 +7402,8 @@
     "community": "武汉二师教工宿舍",
     "avg_area": 70,
     "total_units": 340,
-    "unit_price": 18439
+    "unit_price": 18439,
+    "tax_mock": 12907.3
   },
   {
     "city": "武汉市",
@@ -6887,7 +7416,8 @@
     "community": "帝斯曼国际中心",
     "avg_area": 120,
     "total_units": 1103,
-    "unit_price": 53200
+    "unit_price": 53200,
+    "tax_mock": 63840
   },
   {
     "city": "武汉市",
@@ -6900,7 +7430,8 @@
     "community": "武汉铁路大东门住宅小区",
     "avg_area": 80,
     "total_units": 800,
-    "unit_price": 23984
+    "unit_price": 23984,
+    "tax_mock": 19187.2
   },
   {
     "city": "武汉市",
@@ -6913,7 +7444,8 @@
     "community": "紫竹园小区",
     "avg_area": 120,
     "total_units": 700,
-    "unit_price": 16894
+    "unit_price": 16894,
+    "tax_mock": 20272.8
   },
   {
     "city": "武汉市",
@@ -6926,7 +7458,8 @@
     "community": "武珞路五巷小区",
     "avg_area": 80,
     "total_units": 770,
-    "unit_price": 15894
+    "unit_price": 15894,
+    "tax_mock": 12715.2
   },
   {
     "city": "武汉市",
@@ -6939,7 +7472,8 @@
     "community": "洪山坊社区",
     "avg_area": 110,
     "total_units": 780,
-    "unit_price": 17583
+    "unit_price": 17583,
+    "tax_mock": 19341.3
   },
   {
     "city": "武汉市",
@@ -6952,7 +7486,8 @@
     "community": "奥山创意街区",
     "avg_area": 90,
     "total_units": 1000,
-    "unit_price": 17856
+    "unit_price": 17856,
+    "tax_mock": 16070.4
   },
   {
     "city": "武汉市",
@@ -6965,7 +7500,8 @@
     "community": "武珞路六巷小区",
     "avg_area": 80,
     "total_units": 1220,
-    "unit_price": 17549
+    "unit_price": 17549,
+    "tax_mock": 14039.2
   },
   {
     "city": "武汉市",
@@ -6978,7 +7514,8 @@
     "community": "吉祥人家",
     "avg_area": 90,
     "total_units": 1020,
-    "unit_price": 17850
+    "unit_price": 17850,
+    "tax_mock": 16065
   },
   {
     "city": "武汉市",
@@ -6991,7 +7528,8 @@
     "community": "武昌梅苑离职干部休养所",
     "avg_area": 100,
     "total_units": 630,
-    "unit_price": 18693
+    "unit_price": 18693,
+    "tax_mock": 18693
   },
   {
     "city": "武汉市",
@@ -7004,7 +7542,8 @@
     "community": "万金国际广场",
     "avg_area": 120,
     "total_units": 180,
-    "unit_price": 17548
+    "unit_price": 17548,
+    "tax_mock": 21057.6
   },
   {
     "city": "武汉市",
@@ -7017,7 +7556,8 @@
     "community": "省幼师宿舍",
     "avg_area": 80,
     "total_units": 540,
-    "unit_price": 15840
+    "unit_price": 15840,
+    "tax_mock": 12672
   },
   {
     "city": "武汉市",
@@ -7030,7 +7570,8 @@
     "community": "老审计厅宿舍",
     "avg_area": 120,
     "total_units": 600,
-    "unit_price": 18540
+    "unit_price": 18540,
+    "tax_mock": 22248
   },
   {
     "city": "武汉市",
@@ -7043,7 +7584,8 @@
     "community": "大东门社区",
     "avg_area": 90,
     "total_units": 1120,
-    "unit_price": 14587
+    "unit_price": 14587,
+    "tax_mock": 13128.3
   },
   {
     "city": "武汉市",
@@ -7054,9 +7596,10 @@
     "latitude_gps": 30.5355,
     "longitude_gps": 114.3136,
     "community": "大东门公寓",
-    "avg_area": 45,
+    "avg_area": 110,
     "total_units": 103,
-    "unit_price": 15803
+    "unit_price": 15803,
+    "tax_mock": 17383.3
   },
   {
     "city": "武汉市",
@@ -7069,7 +7612,8 @@
     "community": "舒家街社区",
     "avg_area": 120,
     "total_units": 170,
-    "unit_price": 17549
+    "unit_price": 17549,
+    "tax_mock": 21058.8
   },
   {
     "city": "武汉市",
@@ -7082,7 +7626,8 @@
     "community": "长春小区",
     "avg_area": 100,
     "total_units": 1180,
-    "unit_price": 14389
+    "unit_price": 14389,
+    "tax_mock": 14389
   },
   {
     "city": "武汉市",
@@ -7095,7 +7640,8 @@
     "community": "二药宿舍大院",
     "avg_area": 90,
     "total_units": 210,
-    "unit_price": 14530
+    "unit_price": 14530,
+    "tax_mock": 13077
   },
   {
     "city": "武汉市",
@@ -7108,7 +7654,8 @@
     "community": "大东门荣发小区",
     "avg_area": 90,
     "total_units": 80,
-    "unit_price": 16783
+    "unit_price": 16783,
+    "tax_mock": 15104.7
   },
   {
     "city": "武汉市",
@@ -7121,7 +7668,8 @@
     "community": "梅苑人民银行宿舍",
     "avg_area": 130,
     "total_units": 80,
-    "unit_price": 17568
+    "unit_price": 17568,
+    "tax_mock": 22838.4
   },
   {
     "city": "武汉市",
@@ -7134,7 +7682,8 @@
     "community": "凯旋名邸",
     "avg_area": 187,
     "total_units": 567,
-    "unit_price": 19573
+    "unit_price": 19573,
+    "tax_mock": 36601.51
   },
   {
     "city": "武汉市",
@@ -7147,7 +7696,8 @@
     "community": "武昌城市公园",
     "avg_area": 111,
     "total_units": 1023,
-    "unit_price": 18341
+    "unit_price": 18341,
+    "tax_mock": 20358.51
   },
   {
     "city": "武汉市",
@@ -7160,7 +7710,8 @@
     "community": "江零社区",
     "avg_area": 142,
     "total_units": 520,
-    "unit_price": 19823
+    "unit_price": 19823,
+    "tax_mock": 28148.66
   },
   {
     "city": "武汉市",
@@ -7173,7 +7724,8 @@
     "community": "津水闸商住楼",
     "avg_area": 130,
     "total_units": 450,
-    "unit_price": 17593
+    "unit_price": 17593,
+    "tax_mock": 22870.9
   },
   {
     "city": "武汉市",
@@ -7186,7 +7738,8 @@
     "community": "武昌轻工设计院",
     "avg_area": 87,
     "total_units": 110,
-    "unit_price": 18943
+    "unit_price": 18943,
+    "tax_mock": 16480.41
   },
   {
     "city": "武汉市",
@@ -7199,7 +7752,8 @@
     "community": "湖北省民主党派机关团体宿舍",
     "avg_area": 123,
     "total_units": 230,
-    "unit_price": 18439
+    "unit_price": 18439,
+    "tax_mock": 22679.97
   },
   {
     "city": "武汉市",
@@ -7212,7 +7766,8 @@
     "community": "首义四巷小区",
     "avg_area": 75,
     "total_units": 460,
-    "unit_price": 21409
+    "unit_price": 21409,
+    "tax_mock": 16056.75
   },
   {
     "city": "武汉市",
@@ -7225,7 +7780,8 @@
     "community": "首义名居",
     "avg_area": 97,
     "total_units": 707,
-    "unit_price": 25843
+    "unit_price": 25843,
+    "tax_mock": 25067.71
   },
   {
     "city": "武汉市",
@@ -7238,7 +7794,8 @@
     "community": "新安万福广场",
     "avg_area": 110,
     "total_units": 103,
-    "unit_price": 15843
+    "unit_price": 15843,
+    "tax_mock": 17427.3
   },
   {
     "city": "武汉市",
@@ -7251,7 +7808,8 @@
     "community": "白沙洲街堤东社区",
     "avg_area": 110,
     "total_units": 679,
-    "unit_price": 15493
+    "unit_price": 15493,
+    "tax_mock": 17042.3
   },
   {
     "city": "武汉市",
@@ -7264,7 +7822,8 @@
     "community": "梅隐寺社区",
     "avg_area": 90,
     "total_units": 470,
-    "unit_price": 16780
+    "unit_price": 16780,
+    "tax_mock": 15102
   },
   {
     "city": "武汉市",
@@ -7277,7 +7836,8 @@
     "community": "南大门小区",
     "avg_area": 130,
     "total_units": 100,
-    "unit_price": 13242
+    "unit_price": 13242,
+    "tax_mock": 17214.6
   },
   {
     "city": "武汉市",
@@ -7290,7 +7850,8 @@
     "community": "卧佛庵大院",
     "avg_area": 90,
     "total_units": 990,
-    "unit_price": 15340
+    "unit_price": 15340,
+    "tax_mock": 13806
   },
   {
     "city": "武汉市",
@@ -7303,7 +7864,8 @@
     "community": "建和世家",
     "avg_area": 100,
     "total_units": 740,
-    "unit_price": 14380
+    "unit_price": 14380,
+    "tax_mock": 14380
   },
   {
     "city": "武汉市",
@@ -7316,7 +7878,8 @@
     "community": "鹏程中泰花园",
     "avg_area": 70,
     "total_units": 1290,
-    "unit_price": 15320
+    "unit_price": 15320,
+    "tax_mock": 10724
   },
   {
     "city": "武汉市",
@@ -7329,7 +7892,8 @@
     "community": "汇文新都D区",
     "avg_area": 110,
     "total_units": 1160,
-    "unit_price": 15490
+    "unit_price": 15490,
+    "tax_mock": 17039
   },
   {
     "city": "武汉市",
@@ -7342,7 +7906,8 @@
     "community": "明伦公馆",
     "avg_area": 130,
     "total_units": 750,
-    "unit_price": 14355
+    "unit_price": 14355,
+    "tax_mock": 18661.5
   },
   {
     "city": "武汉市",
@@ -7355,7 +7920,8 @@
     "community": "梅家山综合楼",
     "avg_area": 120,
     "total_units": 1170,
-    "unit_price": 15742
+    "unit_price": 15742,
+    "tax_mock": 18890.4
   },
   {
     "city": "武汉市",
@@ -7368,7 +7934,8 @@
     "community": "梅花庭院",
     "avg_area": 120,
     "total_units": 450,
-    "unit_price": 14358
+    "unit_price": 14358,
+    "tax_mock": 17229.6
   },
   {
     "city": "武汉市",
@@ -7381,7 +7948,8 @@
     "community": "梅花苑社区",
     "avg_area": 130,
     "total_units": 850,
-    "unit_price": 13485
+    "unit_price": 13485,
+    "tax_mock": 17530.5
   },
   {
     "city": "武汉市",
@@ -7394,7 +7962,8 @@
     "community": "武庆花园",
     "avg_area": 70,
     "total_units": 570,
-    "unit_price": 14328
+    "unit_price": 14328,
+    "tax_mock": 10029.6
   },
   {
     "city": "武汉市",
@@ -7407,7 +7976,8 @@
     "community": "解放桥小区",
     "avg_area": 110,
     "total_units": 890,
-    "unit_price": 15403
+    "unit_price": 15403,
+    "tax_mock": 16943.3
   },
   {
     "city": "武汉市",
@@ -7420,7 +7990,8 @@
     "community": "武警武泰闸小区",
     "avg_area": 70,
     "total_units": 1030,
-    "unit_price": 13240
+    "unit_price": 13240,
+    "tax_mock": 9268
   },
   {
     "city": "武汉市",
@@ -7433,7 +8004,8 @@
     "community": "中大长江紫都紫境苑",
     "avg_area": 130,
     "total_units": 872,
-    "unit_price": 15709
+    "unit_price": 15709,
+    "tax_mock": 20421.7
   },
   {
     "city": "武汉市",
@@ -7446,7 +8018,8 @@
     "community": "中大长江紫都紫薇苑",
     "avg_area": 160,
     "total_units": 1068,
-    "unit_price": 14727
+    "unit_price": 14727,
+    "tax_mock": 23563.2
   },
   {
     "city": "武汉市",
@@ -7459,7 +8032,8 @@
     "community": "中大长江紫都紫荆苑",
     "avg_area": 140,
     "total_units": 423,
-    "unit_price": 15683
+    "unit_price": 15683,
+    "tax_mock": 21956.2
   },
   {
     "city": "武汉市",
@@ -7472,7 +8046,8 @@
     "community": "中大长江紫都紫桂苑",
     "avg_area": 80,
     "total_units": 923,
-    "unit_price": 15350
+    "unit_price": 15350,
+    "tax_mock": 12280
   },
   {
     "city": "武汉市",
@@ -7485,7 +8060,8 @@
     "community": "观澜天地",
     "avg_area": 90,
     "total_units": 512,
-    "unit_price": 14235
+    "unit_price": 14235,
+    "tax_mock": 12811.5
   },
   {
     "city": "武汉市",
@@ -7498,7 +8074,8 @@
     "community": "星火名苑",
     "avg_area": 130,
     "total_units": 853,
-    "unit_price": 12465
+    "unit_price": 12465,
+    "tax_mock": 16204.5
   },
   {
     "city": "武汉市",
@@ -7511,7 +8088,8 @@
     "community": "中大长江紫都紫竹苑",
     "avg_area": 100,
     "total_units": 2200,
-    "unit_price": 15762
+    "unit_price": 15762,
+    "tax_mock": 15762
   },
   {
     "city": "武汉市",
@@ -7524,7 +8102,8 @@
     "community": "中大长江紫都紫兰苑",
     "avg_area": 110,
     "total_units": 1508,
-    "unit_price": 14789
+    "unit_price": 14789,
+    "tax_mock": 16267.9
   },
   {
     "city": "武汉市",
@@ -7537,7 +8116,8 @@
     "community": "列电新村",
     "avg_area": 85,
     "total_units": 340,
-    "unit_price": 13013
+    "unit_price": 13013,
+    "tax_mock": 11061.05
   },
   {
     "city": "武汉市",
@@ -7550,7 +8130,8 @@
     "community": "烽火尚品虹城",
     "avg_area": 125,
     "total_units": 1800,
-    "unit_price": 13452
+    "unit_price": 13452,
+    "tax_mock": 16815
   },
   {
     "city": "武汉市",
@@ -7563,7 +8144,8 @@
     "community": "起义门社区",
     "avg_area": 120,
     "total_units": 590,
-    "unit_price": 14458
+    "unit_price": 14458,
+    "tax_mock": 17349.6
   },
   {
     "city": "武汉市",
@@ -7576,7 +8158,8 @@
     "community": "白鳍豚大厦",
     "avg_area": 90,
     "total_units": 250,
-    "unit_price": 15840
+    "unit_price": 15840,
+    "tax_mock": 14256
   },
   {
     "city": "武汉市",
@@ -7589,7 +8172,8 @@
     "community": "枫香苑",
     "avg_area": 120,
     "total_units": 600,
-    "unit_price": 15480
+    "unit_price": 15480,
+    "tax_mock": 18576
   },
   {
     "city": "武汉市",
@@ -7602,7 +8186,8 @@
     "community": "武昌区检察院德福苑",
     "avg_area": 110,
     "total_units": 720,
-    "unit_price": 15479
+    "unit_price": 15479,
+    "tax_mock": 17026.9
   },
   {
     "city": "武汉市",
@@ -7615,7 +8200,8 @@
     "community": "星苑社区",
     "avg_area": 110,
     "total_units": 1290,
-    "unit_price": 14733
+    "unit_price": 14733,
+    "tax_mock": 16206.3
   },
   {
     "city": "武汉市",
@@ -7628,7 +8214,8 @@
     "community": "武泰闸司法宿舍",
     "avg_area": 110,
     "total_units": 800,
-    "unit_price": 14347
+    "unit_price": 14347,
+    "tax_mock": 15781.7
   },
   {
     "city": "武汉市",
@@ -7641,7 +8228,8 @@
     "community": "汇东佳韵",
     "avg_area": 100,
     "total_units": 980,
-    "unit_price": 15784
+    "unit_price": 15784,
+    "tax_mock": 15784
   },
   {
     "city": "武汉市",
@@ -7654,7 +8242,8 @@
     "community": "新鑫佳苑",
     "avg_area": 70,
     "total_units": 190,
-    "unit_price": 14301
+    "unit_price": 14301,
+    "tax_mock": 10010.7
   },
   {
     "city": "武汉市",
@@ -7667,7 +8256,8 @@
     "community": "平安别墅",
     "avg_area": 120,
     "total_units": 270,
-    "unit_price": 14385
+    "unit_price": 14385,
+    "tax_mock": 17262
   },
   {
     "city": "武汉市",
@@ -7680,7 +8270,8 @@
     "community": "武泰闸城市花园",
     "avg_area": 80,
     "total_units": 240,
-    "unit_price": 13580
+    "unit_price": 13580,
+    "tax_mock": 10864
   },
   {
     "city": "武汉市",
@@ -7693,7 +8284,8 @@
     "community": "九龙涺",
     "avg_area": 90,
     "total_units": 690,
-    "unit_price": 14745
+    "unit_price": 14745,
+    "tax_mock": 13270.5
   },
   {
     "city": "武汉市",
@@ -7706,7 +8298,8 @@
     "community": "世纪新长江",
     "avg_area": 130,
     "total_units": 133,
-    "unit_price": 15890
+    "unit_price": 15890,
+    "tax_mock": 20657
   },
   {
     "city": "武汉市",
@@ -7719,7 +8312,8 @@
     "community": "起义街55社区",
     "avg_area": 120,
     "total_units": 80,
-    "unit_price": 15489
+    "unit_price": 15489,
+    "tax_mock": 18586.8
   },
   {
     "city": "武汉市",
@@ -7732,7 +8326,8 @@
     "community": "武泰闸检察院宿舍",
     "avg_area": 100,
     "total_units": 1220,
-    "unit_price": 15849
+    "unit_price": 15849,
+    "tax_mock": 15849
   },
   {
     "city": "武汉市",
@@ -7745,7 +8340,8 @@
     "community": "汇文新都B区",
     "avg_area": 100,
     "total_units": 1270,
-    "unit_price": 18439
+    "unit_price": 18439,
+    "tax_mock": 18439
   },
   {
     "city": "武汉市",
@@ -7758,7 +8354,8 @@
     "community": "汇文新都C区",
     "avg_area": 110,
     "total_units": 1220,
-    "unit_price": 18594
+    "unit_price": 18594,
+    "tax_mock": 20453.4
   },
   {
     "city": "武汉市",
@@ -7771,7 +8368,8 @@
     "community": "涂家沟",
     "avg_area": 80,
     "total_units": 810,
-    "unit_price": 14350
+    "unit_price": 14350,
+    "tax_mock": 11480
   },
   {
     "city": "武汉市",
@@ -7784,7 +8382,8 @@
     "community": "水果湖统计局宿舍",
     "avg_area": 130,
     "total_units": 700,
-    "unit_price": 32579
+    "unit_price": 32579,
+    "tax_mock": 42352.7
   },
   {
     "city": "武汉市",
@@ -7797,7 +8396,8 @@
     "community": "东一路小区",
     "avg_area": 110,
     "total_units": 780,
-    "unit_price": 28594
+    "unit_price": 28594,
+    "tax_mock": 31453.4
   },
   {
     "city": "武汉市",
@@ -7810,7 +8410,8 @@
     "community": "水果湖发改委宿舍",
     "avg_area": 90,
     "total_units": 190,
-    "unit_price": 35803
+    "unit_price": 35803,
+    "tax_mock": 32222.7
   },
   {
     "city": "武汉市",
@@ -7823,7 +8424,8 @@
     "community": "就业小区",
     "avg_area": 100,
     "total_units": 250,
-    "unit_price": 35783
+    "unit_price": 35783,
+    "tax_mock": 35783
   },
   {
     "city": "武汉市",
@@ -7836,7 +8438,8 @@
     "community": "小洪山西区",
     "avg_area": 120,
     "total_units": 720,
-    "unit_price": 34205
+    "unit_price": 34205,
+    "tax_mock": 41046
   },
   {
     "city": "武汉市",
@@ -7849,7 +8452,8 @@
     "community": "南苑村",
     "avg_area": 70,
     "total_units": 460,
-    "unit_price": 28493
+    "unit_price": 28493,
+    "tax_mock": 19945.1
   },
   {
     "city": "武汉市",
@@ -7862,7 +8466,8 @@
     "community": "东三苑",
     "avg_area": 120,
     "total_units": 1170,
-    "unit_price": 34839
+    "unit_price": 34839,
+    "tax_mock": 41806.8
   },
   {
     "city": "武汉市",
@@ -7875,7 +8480,8 @@
     "community": "张家湾小区",
     "avg_area": 120,
     "total_units": 190,
-    "unit_price": 39570
+    "unit_price": 39570,
+    "tax_mock": 47484
   },
   {
     "city": "武汉市",
@@ -7888,7 +8494,8 @@
     "community": "水果湖第一小学教师宿舍",
     "avg_area": 90,
     "total_units": 80,
-    "unit_price": 34582
+    "unit_price": 34582,
+    "tax_mock": 31123.8
   },
   {
     "city": "武汉市",
@@ -7901,7 +8508,8 @@
     "community": "湖北质量监督局宿舍",
     "avg_area": 100,
     "total_units": 410,
-    "unit_price": 32140
+    "unit_price": 32140,
+    "tax_mock": 32140
   },
   {
     "city": "武汉市",
@@ -7914,7 +8522,8 @@
     "community": "水果湖广场",
     "avg_area": 110,
     "total_units": 1250,
-    "unit_price": 33275
+    "unit_price": 33275,
+    "tax_mock": 36602.5
   },
   {
     "city": "武汉市",
@@ -7927,7 +8536,8 @@
     "community": "水果湖建材设计院小区",
     "avg_area": 90,
     "total_units": 490,
-    "unit_price": 27483
+    "unit_price": 27483,
+    "tax_mock": 24734.7
   },
   {
     "city": "武汉市",
@@ -7940,7 +8550,8 @@
     "community": "同心大厦",
     "avg_area": 80,
     "total_units": 120,
-    "unit_price": 27589
+    "unit_price": 27589,
+    "tax_mock": 22071.2
   },
   {
     "city": "武汉市",
@@ -7953,7 +8564,8 @@
     "community": "水果湖农委宿舍",
     "avg_area": 90,
     "total_units": 1160,
-    "unit_price": 23439
+    "unit_price": 23439,
+    "tax_mock": 21095.1
   },
   {
     "city": "武汉市",
@@ -7966,7 +8578,8 @@
     "community": "天永公寓",
     "avg_area": 120,
     "total_units": 440,
-    "unit_price": 25490
+    "unit_price": 25490,
+    "tax_mock": 30588
   },
   {
     "city": "武汉市",
@@ -7979,7 +8592,8 @@
     "community": "水果湖水产局宿舍",
     "avg_area": 70,
     "total_units": 650,
-    "unit_price": 32842
+    "unit_price": 32842,
+    "tax_mock": 22989.4
   },
   {
     "city": "武汉市",
@@ -7992,7 +8606,8 @@
     "community": "水果湖长城嘉苑",
     "avg_area": 70,
     "total_units": 850,
-    "unit_price": 30300
+    "unit_price": 30300,
+    "tax_mock": 21210
   },
   {
     "city": "武汉市",
@@ -8005,7 +8620,8 @@
     "community": "广苑大厦",
     "avg_area": 70,
     "total_units": 390,
-    "unit_price": 28439
+    "unit_price": 28439,
+    "tax_mock": 19907.3
   },
   {
     "city": "武汉市",
@@ -8018,7 +8634,8 @@
     "community": "水果湖一中宿舍",
     "avg_area": 120,
     "total_units": 690,
-    "unit_price": 32012
+    "unit_price": 32012,
+    "tax_mock": 38414.4
   },
   {
     "city": "武汉市",
@@ -8031,7 +8648,8 @@
     "community": "红军村楚苑",
     "avg_area": 130,
     "total_units": 950,
-    "unit_price": 35489
+    "unit_price": 35489,
+    "tax_mock": 46135.7
   },
   {
     "city": "武汉市",
@@ -8042,9 +8660,10 @@
     "latitude_gps": 30.5541,
     "longitude_gps": 114.3395,
     "community": "红军村",
-    "avg_area": 40,
+    "avg_area": 90,
     "total_units": 670,
-    "unit_price": 34589
+    "unit_price": 34589,
+    "tax_mock": 31130.1
   },
   {
     "city": "武汉市",
@@ -8057,7 +8676,8 @@
     "community": "津津花园",
     "avg_area": 90,
     "total_units": 100,
-    "unit_price": 33503
+    "unit_price": 33503,
+    "tax_mock": 30152.7
   },
   {
     "city": "武汉市",
@@ -8070,7 +8690,8 @@
     "community": "宏城金都",
     "avg_area": 90,
     "total_units": 380,
-    "unit_price": 34543
+    "unit_price": 34543,
+    "tax_mock": 31088.7
   },
   {
     "city": "武汉市",
@@ -8083,7 +8704,8 @@
     "community": "湖北省监狱管理局宿舍",
     "avg_area": 90,
     "total_units": 690,
-    "unit_price": 29017
+    "unit_price": 29017,
+    "tax_mock": 26115.3
   },
   {
     "city": "武汉市",
@@ -8096,7 +8718,8 @@
     "community": "百合营小区",
     "avg_area": 110,
     "total_units": 300,
-    "unit_price": 29574
+    "unit_price": 29574,
+    "tax_mock": 32531.4
   },
   {
     "city": "武汉市",
@@ -8109,7 +8732,8 @@
     "community": "新南方小区",
     "avg_area": 120,
     "total_units": 500,
-    "unit_price": 32109
+    "unit_price": 32109,
+    "tax_mock": 38530.8
   },
   {
     "city": "武汉市",
@@ -8122,7 +8746,8 @@
     "community": "博雅中南",
     "avg_area": 120,
     "total_units": 330,
-    "unit_price": 32810
+    "unit_price": 32810,
+    "tax_mock": 39372
   },
   {
     "city": "武汉市",
@@ -8135,7 +8760,8 @@
     "community": "中南汇荟世界",
     "avg_area": 120,
     "total_units": 690,
-    "unit_price": 30821
+    "unit_price": 30821,
+    "tax_mock": 36985.2
   },
   {
     "city": "武汉市",
@@ -8148,7 +8774,8 @@
     "community": "建设厅社区",
     "avg_area": 70,
     "total_units": 620,
-    "unit_price": 25402
+    "unit_price": 25402,
+    "tax_mock": 17781.4
   },
   {
     "city": "武汉市",
@@ -8161,7 +8788,8 @@
     "community": "中南建筑设计院路东生活区",
     "avg_area": 110,
     "total_units": 840,
-    "unit_price": 32502
+    "unit_price": 32502,
+    "tax_mock": 35752.2
   },
   {
     "city": "武汉市",
@@ -8174,7 +8802,8 @@
     "community": "中建广场",
     "avg_area": 100,
     "total_units": 1140,
-    "unit_price": 27402
+    "unit_price": 27402,
+    "tax_mock": 27402
   },
   {
     "city": "武汉市",
@@ -8187,7 +8816,8 @@
     "community": "下徐家湾小区",
     "avg_area": 70,
     "total_units": 1040,
-    "unit_price": 23847
+    "unit_price": 23847,
+    "tax_mock": 16692.9
   },
   {
     "city": "武汉市",
@@ -8200,7 +8830,8 @@
     "community": "省委铁路局机关小区",
     "avg_area": 110,
     "total_units": 710,
-    "unit_price": 34340
+    "unit_price": 34340,
+    "tax_mock": 37774
   },
   {
     "city": "武汉市",
@@ -8213,7 +8844,8 @@
     "community": "中科院武汉分院西区",
     "avg_area": 90,
     "total_units": 1140,
-    "unit_price": 35034
+    "unit_price": 35034,
+    "tax_mock": 31530.6
   },
   {
     "city": "武汉市",
@@ -8226,7 +8858,8 @@
     "community": "小洪山东区",
     "avg_area": 70,
     "total_units": 830,
-    "unit_price": 34580
+    "unit_price": 34580,
+    "tax_mock": 24206
   },
   {
     "city": "武汉市",
@@ -8239,7 +8872,8 @@
     "community": "武铁洪山住宅小区",
     "avg_area": 120,
     "total_units": 270,
-    "unit_price": 31293
+    "unit_price": 31293,
+    "tax_mock": 37551.6
   },
   {
     "city": "武汉市",
@@ -8252,7 +8886,8 @@
     "community": "银海华庭",
     "avg_area": 110,
     "total_units": 930,
-    "unit_price": 29302
+    "unit_price": 29302,
+    "tax_mock": 32232.2
   },
   {
     "city": "武汉市",
@@ -8265,7 +8900,8 @@
     "community": "湖北省科学技术厅住宅小区",
     "avg_area": 90,
     "total_units": 750,
-    "unit_price": 34302
+    "unit_price": 34302,
+    "tax_mock": 30871.8
   },
   {
     "city": "武汉市",
@@ -8278,7 +8914,8 @@
     "community": "星星新城",
     "avg_area": 80,
     "total_units": 370,
-    "unit_price": 24580
+    "unit_price": 24580,
+    "tax_mock": 19664
   },
   {
     "city": "武汉市",
@@ -8291,7 +8928,8 @@
     "community": "放鹰台社区",
     "avg_area": 120,
     "total_units": 230,
-    "unit_price": 28547
+    "unit_price": 28547,
+    "tax_mock": 34256.4
   },
   {
     "city": "武汉市",
@@ -8304,7 +8942,8 @@
     "community": "放鹰台2号小区",
     "avg_area": 110,
     "total_units": 110,
-    "unit_price": 35490
+    "unit_price": 35490,
+    "tax_mock": 39039
   },
   {
     "city": "武汉市",
@@ -8317,7 +8956,8 @@
     "community": "银河楼",
     "avg_area": 100,
     "total_units": 900,
-    "unit_price": 23470
+    "unit_price": 23470,
+    "tax_mock": 23470
   },
   {
     "city": "武汉市",
@@ -8330,7 +8970,8 @@
     "community": "水果湖邮局宿舍",
     "avg_area": 110,
     "total_units": 360,
-    "unit_price": 31203
+    "unit_price": 31203,
+    "tax_mock": 34323.3
   },
   {
     "city": "武汉市",
@@ -8343,7 +8984,8 @@
     "community": "舒心苑(鹰台路步行街)",
     "avg_area": 110,
     "total_units": 1000,
-    "unit_price": 23018
+    "unit_price": 23018,
+    "tax_mock": 25319.8
   },
   {
     "city": "武汉市",
@@ -8356,7 +8998,8 @@
     "community": "湖北省建设银行宿舍",
     "avg_area": 130,
     "total_units": 990,
-    "unit_price": 42302
+    "unit_price": 42302,
+    "tax_mock": 54992.6
   },
   {
     "city": "武汉市",
@@ -8369,7 +9012,8 @@
     "community": "中南大公馆",
     "avg_area": 110,
     "total_units": 470,
-    "unit_price": 32479
+    "unit_price": 32479,
+    "tax_mock": 35726.9
   },
   {
     "city": "武汉市",
@@ -8382,7 +9026,8 @@
     "community": "洪山老干局宿舍",
     "avg_area": 70,
     "total_units": 800,
-    "unit_price": 32570
+    "unit_price": 32570,
+    "tax_mock": 22799
   },
   {
     "city": "武汉市",
@@ -8395,7 +9040,8 @@
     "community": "湖北省印刷厂宿舍",
     "avg_area": 120,
     "total_units": 800,
-    "unit_price": 32455
+    "unit_price": 32455,
+    "tax_mock": 38946
   },
   {
     "city": "武汉市",
@@ -8408,7 +9054,8 @@
     "community": "省审计厅刘家湾宿舍",
     "avg_area": 70,
     "total_units": 780,
-    "unit_price": 34450
+    "unit_price": 34450,
+    "tax_mock": 24115
   },
   {
     "city": "武汉市",
@@ -8421,7 +9068,8 @@
     "community": "银海山庄",
     "avg_area": 120,
     "total_units": 70,
-    "unit_price": 28953
+    "unit_price": 28953,
+    "tax_mock": 34743.6
   },
   {
     "city": "武汉市",
@@ -8434,7 +9082,8 @@
     "community": "洪山路社区(洪山路)",
     "avg_area": 90,
     "total_units": 1030,
-    "unit_price": 34850
+    "unit_price": 34850,
+    "tax_mock": 31365
   },
   {
     "city": "武汉市",
@@ -8447,7 +9096,8 @@
     "community": "桃山村(洪山路)",
     "avg_area": 100,
     "total_units": 310,
-    "unit_price": 34193
+    "unit_price": 34193,
+    "tax_mock": 34193
   },
   {
     "city": "武汉市",
@@ -8460,7 +9110,8 @@
     "community": "水果湖社区",
     "avg_area": 100,
     "total_units": 570,
-    "unit_price": 37753
+    "unit_price": 37753,
+    "tax_mock": 37753
   },
   {
     "city": "武汉市",
@@ -8473,7 +9124,8 @@
     "community": "湖北省自动化研究所宿舍",
     "avg_area": 120,
     "total_units": 380,
-    "unit_price": 32483
+    "unit_price": 32483,
+    "tax_mock": 38979.6
   },
   {
     "city": "武汉市",
@@ -8484,9 +9136,10 @@
     "latitude_gps": 30.5521,
     "longitude_gps": 114.3453,
     "community": "双湖桥小区",
-    "avg_area": 50,
+    "avg_area": 110,
     "total_units": 1230,
-    "unit_price": 27590
+    "unit_price": 27590,
+    "tax_mock": 30349
   },
   {
     "city": "武汉市",
@@ -8499,7 +9152,8 @@
     "community": "振兴苑小区",
     "avg_area": 70,
     "total_units": 990,
-    "unit_price": 29372
+    "unit_price": 29372,
+    "tax_mock": 20560.4
   },
   {
     "city": "武汉市",
@@ -8512,7 +9166,8 @@
     "community": "地铁凤凰苑",
     "avg_area": 70,
     "total_units": 700,
-    "unit_price": 28320
+    "unit_price": 28320,
+    "tax_mock": 19824
   },
   {
     "city": "武汉市",
@@ -8525,7 +9180,8 @@
     "community": "下新河小区",
     "avg_area": 130,
     "total_units": 610,
-    "unit_price": 23405
+    "unit_price": 23405,
+    "tax_mock": 30426.5
   },
   {
     "city": "武汉市",
@@ -8538,7 +9194,8 @@
     "community": "中山路汽配城宿舍",
     "avg_area": 90,
     "total_units": 110,
-    "unit_price": 23450
+    "unit_price": 23450,
+    "tax_mock": 21105
   },
   {
     "city": "武汉市",
@@ -8551,7 +9208,8 @@
     "community": "中山社区",
     "avg_area": 80,
     "total_units": 300,
-    "unit_price": 23408
+    "unit_price": 23408,
+    "tax_mock": 18726.4
   },
   {
     "city": "武汉市",
@@ -8564,7 +9222,8 @@
     "community": "万源昌花园",
     "avg_area": 110,
     "total_units": 560,
-    "unit_price": 27495
+    "unit_price": 27495,
+    "tax_mock": 30244.5
   },
   {
     "city": "武汉市",
@@ -8577,7 +9236,8 @@
     "community": "凤凰世纪家园",
     "avg_area": 80,
     "total_units": 230,
-    "unit_price": 30281
+    "unit_price": 30281,
+    "tax_mock": 24224.8
   },
   {
     "city": "武汉市",
@@ -8590,7 +9250,8 @@
     "community": "金都汉宫",
     "avg_area": 170,
     "total_units": 1200,
-    "unit_price": 40109
+    "unit_price": 40109,
+    "tax_mock": 68185.3
   },
   {
     "city": "武汉市",
@@ -8603,7 +9264,8 @@
     "community": "汉宫银座",
     "avg_area": 110,
     "total_units": 290,
-    "unit_price": 32408
+    "unit_price": 32408,
+    "tax_mock": 35648.8
   },
   {
     "city": "武汉市",
@@ -8616,7 +9278,8 @@
     "community": "联投中心",
     "avg_area": 240,
     "total_units": 1500,
-    "unit_price": 32084
+    "unit_price": 32084,
+    "tax_mock": 77001.6
   },
   {
     "city": "武汉市",
@@ -8629,7 +9292,8 @@
     "community": "上新河社区",
     "avg_area": 120,
     "total_units": 930,
-    "unit_price": 23920
+    "unit_price": 23920,
+    "tax_mock": 28704
   },
   {
     "city": "武汉市",
@@ -8642,7 +9306,8 @@
     "community": "华康里小区",
     "avg_area": 80,
     "total_units": 760,
-    "unit_price": 23910
+    "unit_price": 23910,
+    "tax_mock": 19128
   },
   {
     "city": "武汉市",
@@ -8655,7 +9320,8 @@
     "community": "华新里小区",
     "avg_area": 100,
     "total_units": 450,
-    "unit_price": 22082
+    "unit_price": 22082,
+    "tax_mock": 22082
   },
   {
     "city": "武汉市",
@@ -8668,7 +9334,8 @@
     "community": "鄂电小区",
     "avg_area": 70,
     "total_units": 890,
-    "unit_price": 20832
+    "unit_price": 20832,
+    "tax_mock": 14582.4
   },
   {
     "city": "武汉市",
@@ -8681,7 +9348,8 @@
     "community": "新河社区船院小区",
     "avg_area": 120,
     "total_units": 820,
-    "unit_price": 18923
+    "unit_price": 18923,
+    "tax_mock": 22707.6
   },
   {
     "city": "武汉市",
@@ -8694,7 +9362,8 @@
     "community": "蓝湾俊园",
     "avg_area": 110,
     "total_units": 1200,
-    "unit_price": 23400
+    "unit_price": 23400,
+    "tax_mock": 25740
   },
   {
     "city": "武汉市",
@@ -8707,7 +9376,8 @@
     "community": "江南明珠园",
     "avg_area": 90,
     "total_units": 2350,
-    "unit_price": 28379
+    "unit_price": 28379,
+    "tax_mock": 25541.1
   },
   {
     "city": "武汉市",
@@ -8720,7 +9390,8 @@
     "community": "锦江国际城",
     "avg_area": 130,
     "total_units": 1200,
-    "unit_price": 27800
+    "unit_price": 27800,
+    "tax_mock": 36140
   },
   {
     "city": "武汉市",
@@ -8733,7 +9404,8 @@
     "community": "锦坤公寓楼",
     "avg_area": 100,
     "total_units": 252,
-    "unit_price": 23240
+    "unit_price": 23240,
+    "tax_mock": 23240
   },
   {
     "city": "武汉市",
@@ -8746,7 +9418,8 @@
     "community": "积玉桥万达SOHO",
     "avg_area": 70,
     "total_units": 2824,
-    "unit_price": 13290
+    "unit_price": 13290,
+    "tax_mock": 9303
   },
   {
     "city": "武汉市",
@@ -8759,7 +9432,8 @@
     "community": "武昌人民法院宿舍",
     "avg_area": 110,
     "total_units": 500,
-    "unit_price": 24509
+    "unit_price": 24509,
+    "tax_mock": 26959.9
   },
   {
     "city": "武汉市",
@@ -8772,7 +9446,8 @@
     "community": "武昌公安分局住宅小区",
     "avg_area": 130,
     "total_units": 520,
-    "unit_price": 22130
+    "unit_price": 22130,
+    "tax_mock": 28769
   },
   {
     "city": "武汉市",
@@ -8785,7 +9460,8 @@
     "community": "尚隆地球村",
     "avg_area": 100,
     "total_units": 2600,
-    "unit_price": 20389
+    "unit_price": 20389,
+    "tax_mock": 20389
   },
   {
     "city": "武汉市",
@@ -8798,7 +9474,8 @@
     "community": "湖北省标准化研究院",
     "avg_area": 120,
     "total_units": 150,
-    "unit_price": 23821
+    "unit_price": 23821,
+    "tax_mock": 28585.2
   },
   {
     "city": "武汉市",
@@ -8811,7 +9488,8 @@
     "community": "同昌花园",
     "avg_area": 90,
     "total_units": 240,
-    "unit_price": 28094
+    "unit_price": 28094,
+    "tax_mock": 25284.6
   },
   {
     "city": "武汉市",
@@ -8824,7 +9502,8 @@
     "community": "尚隆苑社区",
     "avg_area": 70,
     "total_units": 710,
-    "unit_price": 21903
+    "unit_price": 21903,
+    "tax_mock": 15332.1
   },
   {
     "city": "武汉市",
@@ -8837,7 +9516,8 @@
     "community": "友谊国际D公馆",
     "avg_area": 110,
     "total_units": 510,
-    "unit_price": 23445
+    "unit_price": 23445,
+    "tax_mock": 25789.5
   },
   {
     "city": "武汉市",
@@ -8850,7 +9530,8 @@
     "community": "友谊大道15号",
     "avg_area": 70,
     "total_units": 260,
-    "unit_price": 21038
+    "unit_price": 21038,
+    "tax_mock": 14726.6
   },
   {
     "city": "武汉市",
@@ -8863,7 +9544,8 @@
     "community": "阳光水岸",
     "avg_area": 80,
     "total_units": 336,
-    "unit_price": 21093
+    "unit_price": 21093,
+    "tax_mock": 16874.4
   },
   {
     "city": "武汉市",
@@ -8876,7 +9558,8 @@
     "community": "友谊国际",
     "avg_area": 130,
     "total_units": 840,
-    "unit_price": 23400
+    "unit_price": 23400,
+    "tax_mock": 30420
   },
   {
     "city": "武汉市",
@@ -8889,7 +9572,8 @@
     "community": "万达公馆",
     "avg_area": 230,
     "total_units": 1108,
-    "unit_price": 29850
+    "unit_price": 29850,
+    "tax_mock": 68655
   },
   {
     "city": "武汉市",
@@ -8902,7 +9586,8 @@
     "community": "融侨华府",
     "avg_area": 150,
     "total_units": 3150,
-    "unit_price": 26281
+    "unit_price": 26281,
+    "tax_mock": 39421.5
   },
   {
     "city": "武汉市",
@@ -8915,7 +9600,8 @@
     "community": "武昌积玉桥街汉安里社区",
     "avg_area": 70,
     "total_units": 137,
-    "unit_price": 19327
+    "unit_price": 19327,
+    "tax_mock": 13528.9
   },
   {
     "city": "武汉市",
@@ -8928,7 +9614,8 @@
     "community": "积玉桥省建行学校宿舍",
     "avg_area": 90,
     "total_units": 300,
-    "unit_price": 19278
+    "unit_price": 19278,
+    "tax_mock": 17350.2
   },
   {
     "city": "武汉市",
@@ -8941,7 +9628,8 @@
     "community": "金域雅庭",
     "avg_area": 110,
     "total_units": 150,
-    "unit_price": 18943
+    "unit_price": 18943,
+    "tax_mock": 20837.3
   },
   {
     "city": "武汉市",
@@ -8954,7 +9642,8 @@
     "community": "汉成里社区",
     "avg_area": 120,
     "total_units": 480,
-    "unit_price": 17459
+    "unit_price": 17459,
+    "tax_mock": 20950.8
   },
   {
     "city": "武汉市",
@@ -8967,7 +9656,8 @@
     "community": "水运宿舍",
     "avg_area": 120,
     "total_units": 1090,
-    "unit_price": 15865
+    "unit_price": 15865,
+    "tax_mock": 19038
   },
   {
     "city": "武汉市",
@@ -8980,7 +9670,8 @@
     "community": "城开玉桥新都",
     "avg_area": 70,
     "total_units": 886,
-    "unit_price": 26310
+    "unit_price": 26310,
+    "tax_mock": 18417
   },
   {
     "city": "武汉市",
@@ -8993,7 +9684,8 @@
     "community": "临江府",
     "avg_area": 120,
     "total_units": 150,
-    "unit_price": 27502
+    "unit_price": 27502,
+    "tax_mock": 33002.4
   },
   {
     "city": "武汉市",
@@ -9006,7 +9698,8 @@
     "community": "华润置地凤凰城",
     "avg_area": 120,
     "total_units": 1300,
-    "unit_price": 28000
+    "unit_price": 28000,
+    "tax_mock": 33600
   },
   {
     "city": "武汉市",
@@ -9019,7 +9712,8 @@
     "community": "兴松园社区",
     "avg_area": 120,
     "total_units": 300,
-    "unit_price": 23000
+    "unit_price": 23000,
+    "tax_mock": 27600
   },
   {
     "city": "武汉市",
@@ -9032,7 +9726,8 @@
     "community": "金地国际花园",
     "avg_area": 80,
     "total_units": 2340,
-    "unit_price": 31000
+    "unit_price": 31000,
+    "tax_mock": 24800
   },
   {
     "city": "武汉市",
@@ -9045,7 +9740,8 @@
     "community": "金地国际花园别墅",
     "avg_area": 340,
     "total_units": 250,
-    "unit_price": 28500
+    "unit_price": 28500,
+    "tax_mock": 96900
   },
   {
     "city": "武汉市",
@@ -9058,7 +9754,8 @@
     "community": "鄂电村社区",
     "avg_area": 80,
     "total_units": 1000,
-    "unit_price": 23928
+    "unit_price": 23928,
+    "tax_mock": 19142.4
   },
   {
     "city": "武汉市",
@@ -9071,7 +9768,8 @@
     "community": "欧林湾",
     "avg_area": 120,
     "total_units": 494,
-    "unit_price": 21039
+    "unit_price": 21039,
+    "tax_mock": 25246.8
   },
   {
     "city": "武汉市",
@@ -9084,7 +9782,8 @@
     "community": "武昌积玉桥街中山社区",
     "avg_area": 120,
     "total_units": 440,
-    "unit_price": 28500
+    "unit_price": 28500,
+    "tax_mock": 34200
   },
   {
     "city": "武汉市",
@@ -9097,7 +9796,8 @@
     "community": "绿地国际金融城",
     "avg_area": 70,
     "total_units": 1911,
-    "unit_price": 30400
+    "unit_price": 30400,
+    "tax_mock": 21280
   },
   {
     "city": "武汉市",
@@ -9110,7 +9810,8 @@
     "community": "长江悦",
     "avg_area": 120,
     "total_units": 850,
-    "unit_price": 28700
+    "unit_price": 28700,
+    "tax_mock": 34440
   },
   {
     "city": "武汉市",
@@ -9123,7 +9824,8 @@
     "community": "友谊国际百老汇",
     "avg_area": 90,
     "total_units": 1010,
-    "unit_price": 29800
+    "unit_price": 29800,
+    "tax_mock": 26820
   },
   {
     "city": "武汉市",
@@ -9136,7 +9838,8 @@
     "community": "幸福里社区",
     "avg_area": 90,
     "total_units": 120,
-    "unit_price": 21304
+    "unit_price": 21304,
+    "tax_mock": 19173.6
   },
   {
     "city": "武汉市",
@@ -9149,7 +9852,8 @@
     "community": "新生里社区(新生路)",
     "avg_area": 80,
     "total_units": 530,
-    "unit_price": 21038
+    "unit_price": 21038,
+    "tax_mock": 16830.4
   },
   {
     "city": "武汉市",
@@ -9162,7 +9866,8 @@
     "community": "友谊国际沙湖苑",
     "avg_area": 120,
     "total_units": 380,
-    "unit_price": 25784
+    "unit_price": 25784,
+    "tax_mock": 30940.8
   },
   {
     "city": "武汉市",
@@ -9175,7 +9880,8 @@
     "community": "康平苑小区",
     "avg_area": 90,
     "total_units": 760,
-    "unit_price": 23810
+    "unit_price": 23810,
+    "tax_mock": 21429
   },
   {
     "city": "武汉市",
@@ -9188,7 +9894,8 @@
     "community": "四清里社区",
     "avg_area": 70,
     "total_units": 500,
-    "unit_price": 27451
+    "unit_price": 27451,
+    "tax_mock": 19215.7
   },
   {
     "city": "武汉市",
@@ -9201,7 +9908,8 @@
     "community": "嘉景花园",
     "avg_area": 100,
     "total_units": 92,
-    "unit_price": 20188
+    "unit_price": 20188,
+    "tax_mock": 20188
   },
   {
     "city": "武汉市",
@@ -9214,7 +9922,8 @@
     "community": "武印二村",
     "avg_area": 90,
     "total_units": 270,
-    "unit_price": 20183
+    "unit_price": 20183,
+    "tax_mock": 18164.7
   },
   {
     "city": "武汉市",
@@ -9227,7 +9936,8 @@
     "community": "积玉小区",
     "avg_area": 80,
     "total_units": 750,
-    "unit_price": 17438
+    "unit_price": 17438,
+    "tax_mock": 13950.4
   },
   {
     "city": "武汉市",
@@ -9240,7 +9950,8 @@
     "community": "江畔新城",
     "avg_area": 90,
     "total_units": 188,
-    "unit_price": 17590
+    "unit_price": 17590,
+    "tax_mock": 15831
   },
   {
     "city": "武汉市",
@@ -9253,7 +9964,8 @@
     "community": "武汉生物研究所宿舍",
     "avg_area": 130,
     "total_units": 1240,
-    "unit_price": 18392
+    "unit_price": 18392,
+    "tax_mock": 23909.6
   },
   {
     "city": "武汉市",
@@ -9266,7 +9978,8 @@
     "community": "西厂口社区",
     "avg_area": 90,
     "total_units": 970,
-    "unit_price": 19438
+    "unit_price": 19438,
+    "tax_mock": 17494.2
   },
   {
     "city": "武汉市",
@@ -9279,7 +9992,8 @@
     "community": "九龙井小区",
     "avg_area": 120,
     "total_units": 730,
-    "unit_price": 17320
+    "unit_price": 17320,
+    "tax_mock": 20784
   },
   {
     "city": "武汉市",
@@ -9290,9 +10004,10 @@
     "latitude_gps": 30.5396,
     "longitude_gps": 114.2981,
     "community": "首义大院",
-    "avg_area": 43,
+    "avg_area": 90,
     "total_units": 570,
-    "unit_price": 18930
+    "unit_price": 18930,
+    "tax_mock": 17037
   },
   {
     "city": "武汉市",
@@ -9305,7 +10020,8 @@
     "community": "兴华苑小区(体育街)",
     "avg_area": 110,
     "total_units": 130,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 23191.3
   },
   {
     "city": "武汉市",
@@ -9318,7 +10034,8 @@
     "community": "华天明珠花园张公苑",
     "avg_area": 110,
     "total_units": 1110,
-    "unit_price": 23200
+    "unit_price": 23200,
+    "tax_mock": 25520
   },
   {
     "city": "武汉市",
@@ -9331,7 +10048,8 @@
     "community": "保望堤社区",
     "avg_area": 90,
     "total_units": 730,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 17848.8
   },
   {
     "city": "武汉市",
@@ -9344,7 +10062,8 @@
     "community": "湖北省林业局宿舍",
     "avg_area": 100,
     "total_units": 300,
-    "unit_price": 20819
+    "unit_price": 20819,
+    "tax_mock": 20819
   },
   {
     "city": "武汉市",
@@ -9357,7 +10076,8 @@
     "community": "先贤苑",
     "avg_area": 70,
     "total_units": 1300,
-    "unit_price": 23887
+    "unit_price": 23887,
+    "tax_mock": 16720.9
   },
   {
     "city": "武汉市",
@@ -9370,7 +10090,8 @@
     "community": "繁花里",
     "avg_area": 110,
     "total_units": 1240,
-    "unit_price": 21730
+    "unit_price": 21730,
+    "tax_mock": 23903
   },
   {
     "city": "武汉市",
@@ -9383,7 +10104,8 @@
     "community": "彭刘杨路机电宿舍",
     "avg_area": 110,
     "total_units": 990,
-    "unit_price": 21023
+    "unit_price": 21023,
+    "tax_mock": 23125.3
   },
   {
     "city": "武汉市",
@@ -9394,9 +10116,10 @@
     "latitude_gps": 30.5427,
     "longitude_gps": 114.2938,
     "community": "后长社区",
-    "avg_area": 67,
+    "avg_area": 110,
     "total_units": 400,
-    "unit_price": 19832
+    "unit_price": 19832,
+    "tax_mock": 21815.2
   },
   {
     "city": "武汉市",
@@ -9409,7 +10132,8 @@
     "community": "商家巷社区",
     "avg_area": 100,
     "total_units": 300,
-    "unit_price": 24950
+    "unit_price": 24950,
+    "tax_mock": 24950
   },
   {
     "city": "武汉市",
@@ -9422,7 +10146,8 @@
     "community": "金融街融御滨江",
     "avg_area": 90,
     "total_units": 500,
-    "unit_price": 45012
+    "unit_price": 45012,
+    "tax_mock": 40510.8
   },
   {
     "city": "武汉市",
@@ -9435,7 +10160,8 @@
     "community": "全福宫",
     "avg_area": 80,
     "total_units": 1110,
-    "unit_price": 23840
+    "unit_price": 23840,
+    "tax_mock": 19072
   },
   {
     "city": "武汉市",
@@ -9448,7 +10174,8 @@
     "community": "歌笛湖社区",
     "avg_area": 80,
     "total_units": 380,
-    "unit_price": 21900
+    "unit_price": 21900,
+    "tax_mock": 17520
   },
   {
     "city": "武汉市",
@@ -9461,7 +10188,8 @@
     "community": "首义新天地",
     "avg_area": 120,
     "total_units": 110,
-    "unit_price": 20183
+    "unit_price": 20183,
+    "tax_mock": 24219.6
   },
   {
     "city": "武汉市",
@@ -9474,7 +10202,8 @@
     "community": "首义师苑",
     "avg_area": 70,
     "total_units": 340,
-    "unit_price": 23810
+    "unit_price": 23810,
+    "tax_mock": 16667
   },
   {
     "city": "武汉市",
@@ -9487,7 +10216,8 @@
     "community": "工行宿舍家属院",
     "avg_area": 110,
     "total_units": 500,
-    "unit_price": 20183
+    "unit_price": 20183,
+    "tax_mock": 22201.3
   },
   {
     "city": "武汉市",
@@ -9500,7 +10230,8 @@
     "community": "海达广场",
     "avg_area": 110,
     "total_units": 790,
-    "unit_price": 22380
+    "unit_price": 22380,
+    "tax_mock": 24618
   },
   {
     "city": "武汉市",
@@ -9513,7 +10244,8 @@
     "community": "紫笛苑小区",
     "avg_area": 90,
     "total_units": 850,
-    "unit_price": 23900
+    "unit_price": 23900,
+    "tax_mock": 21510
   },
   {
     "city": "武汉市",
@@ -9526,7 +10258,8 @@
     "community": "清风巷小区",
     "avg_area": 100,
     "total_units": 650,
-    "unit_price": 21803
+    "unit_price": 21803,
+    "tax_mock": 21803
   },
   {
     "city": "武汉市",
@@ -9539,7 +10272,8 @@
     "community": "乃园社区",
     "avg_area": 100,
     "total_units": 670,
-    "unit_price": 21083
+    "unit_price": 21083,
+    "tax_mock": 21083
   },
   {
     "city": "武汉市",
@@ -9552,7 +10286,8 @@
     "community": "彭刘杨商住楼",
     "avg_area": 100,
     "total_units": 1180,
-    "unit_price": 20831
+    "unit_price": 20831,
+    "tax_mock": 20831
   },
   {
     "city": "武汉市",
@@ -9565,7 +10300,8 @@
     "community": "政通体苑",
     "avg_area": 80,
     "total_units": 1000,
-    "unit_price": 20300
+    "unit_price": 20300,
+    "tax_mock": 16240
   },
   {
     "city": "武汉市",
@@ -9578,7 +10314,8 @@
     "community": "黄鹤楼道小区",
     "avg_area": 70,
     "total_units": 580,
-    "unit_price": 15600
+    "unit_price": 15600,
+    "tax_mock": 10920
   },
   {
     "city": "武汉市",
@@ -9591,7 +10328,8 @@
     "community": "黄鹤楼街大成社区",
     "avg_area": 110,
     "total_units": 1110,
-    "unit_price": 18900
+    "unit_price": 18900,
+    "tax_mock": 20790
   },
   {
     "city": "武汉市",
@@ -9604,7 +10342,8 @@
     "community": "黄鹤世家",
     "avg_area": 100,
     "total_units": 370,
-    "unit_price": 19300
+    "unit_price": 19300,
+    "tax_mock": 19300
   },
   {
     "city": "武汉市",
@@ -9617,7 +10356,8 @@
     "community": "广里堤",
     "avg_area": 100,
     "total_units": 390,
-    "unit_price": 19320
+    "unit_price": 19320,
+    "tax_mock": 19320
   },
   {
     "city": "武汉市",
@@ -9630,7 +10370,8 @@
     "community": "武昌区园林小区",
     "avg_area": 80,
     "total_units": 240,
-    "unit_price": 21840
+    "unit_price": 21840,
+    "tax_mock": 17472
   },
   {
     "city": "武汉市",
@@ -9643,7 +10384,8 @@
     "community": "汉飞又一城",
     "avg_area": 50,
     "total_units": 430,
-    "unit_price": 34000
+    "unit_price": 34000,
+    "tax_mock": 17000
   },
   {
     "city": "武汉市",
@@ -9656,7 +10398,8 @@
     "community": "阅马场实验小学宿舍",
     "avg_area": 110,
     "total_units": 550,
-    "unit_price": 19830
+    "unit_price": 19830,
+    "tax_mock": 21813
   },
   {
     "city": "武汉市",
@@ -9669,7 +10412,8 @@
     "community": "彭刘杨社区",
     "avg_area": 70,
     "total_units": 1190,
-    "unit_price": 17300
+    "unit_price": 17300,
+    "tax_mock": 12110
   },
   {
     "city": "武汉市",
@@ -9682,7 +10426,8 @@
     "community": "武汉市第三医院宿舍楼",
     "avg_area": 120,
     "total_units": 1250,
-    "unit_price": 18732
+    "unit_price": 18732,
+    "tax_mock": 22478.4
   },
   {
     "city": "武汉市",
@@ -9695,7 +10440,8 @@
     "community": "湖北省水产局职工小区",
     "avg_area": 100,
     "total_units": 1000,
-    "unit_price": 17493
+    "unit_price": 17493,
+    "tax_mock": 17493
   },
   {
     "city": "武汉市",
@@ -9708,7 +10454,8 @@
     "community": "湖北省检察院宿舍",
     "avg_area": 130,
     "total_units": 1080,
-    "unit_price": 21903
+    "unit_price": 21903,
+    "tax_mock": 28473.9
   },
   {
     "city": "武汉市",
@@ -9721,7 +10468,8 @@
     "community": "武昌区首义新村",
     "avg_area": 120,
     "total_units": 620,
-    "unit_price": 21832
+    "unit_price": 21832,
+    "tax_mock": 26198.4
   },
   {
     "city": "武汉市",
@@ -9734,7 +10482,8 @@
     "community": "云鹤大厦",
     "avg_area": 120,
     "total_units": 190,
-    "unit_price": 20381
+    "unit_price": 20381,
+    "tax_mock": 24457.2
   },
   {
     "city": "武汉市",
@@ -9747,7 +10496,8 @@
     "community": "美联首义尚景",
     "avg_area": 100,
     "total_units": 1070,
-    "unit_price": 20283
+    "unit_price": 20283,
+    "tax_mock": 20283
   },
   {
     "city": "武汉市",
@@ -9760,7 +10510,8 @@
     "community": "顺民大厦",
     "avg_area": 80,
     "total_units": 246,
-    "unit_price": 19437
+    "unit_price": 19437,
+    "tax_mock": 15549.6
   },
   {
     "city": "武汉市",
@@ -9773,7 +10524,8 @@
     "community": "水陆街社区",
     "avg_area": 80,
     "total_units": 310,
-    "unit_price": 18954
+    "unit_price": 18954,
+    "tax_mock": 15163.2
   },
   {
     "city": "武汉市",
@@ -9786,7 +10538,8 @@
     "community": "水陆街社区",
     "avg_area": 130,
     "total_units": 180,
-    "unit_price": 17340
+    "unit_price": 17340,
+    "tax_mock": 22542
   },
   {
     "city": "武汉市",
@@ -9799,7 +10552,8 @@
     "community": "湖滨村小区",
     "avg_area": 110,
     "total_units": 640,
-    "unit_price": 17540
+    "unit_price": 17540,
+    "tax_mock": 19294
   },
   {
     "city": "武汉市",
@@ -9812,7 +10566,8 @@
     "community": "新宇佳苑",
     "avg_area": 100,
     "total_units": 860,
-    "unit_price": 17584
+    "unit_price": 17584,
+    "tax_mock": 17584
   },
   {
     "city": "武汉市",
@@ -9825,7 +10580,8 @@
     "community": "五库村大院",
     "avg_area": 80,
     "total_units": 390,
-    "unit_price": 19328
+    "unit_price": 19328,
+    "tax_mock": 15462.4
   },
   {
     "city": "武汉市",
@@ -9838,7 +10594,8 @@
     "community": "紫阳金利屋",
     "avg_area": 120,
     "total_units": 412,
-    "unit_price": 15843
+    "unit_price": 15843,
+    "tax_mock": 19011.6
   },
   {
     "city": "武汉市",
@@ -9851,7 +10608,8 @@
     "community": "首义小区",
     "avg_area": 120,
     "total_units": 5300,
-    "unit_price": 15730
+    "unit_price": 15730,
+    "tax_mock": 18876
   },
   {
     "city": "武汉市",
@@ -9864,7 +10622,8 @@
     "community": "紫阳街工程营社区",
     "avg_area": 120,
     "total_units": 700,
-    "unit_price": 18930
+    "unit_price": 18930,
+    "tax_mock": 22716
   },
   {
     "city": "武汉市",
@@ -9877,7 +10636,8 @@
     "community": "花堤街社区",
     "avg_area": 90,
     "total_units": 1250,
-    "unit_price": 17403
+    "unit_price": 17403,
+    "tax_mock": 15662.7
   },
   {
     "city": "武汉市",
@@ -9890,7 +10650,8 @@
     "community": "解放桥公寓",
     "avg_area": 70,
     "total_units": 550,
-    "unit_price": 17450
+    "unit_price": 17450,
+    "tax_mock": 12215
   },
   {
     "city": "武汉市",
@@ -9903,7 +10664,8 @@
     "community": "华天明珠紫阳府",
     "avg_area": 70,
     "total_units": 530,
-    "unit_price": 15430
+    "unit_price": 15430,
+    "tax_mock": 10801
   },
   {
     "city": "武汉市",
@@ -9916,7 +10678,8 @@
     "community": "紫阳街解放路社区",
     "avg_area": 70,
     "total_units": 720,
-    "unit_price": 14804
+    "unit_price": 14804,
+    "tax_mock": 10362.8
   },
   {
     "city": "武汉市",
@@ -9929,7 +10692,8 @@
     "community": "天心小区",
     "avg_area": 120,
     "total_units": 200,
-    "unit_price": 16890
+    "unit_price": 16890,
+    "tax_mock": 20268
   },
   {
     "city": "武汉市",
@@ -9942,7 +10706,8 @@
     "community": "紫阳之星",
     "avg_area": 120,
     "total_units": 270,
-    "unit_price": 30442
+    "unit_price": 30442,
+    "tax_mock": 36530.4
   },
   {
     "city": "武汉市",
@@ -9955,7 +10720,8 @@
     "community": "武汉音乐学院家属区",
     "avg_area": 110,
     "total_units": 110,
-    "unit_price": 32001
+    "unit_price": 32001,
+    "tax_mock": 35201.1
   },
   {
     "city": "武汉市",
@@ -9968,7 +10734,8 @@
     "community": "望山门新都",
     "avg_area": 110,
     "total_units": 140,
-    "unit_price": 23800
+    "unit_price": 23800,
+    "tax_mock": 26180
   },
   {
     "city": "武汉市",
@@ -9979,9 +10746,10 @@
     "latitude_gps": 30.5335,
     "longitude_gps": 114.2914,
     "community": "馨都茗苑",
-    "avg_area": 103,
+    "avg_area": 110,
     "total_units": 370,
-    "unit_price": 22301
+    "unit_price": 22301,
+    "tax_mock": 24531.1
   },
   {
     "city": "武汉市",
@@ -9994,7 +10762,8 @@
     "community": "城市花园",
     "avg_area": 100,
     "total_units": 1190,
-    "unit_price": 23801
+    "unit_price": 23801,
+    "tax_mock": 23801
   },
   {
     "city": "武汉市",
@@ -10007,7 +10776,8 @@
     "community": "读书苑",
     "avg_area": 100,
     "total_units": 290,
-    "unit_price": 19210
+    "unit_price": 19210,
+    "tax_mock": 19210
   },
   {
     "city": "武汉市",
@@ -10020,7 +10790,8 @@
     "community": "汇文新都",
     "avg_area": 130,
     "total_units": 106,
-    "unit_price": 20283
+    "unit_price": 20283,
+    "tax_mock": 26367.9
   },
   {
     "city": "武汉市",
@@ -10033,7 +10804,8 @@
     "community": "景观楼",
     "avg_area": 80,
     "total_units": 1000,
-    "unit_price": 19274
+    "unit_price": 19274,
+    "tax_mock": 15419.2
   },
   {
     "city": "武汉市",
@@ -10044,9 +10816,10 @@
     "latitude_gps": 30.5399,
     "longitude_gps": 114.3033,
     "community": "长湖社区",
-    "avg_area": 40,
+    "avg_area": 70,
     "total_units": 440,
-    "unit_price": 18320
+    "unit_price": 18320,
+    "tax_mock": 12824
   },
   {
     "city": "武汉市",
@@ -10059,7 +10832,8 @@
     "community": "武昌园林局宿舍",
     "avg_area": 70,
     "total_units": 650,
-    "unit_price": 16473
+    "unit_price": 16473,
+    "tax_mock": 11531.1
   },
   {
     "city": "武汉市",
@@ -10072,7 +10846,8 @@
     "community": "民政厅小区",
     "avg_area": 120,
     "total_units": 930,
-    "unit_price": 17438
+    "unit_price": 17438,
+    "tax_mock": 20925.6
   },
   {
     "city": "武汉市",
@@ -10085,7 +10860,8 @@
     "community": "鲇鱼套小区",
     "avg_area": 100,
     "total_units": 530,
-    "unit_price": 17600
+    "unit_price": 17600,
+    "tax_mock": 17600
   },
   {
     "city": "武汉市",
@@ -10096,8 +10872,9 @@
     "latitude_gps": 30.5304,
     "longitude_gps": 114.2855,
     "community": "汽渡宿舍",
-    "avg_area": 50,
+    "avg_area": 70,
     "total_units": 1030,
-    "unit_price": 15600
+    "unit_price": 15600,
+    "tax_mock": 10920
   }
 ]
