@@ -55,7 +55,7 @@ async function initMap() {
   }
 
   // Add all community markers to map
-  fetch('wc_imputed_communities.json')
+  fetch('wc_communities.json')
     .then((response) => response.json())
     .then((data) => {
       addMarkersToMap(data);

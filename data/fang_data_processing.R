@@ -621,5 +621,8 @@ P55 <- sum(subset(properties, unit_price_quintile == 5)$total_price)
 sum1 <- sum(properties$total_price)
 sum2 <- A51 + A52 + A53 + A54 + A55
 
-
+wc <- read.csv("wc_imputed copy.csv")
+wc <- wc %>%
+  mutate(tax_mock = avg_area * unit_price * 0.01)
+write.csv(wc, "wc_imputed copy.csv", row.names = FALSE)
 
