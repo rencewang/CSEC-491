@@ -12,6 +12,7 @@ const buildMarkerDetails = (community) => {
       <div>Average Area: ${community.avg_area}m&sup2;</div>
       <div>Total Units: ${community.total_units}</div>
       <div>Unit Price: ${community.unit_price}/m&sup2;</div>
+      <div>Estimated Tax (1%): ${community.tax_mock}/year</div>
     </div>
   `;
   return content;
